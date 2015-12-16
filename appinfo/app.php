@@ -19,6 +19,8 @@
  *
  */
 
+\OCP\App::registerAdmin('popularitycontestclient', 'admin');
+
 if (\OC::$server->getRequest()->getParam('popularitycontestclient')) {
 	$collector = new \OCA\PopularityContestClient\Collector(
 		\OC::$server->getConfig(),

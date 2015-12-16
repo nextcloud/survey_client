@@ -68,7 +68,6 @@ class Collector {
 	}
 
 	protected function registerCategories() {
-		$this->categories = [];
 		$this->categories[] = new OwnCloud(
 			$this->config,
 			$this->l
@@ -98,24 +97,42 @@ class Collector {
 			$this->config,
 			$this->l
 		);
-		$this->categories[] = new Locking(
-			$this->config,
-			$this->l
-		);
 	}
 
+	/**
+	 * @return array
+	 */
+	public function getCategories() {
+		$this->registerCategories();
+
+		$categories = [];
+
+		foreach ($this->categories as $category) {
+			$categories[$category->getCategory()] = [
+				'displayName'	=> $category->getDisplayName(),
+				'enabled'		=> $this->config->getAppValue('popularitycontestclient', $category->getCategory(), 'yes') === 'yes',
+			];
+		}
+
+		return $categories;
+	}
+
+	/**
+	 * @return array
+	 */
 	public function getReport() {
 		$this->registerCategories();
 
 		$tuples = [];
-
 		foreach ($this->categories as $category) {
-			foreach ($category->getData() as $key => $value) {
-				$tuples[] = [
-					$category->getCategory(),
-					$key,
-					$value
-				];
+			if ($this->config->getAppValue('popularitycontestclient', $category->getCategory(), 'yes') === 'yes') {
+				foreach ($category->getData() as $key => $value) {
+					$tuples[] = [
+						$category->getCategory(),
+						$key,
+						$value
+					];
+				}
 			}
 		}
 
