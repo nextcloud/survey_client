@@ -63,7 +63,7 @@ class Database implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Database Environment');
+		return (string) $this->l->t('Database Environment <em>(type, version, database size)</em>');
 	}
 
 	/**

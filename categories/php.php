@@ -57,7 +57,7 @@ class php implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('php Environment');
+		return (string) $this->l->t('php Environment <em>(version, memory limit, max. execution time, max. file size)</em>');
 	}
 
 	/**

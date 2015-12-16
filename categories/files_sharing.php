@@ -57,7 +57,7 @@ class Files_Sharing implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Number of shares per permission setting');
+		return (string) $this->l->t('Number of shares <em>(per permission setting)</em>');
 	}
 
 	/**

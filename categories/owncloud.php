@@ -57,7 +57,7 @@ class OwnCloud implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('ownCloud Instance');
+		return (string) $this->l->t('ownCloud Instance Details <em>(version, theme, memcache used, locking/previews/avatars enabled?)</em>');
 	}
 
 	/**
