@@ -19,6 +19,13 @@ $(document).ready(function() {
 				$button.attr('disabled', false);
 
 				$section.find('.last_report').text(JSON.stringify(response.ocs.data, undefined, 4));
+			},
+			error: function(xhr) {
+				$button.attr('disabled', false);
+				OC.Notification.showTemporary(t('popularitycontestclient', 'An error occurred while sending your report.'));
+
+				var response = xhr.responseJSON;
+				$section.find('.last_report').text(JSON.stringify(response.ocs.data, undefined, 4));
 			}
 		});
 	});
