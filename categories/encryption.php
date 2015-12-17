@@ -65,8 +65,8 @@ class Encryption implements ICategory {
 	 */
 	public function getData() {
 		return [
-			'status' => $this->config->getAppValue('core', 'encryption_enabled', 'no'),
-			'module' => $this->config->getAppValue('core', 'default_encryption_module', ''),
+			'enabled' => $this->config->getAppValue('core', 'encryption_enabled', 'no') ? 'yes' : 'no',
+			'default_module' => $this->config->getAppValue('core', 'default_encryption_module') === 'OC_DEFAULT_MODULE'  ? 'yes' : 'no',
 		];
 	}
 }

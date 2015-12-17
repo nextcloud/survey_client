@@ -66,16 +66,16 @@ class OwnCloud implements ICategory {
 	public function getData() {
 		return [
 			'version' => $this->config->getSystemValue('version'),
-			'theme' => $this->config->getSystemValue('theme'),
+			'theme' => $this->config->getSystemValue('theme', 'none'),
 			'code' => $this->codeLocation(),
-			'enable_avatars' => $this->config->getSystemValue('enable_avatars') ? 'yes' : 'no',
-			'enable_previews' => $this->config->getSystemValue('enable_previews') ? 'yes' : 'no',
-			'memcache.local' => $this->config->getSystemValue('memcache.local'),
-			'memcache.distributed' => $this->config->getSystemValue('memcache.distributed'),
+			'enable_avatars' => $this->config->getSystemValue('enable_avatars', true) ? 'yes' : 'no',
+			'enable_previews' => $this->config->getSystemValue('enable_previews', true) ? 'yes' : 'no',
+			'memcache.local' => $this->config->getSystemValue('memcache.local', null),
+			'memcache.distributed' => $this->config->getSystemValue('memcache.distributed', null),
 			'asset-pipeline.enabled' => $this->config->getSystemValue('asset-pipeline.enabled') ? 'yes' : 'no',
-			'filelocking.enabled' => $this->config->getSystemValue('filelocking.enabled') ? 'yes' : 'no',
-			'memcache.locking' => $this->config->getSystemValue('memcache.locking'),
-			'debug' => $this->config->getSystemValue('debug') ? 'yes' : 'no',
+			'filelocking.enabled' => $this->config->getSystemValue('filelocking.enabled', true) ? 'yes' : 'no',
+			'memcache.locking' => $this->config->getSystemValue('memcache.locking', null),
+			'debug' => $this->config->getSystemValue('debug', false) ? 'yes' : 'no',
 		];
 	}
 
