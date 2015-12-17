@@ -57,12 +57,20 @@ class EndpointController extends Controller {
 		$report = $this->collector->getReport();
 
 		$client = $this->clientService->newClient();
-		$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/popularitycontestserver/api/v1/survey', [
-			'timeout' => 5,
-			'query' => [
-				'data' => json_encode($report),
-			],
-		]);
+
+		try {
+			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/popularitycontestserver/api/v1/survey', [
+				'timeout' => 1,
+				'query' => [
+					'data' => json_encode($report),
+				],
+			]);
+		} catch (\Exception $e) {
+			return new \OC_OCS_Result(
+				$report,
+				Http::STATUS_INTERNAL_SERVER_ERROR
+			);
+		}
 
 		if ($response->getStatusCode() === Http::STATUS_OK) {
 			return new \OC_OCS_Result(
