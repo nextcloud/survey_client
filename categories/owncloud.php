@@ -70,11 +70,11 @@ class OwnCloud implements ICategory {
 			'code' => $this->codeLocation(),
 			'enable_avatars' => $this->config->getSystemValue('enable_avatars', true) ? 'yes' : 'no',
 			'enable_previews' => $this->config->getSystemValue('enable_previews', true) ? 'yes' : 'no',
-			'memcache.local' => $this->config->getSystemValue('memcache.local', null),
-			'memcache.distributed' => $this->config->getSystemValue('memcache.distributed', null),
+			'memcache.local' => $this->config->getSystemValue('memcache.local', 'none'),
+			'memcache.distributed' => $this->config->getSystemValue('memcache.distributed', 'none'),
 			'asset-pipeline.enabled' => $this->config->getSystemValue('asset-pipeline.enabled') ? 'yes' : 'no',
 			'filelocking.enabled' => $this->config->getSystemValue('filelocking.enabled', true) ? 'yes' : 'no',
-			'memcache.locking' => $this->config->getSystemValue('memcache.locking', null),
+			'memcache.locking' => $this->config->getSystemValue('memcache.locking', 'none'),
 			'debug' => $this->config->getSystemValue('debug', false) ? 'yes' : 'no',
 		];
 	}
