@@ -30,14 +30,21 @@ use OCA\PopularityContestClient\Categories\ICategory;
 use OCA\PopularityContestClient\Categories\OwnCloud;
 use OCA\PopularityContestClient\Categories\php;
 use OCA\PopularityContestClient\Categories\Stats;
+use OCP\AppFramework\Http;
+use OCP\Http\Client\IClientService;
 use OCP\IConfig;
 use OCP\IDBConnection;
 use OCP\IL10N;
 
 class Collector {
 
+	const SURVEY_SERVER_URL = 'http://localhost/ownCloud/master/core/';
+
 	/** @var ICategory[] */
 	protected $categories;
+
+	/** @var IClientService */
+	protected $clientService;
 
 	/** @var IConfig */
 	protected $config;
@@ -54,12 +61,14 @@ class Collector {
 	/**
 	 * Collector constructor.
 	 *
+	 * @param IClientService $clientService
 	 * @param IConfig $config
 	 * @param IDBConnection $connection
 	 * @param IniGetWrapper $phpIni
 	 * @param IL10N $l
 	 */
-	public function __construct(IConfig $config, IDBConnection $connection, IniGetWrapper $phpIni, IL10N $l) {
+	public function __construct(IClientService $clientService, IConfig $config, IDBConnection $connection, IniGetWrapper $phpIni, IL10N $l) {
+		$this->clientService = $clientService;
 		$this->config = $config;
 		$this->connection = $connection;
 		$this->phpIni = $phpIni;
@@ -139,5 +148,42 @@ class Collector {
 			'id' => $this->config->getSystemValue('instanceid'),
 			'items' => $tuples,
 		];
+	}
+
+	/**
+	 * @return \OC_OCS_Result
+	 */
+	public function sendReport() {
+		$report = $this->getReport();
+
+		$client = $this->clientService->newClient();
+		$this->config->setAppValue('popularitycontestclient', 'last_sent', time());
+		$this->config->setAppValue('popularitycontestclient', 'last_report', json_encode($report));
+
+		try {
+			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/popularitycontestserver/api/v1/survey', [
+				'timeout' => 5,
+				'query' => [
+					'data' => json_encode($report),
+				],
+			]);
+		} catch (\Exception $e) {
+			return new \OC_OCS_Result(
+				$report,
+				Http::STATUS_INTERNAL_SERVER_ERROR
+			);
+		}
+
+		if ($response->getStatusCode() === Http::STATUS_OK) {
+			return new \OC_OCS_Result(
+				$report,
+				100// HTTP::STATUS_OK, TODO: <status>failure</status><statuscode>200</statuscode>
+			);
+		}
+
+		return new \OC_OCS_Result(
+			$report,
+			Http::STATUS_INTERNAL_SERVER_ERROR
+		);
 	}
 }

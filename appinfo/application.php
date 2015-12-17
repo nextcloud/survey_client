@@ -39,8 +39,6 @@ class Application extends App {
 				$c->query('AppName'),
 				$server->getRequest(),
 				$c->query('OCA\PopularityContestClient\Collector'),
-				$server->getHTTPClientService(),
-				$server->getConfig(),
 				$server->getJobList()
 			);
 		});
@@ -50,6 +48,7 @@ class Application extends App {
 			$server = $c->query('ServerContainer');
 
 			return new Collector(
+				$server->getHTTPClientService(),
 				$server->getConfig(),
 				$server->getDatabaseConnection(),
 				$server->getIniWrapper(),

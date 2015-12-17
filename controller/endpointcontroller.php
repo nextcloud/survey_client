@@ -31,16 +31,8 @@ use OCP\IRequest;
 
 class EndpointController extends Controller {
 
-	const SURVEY_SERVER_URL = 'http://localhost/ownCloud/master/core/';
-
 	/** @var Collector */
 	protected $collector;
-
-	/** @var IClientService */
-	protected $clientService;
-
-	/** @var IConfig */
-	protected $config;
 
 	/** @var IJobList */
 	protected $jobList;
@@ -49,16 +41,12 @@ class EndpointController extends Controller {
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param Collector $collector
-	 * @param IClientService $clientService
-	 * @param IConfig $config
 	 * @param IJobList $jobList
 	 */
-	public function __construct($appName, IRequest $request, Collector $collector, IClientService $clientService, IConfig $config, IJobList $jobList) {
+	public function __construct($appName, IRequest $request, Collector $collector, IJobList $jobList) {
 		parent::__construct($appName, $request);
 
 		$this->collector = $collector;
-		$this->clientService = $clientService;
-		$this->config = $config;
 		$this->jobList = $jobList;
 	}
 
@@ -82,36 +70,6 @@ class EndpointController extends Controller {
 	 * @return \OC_OCS_Result
 	 */
 	public function sendReport() {
-		$report = $this->collector->getReport();
-
-		$client = $this->clientService->newClient();
-		$this->config->setAppValue('popularitycontestclient', 'last_sent', time());
-		$this->config->setAppValue('popularitycontestclient', 'last_report', json_encode($report));
-
-		try {
-			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/popularitycontestserver/api/v1/survey', [
-				'timeout' => 5,
-				'query' => [
-					'data' => json_encode($report),
-				],
-			]);
-		} catch (\Exception $e) {
-			return new \OC_OCS_Result(
-				$report,
-				Http::STATUS_INTERNAL_SERVER_ERROR
-			);
-		}
-
-		if ($response->getStatusCode() === Http::STATUS_OK) {
-			return new \OC_OCS_Result(
-				$report,
-				100// HTTP::STATUS_OK, TODO: <status>failure</status><statuscode>200</statuscode>
-			);
-		}
-
-		return new \OC_OCS_Result(
-			$report,
-			Http::STATUS_INTERNAL_SERVER_ERROR
-		);
+		return $this->collector->sendReport();
 	}
 }
