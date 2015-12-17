@@ -27,7 +27,6 @@ use OCA\PopularityContestClient\Categories\Database;
 use OCA\PopularityContestClient\Categories\Encryption;
 use OCA\PopularityContestClient\Categories\Files_Sharing;
 use OCA\PopularityContestClient\Categories\ICategory;
-use OCA\PopularityContestClient\Categories\Locking;
 use OCA\PopularityContestClient\Categories\OwnCloud;
 use OCA\PopularityContestClient\Categories\php;
 use OCA\PopularityContestClient\Categories\Stats;

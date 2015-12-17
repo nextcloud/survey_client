@@ -6,6 +6,12 @@
 	<h2><?php p($l->t('Usage report')); ?></h2>
 
 	<p>
+		<?php p($l->t('When the server receives a new report of your instance, all entries from previous reports are removed. So in case you disable one of the settings below, you can send a new report, to delete the data, that is currently stored on the server.')); ?>
+	</p>
+
+	<button><?php p($l->t('Send new report now')); ?></button>
+
+	<p>
 		<input id="popularitycontestclient_monthly_report" name="popularitycontestclient_monthly_report"
 			   type="checkbox" class="checkbox" value="1" <?php if ($_['is_enabled']): ?> checked="checked"<?php endif; ?> />
 		<label for="popularitycontestclient_monthly_report"><?php p($l->t('Send "Usage report" monthly')); ?></label>

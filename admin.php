@@ -17,12 +17,8 @@ use OCP\Template;
 \OCP\Util::addScript('popularitycontestclient', 'admin');
 \OCP\Util::addStyle('popularitycontestclient', 'admin');
 
-$collector = new \OCA\PopularityContestClient\Collector(
-	\OC::$server->getConfig(),
-	\OC::$server->getDatabaseConnection(),
-	\OC::$server->getIniWrapper(),
-	\OC::$server->getL10NFactory()->get('popularitycontestclient')
-);
+$application = new \OCA\PopularityContestClient\AppInfo\Application();
+$collector = $application->getContainer()->query('OCA\PopularityContestClient\Collector');
 
 $lastSentReportTime = (int) \OC::$server->getConfig()->getAppValue('popularitycontestclient', 'last_sent', 0);
 if ($lastSentReportTime === 0) {
