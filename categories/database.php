@@ -80,6 +80,7 @@ class Database implements ICategory {
 	protected function databaseVersion() {
 		switch ($this->config->getSystemValue('dbtype')) {
 			case 'sqlite':
+			case 'sqlite3':
 				$sql = 'SELECT sqlite_version() AS version';
 				break;
 
@@ -92,7 +93,6 @@ class Database implements ICategory {
 			default:
 				$sql = 'SELECT VERSION() AS version';
 				break;
-
 		}
 
 		$result = $this->connection->executeQuery($sql);
