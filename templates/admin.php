@@ -3,7 +3,7 @@
 /** @var $_ array */
 ?>
 <div id="popularitycontestclient" class="section">
-	<h2><?php p($l->t('Popularity Contest Client')); ?></h2>
+	<h2><?php p($l->t('Usage report')); ?></h2>
 
 	<p>
 		<input id="popularitycontestclient_monthly_report" name="popularitycontestclient_monthly_report"
@@ -26,7 +26,7 @@
 
 	<h3><?php p($l->t('Last report')); ?></h3>
 
-	<p><textarea class="last_report"><?php p($_['last_report']);?></textarea></p>
+	<p><textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea></p>
 
 	<em><?php p($l->t('Sent on: %s', [$_['last_sent']])); ?></em>
 </div>
