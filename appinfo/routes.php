@@ -28,3 +28,19 @@ $application = new \OCA\PopularityContestClient\AppInfo\Application();
 	'popularitycontestclient',
 	\OCP\API::ADMIN_AUTH
 );
+
+\OCP\API::register(
+	'post',
+	'/apps/popularitycontestclient/api/v1/monthly',
+	[$application->getContainer()->query('EndpointController'), 'enableMonthly'],
+	'popularitycontestclient',
+	\OCP\API::ADMIN_AUTH
+);
+
+\OCP\API::register(
+	'delete',
+	'/apps/popularitycontestclient/api/v1/monthly',
+	[$application->getContainer()->query('EndpointController'), 'disableMonthly'],
+	'popularitycontestclient',
+	\OCP\API::ADMIN_AUTH
+);

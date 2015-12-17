@@ -24,6 +24,7 @@ namespace OCA\PopularityContestClient\Controller;
 use OCA\PopularityContestClient\Collector;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
+use OCP\BackgroundJob\IJobList;
 use OCP\Http\Client\IClientService;
 use OCP\IConfig;
 use OCP\IRequest;
@@ -41,19 +42,40 @@ class EndpointController extends Controller {
 	/** @var IConfig */
 	protected $config;
 
+	/** @var IJobList */
+	protected $jobList;
+
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param Collector $collector
 	 * @param IClientService $clientService
 	 * @param IConfig $config
+	 * @param IJobList $jobList
 	 */
-	public function __construct($appName, IRequest $request, Collector $collector, IClientService $clientService, IConfig $config) {
+	public function __construct($appName, IRequest $request, Collector $collector, IClientService $clientService, IConfig $config, IJobList $jobList) {
 		parent::__construct($appName, $request);
 
 		$this->collector = $collector;
 		$this->clientService = $clientService;
 		$this->config = $config;
+		$this->jobList = $jobList;
+	}
+
+	/**
+	 * @return \OC_OCS_Result
+	 */
+	public function enableMonthly() {
+		$this->jobList->add('OCA\PopularityContestClient\MonthlyReport');
+		return new \OC_OCS_Result();
+	}
+
+	/**
+	 * @return \OC_OCS_Result
+	 */
+	public function disableMonthly() {
+		$this->jobList->remove('OCA\PopularityContestClient\MonthlyReport');
+		return new \OC_OCS_Result();
 	}
 
 	/**

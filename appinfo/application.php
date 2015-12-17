@@ -40,7 +40,8 @@ class Application extends App {
 				$server->getRequest(),
 				$c->query('OCA\PopularityContestClient\Collector'),
 				$server->getHTTPClientService(),
-				$server->getConfig()
+				$server->getConfig(),
+				$server->getJobList()
 			);
 		});
 

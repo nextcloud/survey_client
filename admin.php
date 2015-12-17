@@ -33,7 +33,7 @@ if ($lastReport !== '') {
 }
 
 $template = new Template('popularitycontestclient', 'admin');
-$template->assign('is_enabled', \OC::$server->getConfig()->getAppValue('popularitycontestclient', 'send_report') === 'yes');
+$template->assign('is_enabled', \OC::$server->getJobList()->has('OCA\PopularityContestClient\MonthlyReport', null));
 $template->assign('last_sent', $lastSentReportDate);
 $template->assign('last_report', $lastReport);
 $template->assign('categories', $collector->getCategories());
