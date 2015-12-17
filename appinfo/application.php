@@ -39,7 +39,8 @@ class Application extends App {
 				$c->query('AppName'),
 				$server->getRequest(),
 				$c->query('OCA\PopularityContestClient\Collector'),
-				$server->getHTTPClientService()
+				$server->getHTTPClientService(),
+				$server->getConfig()
 			);
 		});
 

@@ -25,6 +25,7 @@ use OCA\PopularityContestClient\Collector;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
 use OCP\Http\Client\IClientService;
+use OCP\IConfig;
 use OCP\IRequest;
 
 class EndpointController extends Controller {
@@ -37,17 +38,22 @@ class EndpointController extends Controller {
 	/** @var IClientService */
 	protected $clientService;
 
+	/** @var IConfig */
+	protected $config;
+
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param Collector $collector
 	 * @param IClientService $clientService
+	 * @param IConfig $config
 	 */
-	public function __construct($appName, IRequest $request, Collector $collector, IClientService $clientService) {
+	public function __construct($appName, IRequest $request, Collector $collector, IClientService $clientService, IConfig $config) {
 		parent::__construct($appName, $request);
 
 		$this->collector = $collector;
 		$this->clientService = $clientService;
+		$this->config = $config;
 	}
 
 	/**
@@ -57,10 +63,12 @@ class EndpointController extends Controller {
 		$report = $this->collector->getReport();
 
 		$client = $this->clientService->newClient();
+		$this->config->setAppValue('popularitycontestclient', 'last_sent', time());
+		$this->config->setAppValue('popularitycontestclient', 'last_report', json_encode($report));
 
 		try {
 			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/popularitycontestserver/api/v1/survey', [
-				'timeout' => 1,
+				'timeout' => 5,
 				'query' => [
 					'data' => json_encode($report),
 				],

@@ -19,6 +19,9 @@ $(document).ready(function() {
 				$button.attr('disabled', false);
 
 				$section.find('.last_report').text(JSON.stringify(response.ocs.data, undefined, 4));
+				$section.find('.last_sent').text(t('popularitycontestclient', 'Sent on: {on}', {
+					on: moment().format('LL')
+				}));
 			},
 			error: function(xhr) {
 				$button.attr('disabled', false);

@@ -34,5 +34,5 @@
 
 	<p><textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea></p>
 
-	<em><?php p($l->t('Sent on: %s', [$_['last_sent']])); ?></em>
+	<em class="last_sent"><?php p($l->t('Sent on: %s', [$_['last_sent']])); ?></em>
 </div>
