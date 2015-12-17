@@ -21,12 +21,11 @@
 
 namespace OCA\PopularityContestClient\Controller;
 
+use OC\Notification\IManager;
 use OCA\PopularityContestClient\Collector;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
 use OCP\BackgroundJob\IJobList;
-use OCP\Http\Client\IClientService;
-use OCP\IConfig;
 use OCP\IRequest;
 
 class EndpointController extends Controller {
@@ -37,17 +36,22 @@ class EndpointController extends Controller {
 	/** @var IJobList */
 	protected $jobList;
 
+	/** @var IManager */
+	protected $manager;
+
 	/**
 	 * @param string $appName
 	 * @param IRequest $request
 	 * @param Collector $collector
 	 * @param IJobList $jobList
+	 * @param IManager $manager
 	 */
-	public function __construct($appName, IRequest $request, Collector $collector, IJobList $jobList) {
+	public function __construct($appName, IRequest $request, Collector $collector, IJobList $jobList, IManager $manager) {
 		parent::__construct($appName, $request);
 
 		$this->collector = $collector;
 		$this->jobList = $jobList;
+		$this->manager = $manager;
 	}
 
 	/**
@@ -55,6 +59,11 @@ class EndpointController extends Controller {
 	 */
 	public function enableMonthly() {
 		$this->jobList->add('OCA\PopularityContestClient\MonthlyReport');
+
+		$notification = $this->manager->createNotification();
+		$notification->setApp('popularitycontestclient');
+		$this->manager->markProcessed($notification);
+
 		return new \OC_OCS_Result();
 	}
 
@@ -63,6 +72,11 @@ class EndpointController extends Controller {
 	 */
 	public function disableMonthly() {
 		$this->jobList->remove('OCA\PopularityContestClient\MonthlyReport');
+
+		$notification = $this->manager->createNotification();
+		$notification->setApp('popularitycontestclient');
+		$this->manager->markProcessed($notification);
+
 		return new \OC_OCS_Result();
 	}
 

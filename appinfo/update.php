@@ -19,10 +19,6 @@
  *
  */
 
-\OCP\App::registerAdmin('popularitycontestclient', 'admin');
-
-\OC::$server->getNotificationManager()->registerNotifier(function() {
-	return new \OCA\PopularityContestClient\Notifier(
-		\OC::$server->getL10NFactory()
-	);
-});
+if (!\OC::$server->getJobList()->has('OCA\PopularityContestClient\MonthlyReport', null)) {
+	\OC::$server->getJobList()->add('OCA\PopularityContestClient\AdminNotification');
+}
