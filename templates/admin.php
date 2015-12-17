@@ -17,7 +17,7 @@
 		?>
 		<p>
 			<input id="popularitycontestclient_<?php p($category); ?>" name="popularitycontestclient_<?php p($category); ?>"
-				   type="checkbox" class="checkbox" value="1" <?php if ($data['enabled']): ?> checked="checked"<?php endif; ?> />
+				   type="checkbox" class="checkbox popularitycontestclient_category" value="1" <?php if ($data['enabled']): ?> checked="checked"<?php endif; ?> />
 			<label for="popularitycontestclient_<?php p($category); ?>"><?php print_unescaped($data['displayName']); ?></label>
 		</p>
 		<?php
