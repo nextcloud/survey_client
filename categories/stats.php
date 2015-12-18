@@ -57,7 +57,7 @@ class Stats implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Statistic <em>(number of: files, users, storages per type, shares per type)</em>');
+		return (string) $this->l->t('Statistic <em>(number of: files, users, storages per type)</em>');
 	}
 
 	/**
@@ -71,13 +71,6 @@ class Stats implements ICategory {
 			'num_storages_local' => $this->countStorages('local'),
 			'num_storages_home' => $this->countStorages('home'),
 			'num_storages_other' => $this->countStorages('other'),
-			'num_shares' => $this->countEntries('share'),
-			'num_shares_user' => $this->countShares(0),
-			'num_shares_groups' => $this->countShares(1),
-			'num_shares_link' => $this->countShares(3),
-			'num_shares_link_no_password' => $this->countShares(3, true),
-			'num_fed_shares_sent' => $this->countShares(6),
-			'num_fed_shares_received' => $this->countEntries('share_external'),
 		];
 	}
 
@@ -112,28 +105,6 @@ class Stats implements ICategory {
 		} else if ($type === 'other') {
 			$query->where($query->expr()->notLike('id', $query->createNamedParameter('home::%')));
 			$query->andWhere($query->expr()->notLike('id', $query->createNamedParameter('local::%')));
-		}
-
-		$result = $query->execute();
-		$row = $result->fetch();
-		$result->closeCursor();
-
-		return (int) $row['num_entries'];
-	}
-
-	/**
-	 * @param int $type
-	 * @param bool $noShareWith
-	 * @return int
-	 */
-	protected function countShares($type, $noShareWith = false) {
-		$query = $this->connection->getQueryBuilder();
-		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
-			->from('share')
-			->where($query->expr()->eq('share_type', $query->createNamedParameter($type)));
-
-		if ($noShareWith) {
-			$query->andWhere($query->expr()->isNull('share_with'));
 		}
 
 		$result = $query->execute();

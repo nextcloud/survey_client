@@ -57,7 +57,7 @@ class Files_Sharing implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Number of shares <em>(per permission setting)</em>');
+		return (string) $this->l->t('Number of shares <em>(per type and permission setting)</em>');
 	}
 
 	/**
@@ -72,12 +72,57 @@ class Files_Sharing implements ICategory {
 			->groupBy('share_type');
 		$result = $query->execute();
 
-		$data = [];
+		$data = [
+			'num_shares' => $this->countEntries('share'),
+			'num_shares_user' => $this->countShares(0),
+			'num_shares_groups' => $this->countShares(1),
+			'num_shares_link' => $this->countShares(3),
+			'num_shares_link_no_password' => $this->countShares(3, true),
+			'num_fed_shares_sent' => $this->countShares(6),
+			'num_fed_shares_received' => $this->countEntries('share_external'),
+		];
 		while ($row = $result->fetch()) {
 			$data['permissions_' . $row['share_type'] . '_' . $row['permissions']] = $row['num_entries'];
 		}
 		$result->closeCursor();
 
 		return $data;
+	}
+
+	/**
+	 * @param string $tableName
+	 * @return int
+	 */
+	protected function countEntries($tableName) {
+		$query = $this->connection->getQueryBuilder();
+		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
+			->from($tableName);
+		$result = $query->execute();
+		$row = $result->fetch();
+		$result->closeCursor();
+
+		return (int) $row['num_entries'];
+	}
+
+	/**
+	 * @param int $type
+	 * @param bool $noShareWith
+	 * @return int
+	 */
+	protected function countShares($type, $noShareWith = false) {
+		$query = $this->connection->getQueryBuilder();
+		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
+			->from('share')
+			->where($query->expr()->eq('share_type', $query->createNamedParameter($type)));
+
+		if ($noShareWith) {
+			$query->andWhere($query->expr()->isNull('share_with'));
+		}
+
+		$result = $query->execute();
+		$row = $result->fetch();
+		$result->closeCursor();
+
+		return (int) $row['num_entries'];
 	}
 }
