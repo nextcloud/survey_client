@@ -19,28 +19,28 @@
  *
  */
 
-$application = new \OCA\PopularityContestClient\AppInfo\Application();
+$application = new \OCA\Survey_Client\AppInfo\Application();
 
 \OCP\API::register(
 	'post',
-	'/apps/popularitycontestclient/api/v1/report',
+	'/apps/survey_client/api/v1/report',
 	[$application->getContainer()->query('EndpointController'), 'sendReport'],
-	'popularitycontestclient',
+	'survey_client',
 	\OCP\API::ADMIN_AUTH
 );
 
 \OCP\API::register(
 	'post',
-	'/apps/popularitycontestclient/api/v1/monthly',
+	'/apps/survey_client/api/v1/monthly',
 	[$application->getContainer()->query('EndpointController'), 'enableMonthly'],
-	'popularitycontestclient',
+	'survey_client',
 	\OCP\API::ADMIN_AUTH
 );
 
 \OCP\API::register(
 	'delete',
-	'/apps/popularitycontestclient/api/v1/monthly',
+	'/apps/survey_client/api/v1/monthly',
 	[$application->getContainer()->query('EndpointController'), 'disableMonthly'],
-	'popularitycontestclient',
+	'survey_client',
 	\OCP\API::ADMIN_AUTH
 );

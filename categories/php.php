@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use bantu\IniGetWrapper\IniGetWrapper;
@@ -28,7 +28,7 @@ use OCP\IL10N;
 /**
  * Class php
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 class php implements ICategory {
 	/** @var IniGetWrapper */

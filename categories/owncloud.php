@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use OCP\IConfig;
@@ -28,7 +28,7 @@ use OCP\IL10N;
 /**
  * Class OwnCloud
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 class OwnCloud implements ICategory {
 	/** @var \OCP\IConfig */

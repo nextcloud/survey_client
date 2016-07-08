@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient;
+namespace OCA\Survey_Client;
 
 use OC\Notification\INotification;
 use OC\Notification\INotifier;
@@ -46,13 +46,13 @@ class Notifier implements INotifier {
 	 * @throws \InvalidArgumentException When the notification was not prepared by a notifier
 	 */
 	public function prepare(INotification $notification, $languageCode) {
-		if ($notification->getApp() !== 'popularitycontestclient') {
+		if ($notification->getApp() !== 'survey_client') {
 			// Not my app => throw
 			throw new \InvalidArgumentException();
 		}
 
 		// Read the language from the notification
-		$l = $this->l10nFactory->get('popularitycontestclient', $languageCode);
+		$l = $this->l10nFactory->get('survey_client', $languageCode);
 
 		$notification->setParsedSubject((string) $l->t('Do you want to send monthly usage statistics to ownCloud?'));
 

@@ -19,16 +19,16 @@
  *
  */
 
-namespace OCA\PopularityContestClient\AppInfo;
+namespace OCA\Survey_Client\AppInfo;
 
-use OCA\PopularityContestClient\Controller\EndpointController;
-use OCA\PopularityContestClient\Collector;
+use OCA\Survey_Client\Controller\EndpointController;
+use OCA\Survey_Client\Collector;
 use OCP\AppFramework\App;
 use OCP\IContainer;
 
 class Application extends App {
 	public function __construct (array $urlParams = array()) {
-		parent::__construct('popularitycontestclient', $urlParams);
+		parent::__construct('survey_client', $urlParams);
 		$container = $this->getContainer();
 
 		$container->registerService('EndpointController', function(IContainer $c) {
@@ -38,13 +38,13 @@ class Application extends App {
 			return new EndpointController(
 				$c->query('AppName'),
 				$server->getRequest(),
-				$c->query('OCA\PopularityContestClient\Collector'),
+				$c->query('OCA\Survey_Client\Collector'),
 				$server->getJobList(),
 				$server->getNotificationManager()
 			);
 		});
 
-		$container->registerService('OCA\PopularityContestClient\Collector', function(IContainer $c) {
+		$container->registerService('OCA\Survey_Client\Collector', function(IContainer $c) {
 			/** @var \OCP\IServerContainer $server */
 			$server = $c->query('ServerContainer');
 
@@ -53,7 +53,7 @@ class Application extends App {
 				$server->getConfig(),
 				$server->getDatabaseConnection(),
 				$server->getIniWrapper(),
-				$server->getL10NFactory()->get('popularitycontestclient')
+				$server->getL10NFactory()->get('survey_client')
 			);
 		});
 

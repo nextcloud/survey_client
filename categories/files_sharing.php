@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use OCP\IDBConnection;
@@ -28,7 +28,7 @@ use OCP\IL10N;
 /**
  * Class Files_Sharing
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 class Files_Sharing implements ICategory {
 	/** @var IDBConnection */

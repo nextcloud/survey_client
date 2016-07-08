@@ -19,10 +19,10 @@
  *
  */
 
-namespace OCA\PopularityContestClient;
+namespace OCA\Survey_Client;
 
 use OC\BackgroundJob\TimedJob;
-use OCA\PopularityContestClient\AppInfo\Application;
+use OCA\Survey_Client\AppInfo\Application;
 
 class MonthlyReport extends TimedJob {
 
@@ -36,8 +36,8 @@ class MonthlyReport extends TimedJob {
 
 	protected function run($argument) {
 		$application = new Application();
-		/** @var \OCA\PopularityContestClient\Collector $collector */
-		$collector = $application->getContainer()->query('OCA\PopularityContestClient\Collector');
+		/** @var \OCA\Survey_Client\Collector $collector */
+		$collector = $application->getContainer()->query('OCA\Survey_Client\Collector');
 		$result = $collector->sendReport();
 
 		if (!$result->succeeded()) {

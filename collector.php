@@ -19,17 +19,17 @@
  *
  */
 
-namespace OCA\PopularityContestClient;
+namespace OCA\Survey_Client;
 
 use bantu\IniGetWrapper\IniGetWrapper;
-use OCA\PopularityContestClient\Categories\Apps;
-use OCA\PopularityContestClient\Categories\Database;
-use OCA\PopularityContestClient\Categories\Encryption;
-use OCA\PopularityContestClient\Categories\Files_Sharing;
-use OCA\PopularityContestClient\Categories\ICategory;
-use OCA\PopularityContestClient\Categories\OwnCloud;
-use OCA\PopularityContestClient\Categories\php;
-use OCA\PopularityContestClient\Categories\Stats;
+use OCA\Survey_Client\Categories\Apps;
+use OCA\Survey_Client\Categories\Database;
+use OCA\Survey_Client\Categories\Encryption;
+use OCA\Survey_Client\Categories\Files_Sharing;
+use OCA\Survey_Client\Categories\ICategory;
+use OCA\Survey_Client\Categories\OwnCloud;
+use OCA\Survey_Client\Categories\php;
+use OCA\Survey_Client\Categories\Stats;
 use OCP\AppFramework\Http;
 use OCP\Http\Client\IClientService;
 use OCP\IConfig;
@@ -48,7 +48,7 @@ class Collector {
 
 	/** @var IConfig */
 	protected $config;
-	
+
 	/** @var IDBConnection */
 	protected $connection;
 
@@ -118,7 +118,7 @@ class Collector {
 		foreach ($this->categories as $category) {
 			$categories[$category->getCategory()] = [
 				'displayName'	=> $category->getDisplayName(),
-				'enabled'		=> $this->config->getAppValue('popularitycontestclient', $category->getCategory(), 'yes') === 'yes',
+				'enabled'		=> $this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes',
 			];
 		}
 
@@ -133,7 +133,7 @@ class Collector {
 
 		$tuples = [];
 		foreach ($this->categories as $category) {
-			if ($this->config->getAppValue('popularitycontestclient', $category->getCategory(), 'yes') === 'yes') {
+			if ($this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes') {
 				foreach ($category->getData() as $key => $value) {
 					$tuples[] = [
 						$category->getCategory(),
@@ -157,11 +157,11 @@ class Collector {
 		$report = $this->getReport();
 
 		$client = $this->clientService->newClient();
-		$this->config->setAppValue('popularitycontestclient', 'last_sent', time());
-		$this->config->setAppValue('popularitycontestclient', 'last_report', json_encode($report));
+		$this->config->setAppValue('survey_client', 'last_sent', time());
+		$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
 
 		try {
-			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/popularitycontestserver/api/v1/survey', [
+			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/survey_server/api/v1/survey', [
 				'timeout' => 5,
 				'query' => [
 					'data' => json_encode($report),

@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
 <info>
-    <id>popularitycontestclient</id>
-    <name>Popularity Contest Client</name>
-    <description/>
+    <id>survey_client</id>
+    <name>Survey Client</name>
+    <description>
+        Sends anonymized data to Nextcloud to help us to improve Nextcloud. You
+        always have full control over he content send to Nextcloud and can disable
+        it again at any time.
+    </description>
     <licence>AGPL</licence>
     <author>Joas Schilling, Björn Schiessle</author>
     <version>0.1.5</version>
-    <namespace>PopularityContestClient</namespace>
+    <namespace></namespace>
     <category>other</category>
     <dependencies>
-        <owncloud min-version="9.0" />
+        <owncloud min-version="9.1" />
     </dependencies>
 </info>
