@@ -21,9 +21,9 @@
 
 namespace OCA\Survey_Client;
 
-use OC\Notification\INotification;
-use OC\Notification\INotifier;
 use OCP\L10N\IFactory;
+use OCP\Notification\INotification;
+use OCP\Notification\INotifier;
 
 class Notifier implements INotifier {
 

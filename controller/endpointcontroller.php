@@ -21,12 +21,12 @@
 
 namespace OCA\Survey_Client\Controller;
 
-use OC\Notification\IManager;
 use OCA\Survey_Client\Collector;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
 use OCP\BackgroundJob\IJobList;
 use OCP\IRequest;
+use OCP\Notification\IManager;
 
 class EndpointController extends Controller {
 

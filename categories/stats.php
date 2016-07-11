@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\SurveyClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use OCP\IDBConnection;
