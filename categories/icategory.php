@@ -19,14 +19,14 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 /**
  * Interface ICategory
  *
  * TODO Move to core public API?
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 interface ICategory {
 	/**

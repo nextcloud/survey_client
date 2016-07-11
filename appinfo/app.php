@@ -19,10 +19,21 @@
  *
  */
 
-\OCP\App::registerAdmin('popularitycontestclient', 'admin');
+\OCP\App::registerAdmin('survey_client', 'admin');
 
-\OC::$server->getNotificationManager()->registerNotifier(function() {
-	return new \OCA\PopularityContestClient\Notifier(
-		\OC::$server->getL10NFactory()
-	);
-});
+$l = \OC::$server->getL10N('survey_client');
+
+$notificationManager = \OC::$server->getNotificationManager();
+$notificationManager->registerNotifier(
+	function() {
+		return new \OCA\Survey_Client\Notifier(
+			\OC::$server->getL10NFactory()
+		);
+	},
+	function() use ($l) {
+		return [
+			'id' => 'survey_client',
+			'name' => $l->t('Survey Client'),
+		];
+	}
+);

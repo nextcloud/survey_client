@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use OCP\IDBConnection;
@@ -28,7 +28,7 @@ use OCP\IL10N;
 /**
  * Class Stats
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 class Stats implements ICategory {
 	/** @var IDBConnection */

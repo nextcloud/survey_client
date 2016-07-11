@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use Doctrine\DBAL\Connection;
@@ -29,7 +29,7 @@ use OCP\IL10N;
 /**
  * Class Apps
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 class Apps implements ICategory {
 	/** @var IDBConnection */

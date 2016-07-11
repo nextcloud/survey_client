@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient;
+namespace OCA\Survey_Client;
 
 use OC\BackgroundJob\QueuedJob;
 
@@ -29,7 +29,7 @@ class AdminNotification extends QueuedJob {
 		$urlGenerator = \OC::$server->getURLGenerator();
 
 		$notification = $manager->createNotification();
-		$notification->setApp('popularitycontestclient')
+		$notification->setApp('survey_client')
 			->setDateTime(new \DateTime())
 			->setSubject('updated')
 			->setObject('dummy', 23)
@@ -37,13 +37,13 @@ class AdminNotification extends QueuedJob {
 
 		$enableAction = $notification->createAction();
 		$enableAction->setLabel('enable')
-			->setLink($urlGenerator->getAbsoluteURL('ocs/v2.php/apps/popularitycontestclient/api/v1/monthly'), 'POST')
+			->setLink($urlGenerator->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST')
 			->setPrimary(true);
 		$notification->addAction($enableAction);
 
 		$disableAction = $notification->createAction();
 		$disableAction->setLabel('disable')
-			->setLink($urlGenerator->getAbsoluteURL('ocs/v2.php/apps/popularitycontestclient/api/v1/monthly'), 'DELETE')
+			->setLink($urlGenerator->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE')
 			->setPrimary(false);
 		$notification->addAction($disableAction);
 

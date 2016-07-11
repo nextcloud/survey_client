@@ -19,14 +19,14 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Controller;
+namespace OCA\Survey_Client\Controller;
 
-use OC\Notification\IManager;
-use OCA\PopularityContestClient\Collector;
+use OCA\Survey_Client\Collector;
 use OCP\AppFramework\Controller;
 use OCP\AppFramework\Http;
 use OCP\BackgroundJob\IJobList;
 use OCP\IRequest;
+use OCP\Notification\IManager;
 
 class EndpointController extends Controller {
 
@@ -58,10 +58,10 @@ class EndpointController extends Controller {
 	 * @return \OC_OCS_Result
 	 */
 	public function enableMonthly() {
-		$this->jobList->add('OCA\PopularityContestClient\MonthlyReport');
+		$this->jobList->add('OCA\Survey_Client\MonthlyReport');
 
 		$notification = $this->manager->createNotification();
-		$notification->setApp('popularitycontestclient');
+		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
 		return new \OC_OCS_Result();
@@ -71,10 +71,10 @@ class EndpointController extends Controller {
 	 * @return \OC_OCS_Result
 	 */
 	public function disableMonthly() {
-		$this->jobList->remove('OCA\PopularityContestClient\MonthlyReport');
+		$this->jobList->remove('OCA\Survey_Client\MonthlyReport');
 
 		$notification = $this->manager->createNotification();
-		$notification->setApp('popularitycontestclient');
+		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
 		return new \OC_OCS_Result();

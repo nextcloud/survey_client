@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\PopularityContestClient\Categories;
+namespace OCA\Survey_Client\Categories;
 
 
 use OCP\IConfig;
@@ -29,7 +29,7 @@ use OCP\IL10N;
 /**
  * Class Database
  *
- * @package OCA\PopularityContestClient\Categories
+ * @package OCA\Survey_Client\Categories
  */
 class Database implements ICategory {
 	/** @var \OCP\IConfig */
