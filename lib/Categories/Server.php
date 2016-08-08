@@ -26,11 +26,11 @@ use OCP\IConfig;
 use OCP\IL10N;
 
 /**
- * Class OwnCloud
+ * Class Server
  *
  * @package OCA\Survey_Client\Categories
  */
-class OwnCloud implements ICategory {
+class Server implements ICategory {
 	/** @var \OCP\IConfig */
 	protected $config;
 
@@ -50,14 +50,14 @@ class OwnCloud implements ICategory {
 	 * @return string
 	 */
 	public function getCategory() {
-		return 'owncloud';
+		return 'server';
 	}
 
 	/**
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('ownCloud Instance Details <em>(version, theme, memcache used, locking/previews/avatars enabled?)</em>');
+		return (string) $this->l->t('Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>');
 	}
 
 	/**
@@ -66,7 +66,6 @@ class OwnCloud implements ICategory {
 	public function getData() {
 		return [
 			'version' => $this->config->getSystemValue('version'),
-			'theme' => $this->config->getSystemValue('theme', 'none'),
 			'code' => $this->codeLocation(),
 			'enable_avatars' => $this->config->getSystemValue('enable_avatars', true) ? 'yes' : 'no',
 			'enable_previews' => $this->config->getSystemValue('enable_previews', true) ? 'yes' : 'no',

@@ -30,7 +30,7 @@ use OCP\IL10N;
  *
  * @package OCA\Survey_Client\Categories
  */
-class php implements ICategory {
+class Php implements ICategory {
 	/** @var IniGetWrapper */
 	protected $phpIni;
 
@@ -57,7 +57,7 @@ class php implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('php Environment <em>(version, memory limit, max. execution time, max. file size)</em>');
+		return (string) $this->l->t('PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>');
 	}
 
 	/**
