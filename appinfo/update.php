@@ -19,6 +19,6 @@
  *
  */
 
-if (!\OC::$server->getJobList()->has('OCA\Survey_Client\MonthlyReport', null)) {
-	\OC::$server->getJobList()->add('OCA\Survey_Client\AdminNotification');
+if (!\OC::$server->getJobList()->has('OCA\Survey_Client\BackgroundJobs\MonthlyReport', null)) {
+	\OC::$server->getJobList()->add('OCA\Survey_Client\BackgroundJobs\AdminNotification');
 }

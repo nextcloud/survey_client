@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\Survey_Client;
+namespace OCA\Survey_Client\BackgroundJobs;
 
 use OC\BackgroundJob\QueuedJob;
 
@@ -33,7 +33,7 @@ class AdminNotification extends QueuedJob {
 			->setDateTime(new \DateTime())
 			->setSubject('updated')
 			->setObject('dummy', 23)
-			->setLink($urlGenerator->getAbsoluteURL('index.php/settings/admin#goto-usage-report'));
+			->setLink($urlGenerator->getAbsoluteURL('index.php/settings/admin#usage-report'));
 
 		$enableAction = $notification->createAction();
 		$enableAction->setLabel('enable')

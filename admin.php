@@ -40,7 +40,7 @@ if ($lastReport !== '') {
 }
 
 $template = new Template('survey_client', 'admin');
-$template->assign('is_enabled', \OC::$server->getJobList()->has('OCA\Survey_Client\MonthlyReport', null));
+$template->assign('is_enabled', \OC::$server->getJobList()->has('OCA\Survey_Client\BackgroundJobs\MonthlyReport', null));
 $template->assign('last_sent', $lastSentReportDate);
 $template->assign('last_report', $lastReport);
 $template->assign('categories', $collector->getCategories());

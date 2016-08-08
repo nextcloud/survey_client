@@ -19,7 +19,7 @@
  *
  */
 
-namespace OCA\Survey_Client;
+namespace OCA\Survey_Client\BackgroundJobs;
 
 use OC\BackgroundJob\TimedJob;
 use OCA\Survey_Client\AppInfo\Application;

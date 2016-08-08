@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 		OC.AppConfig.postCall('setValue', {
 			app: 'survey_client',
-			key: $(this).attr('name').substring(24),
+			key: $(this).attr('name').substring(14),
 			value: $(this).attr('checked') ? 'yes' : 'no'
 		}, function() {
 			$button.attr('disabled', false);
