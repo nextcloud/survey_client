@@ -26,7 +26,11 @@
 	<h2><?php p($l->t('Usage report')); ?></h2>
 
 	<p>
-		<?php p($l->t('When the server receives a new report of your instance, all entries from previous reports are removed. So in case you disable one of the settings below, you can send a new report, to delete the data, that is currently stored on the server.')); ?>
+		<?php p($l->t('You can help us to improve Nextcloud be sending us some data about your current setup and usage.')); ?>
+	</p>
+
+	<p>
+		<?php p($l->t('We take your privacy seriously. The data are anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data are send and always see the last report send to us. When the server receives a new report of your instance, all entries from previous reports are removed. In case you disable one of the settings below, you can send a new report, to delete the data, that is currently stored on the server.')); ?>
 	</p>
 
 	<button><?php p($l->t('Send new report now')); ?></button>
@@ -37,7 +41,7 @@
 		<label for="survey_client_monthly_report"><?php p($l->t('Send "Usage report" monthly')); ?></label>
 	</p>
 
-	<h3><?php p($l->t('Data Control')); ?></h3>
+	<h3><?php p($l->t('Data to send')); ?></h3>
 	<?php
 	foreach ($_['categories'] as $category => $data) {
 		?>
@@ -50,9 +54,14 @@
 	}
 	?>
 
+	<?php if (!empty($_['last_report'])): ?>
+
 	<h3><?php p($l->t('Last report')); ?></h3>
 
 	<p><textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea></p>
 
 	<em class="last_sent"><?php p($l->t('Sent on: %s', [$_['last_sent']])); ?></em>
+
+	<?php endif; ?>
+
 </div>

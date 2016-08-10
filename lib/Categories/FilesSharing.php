@@ -26,11 +26,11 @@ use OCP\IDBConnection;
 use OCP\IL10N;
 
 /**
- * Class Files_Sharing
+ * Class FilesSharing
  *
  * @package OCA\Survey_Client\Categories
  */
-class Files_Sharing implements ICategory {
+class FilesSharing implements ICategory {
 	/** @var IDBConnection */
 	protected $connection;
 
