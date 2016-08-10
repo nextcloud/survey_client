@@ -25,10 +25,10 @@ use bantu\IniGetWrapper\IniGetWrapper;
 use OCA\Survey_Client\Categories\Apps;
 use OCA\Survey_Client\Categories\Database;
 use OCA\Survey_Client\Categories\Encryption;
-use OCA\Survey_Client\Categories\Files_Sharing;
+use OCA\Survey_Client\Categories\FilesSharing;
 use OCA\Survey_Client\Categories\ICategory;
-use OCA\Survey_Client\Categories\OwnCloud;
-use OCA\Survey_Client\Categories\php;
+use OCA\Survey_Client\Categories\Php;
+use OCA\Survey_Client\Categories\Server;
 use OCA\Survey_Client\Categories\Stats;
 use OCP\AppFramework\Http;
 use OCP\Http\Client\IClientService;
@@ -38,7 +38,7 @@ use OCP\IL10N;
 
 class Collector {
 
-	const SURVEY_SERVER_URL = 'http://localhost/ownCloud/master/core/';
+	const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
 
 	/** @var ICategory[] */
 	protected $categories;
@@ -76,7 +76,7 @@ class Collector {
 	}
 
 	protected function registerCategories() {
-		$this->categories[] = new OwnCloud(
+		$this->categories[] = new Server(
 			$this->config,
 			$this->l
 		);
@@ -97,7 +97,7 @@ class Collector {
 			$this->connection,
 			$this->l
 		);
-		$this->categories[] = new Files_Sharing(
+		$this->categories[] = new FilesSharing(
 			$this->connection,
 			$this->l
 		);
@@ -157,8 +157,6 @@ class Collector {
 		$report = $this->getReport();
 
 		$client = $this->clientService->newClient();
-		$this->config->setAppValue('survey_client', 'last_sent', time());
-		$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
 
 		try {
 			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/survey_server/api/v1/survey', [
@@ -175,6 +173,8 @@ class Collector {
 		}
 
 		if ($response->getStatusCode() === Http::STATUS_OK) {
+			$this->config->setAppValue('survey_client', 'last_sent', time());
+			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
 			return new \OC_OCS_Result(
 				$report,
 				100// HTTP::STATUS_OK, TODO: <status>failure</status><statuscode>200</statuscode>
