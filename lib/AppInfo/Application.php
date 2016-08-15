@@ -21,40 +21,13 @@
 
 namespace OCA\Survey_Client\AppInfo;
 
-use OCA\Survey_Client\Controller\EndpointController;
-use OCA\Survey_Client\Collector;
+
 use OCP\AppFramework\App;
-use OCP\IContainer;
 
 class Application extends App {
 	public function __construct (array $urlParams = array()) {
 		parent::__construct('survey_client', $urlParams);
-		$container = $this->getContainer();
 
-		$container->registerService('EndpointController', function(IContainer $c) {
-			/** @var \OC\Server $server */
-			$server = $c->query('ServerContainer');
-
-			return new EndpointController(
-				$c->query('AppName'),
-				$server->getRequest(),
-				$c->query('OCA\Survey_Client\Collector'),
-				$server->getJobList(),
-				$server->getNotificationManager()
-			);
-		});
-
-		$container->registerService('OCA\Survey_Client\Collector', function(IContainer $c) {
-			/** @var \OCP\IServerContainer $server */
-			$server = $c->query('ServerContainer');
-
-			return new Collector(
-				$server->getHTTPClientService(),
-				$server->getConfig(),
-				$server->getDatabaseConnection(),
-				$server->getIniWrapper(),
-				$server->getL10NFactory()->get('survey_client')
-			);
-		});
+		$this->getContainer()->registerAlias('EndpointController', 'OCA\Survey_Client\Controller\EndpointController');
 	}
 }
