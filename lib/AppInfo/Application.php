@@ -56,7 +56,5 @@ class Application extends App {
 				$server->getL10NFactory()->get('survey_client')
 			);
 		});
-
-		$container->registerCapability('Capabilities');
 	}
 }
