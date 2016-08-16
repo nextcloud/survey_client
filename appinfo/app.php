@@ -19,8 +19,6 @@
  *
  */
 
-\OCP\App::registerAdmin('survey_client', 'admin');
-
 $l = \OC::$server->getL10N('survey_client');
 
 $notificationManager = \OC::$server->getNotificationManager();
