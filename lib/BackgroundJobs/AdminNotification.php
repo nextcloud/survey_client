@@ -33,7 +33,7 @@ class AdminNotification extends QueuedJob {
 			->setDateTime(new \DateTime())
 			->setSubject('updated')
 			->setObject('dummy', 23)
-			->setLink($urlGenerator->getAbsoluteURL('index.php/settings/admin#usage-report'));
+			->setLink($urlGenerator->getAbsoluteURL('index.php/settings/admin/survey_client'));
 
 		$enableAction = $notification->createAction();
 		$enableAction->setLabel('enable')
