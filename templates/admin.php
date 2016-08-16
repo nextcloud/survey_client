@@ -21,7 +21,11 @@
 
 /** @var $l \OCP\IL10N */
 /** @var $_ array */
+
+script('survey_client', 'admin');
+style('survey_client', 'admin');
 ?>
+
 <div id="survey_client" class="section">
 	<h2><?php p($l->t('Usage report')); ?></h2>
 
