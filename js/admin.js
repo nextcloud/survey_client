@@ -39,6 +39,7 @@ $(document).ready(function() {
 				$section.find('.last_sent').text(t('survey_client', 'Sent on: {on}', {
 					on: moment().format('LL')
 				}));
+				$section.find('.last_report').closest('div').removeClass('hidden');
 			},
 			error: function(xhr) {
 				$button.attr('disabled', false);
