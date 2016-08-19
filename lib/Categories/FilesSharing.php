@@ -68,8 +68,8 @@ class FilesSharing implements ICategory {
 		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
 			->addSelect(['permissions', 'share_type'])
 			->from('share')
-			->groupBy('permissions')
-			->groupBy('share_type');
+			->addGroupBy('permissions')
+			->addGroupBy('share_type');
 		$result = $query->execute();
 
 		$data = [
