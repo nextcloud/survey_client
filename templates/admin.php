@@ -58,14 +58,14 @@ style('survey_client', 'admin');
 	}
 	?>
 
-	<?php if (!empty($_['last_report'])): ?>
+	<div <?php if (empty($_['last_report'])): ?>class="hidden"<?php endif; ?>>
 
-	<h3><?php p($l->t('Last report')); ?></h3>
+		<h3><?php p($l->t('Last report')); ?></h3>
 
-	<p><textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea></p>
+		<p><textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea></p>
 
-	<em class="last_sent"><?php p($l->t('Sent on: %s', [$_['last_sent']])); ?></em>
+		<em class="last_sent"><?php p($l->t('Sent on: %s', [$_['last_sent']])); ?></em>
 
-	<?php endif; ?>
+	</div>
 
 </div>
