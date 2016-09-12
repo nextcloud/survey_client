@@ -21,6 +21,7 @@
 
 namespace OCA\Survey_Client;
 
+use OCP\IURLGenerator;
 use OCP\L10N\IFactory;
 use OCP\Notification\INotification;
 use OCP\Notification\INotifier;
@@ -30,13 +31,18 @@ class Notifier implements INotifier {
 	/** @var IFactory */
 	protected $l10nFactory;
 
+	/** @var IURLGenerator */
+	protected $url;
+
 	/**
 	 * Notifier constructor.
 	 *
 	 * @param IFactory $l10nFactory
+	 * @param IURLGenerator $url
 	 */
-	public function __construct(IFactory $l10nFactory) {
+	public function __construct(IFactory $l10nFactory, IURLGenerator $url) {
 		$this->l10nFactory = $l10nFactory;
+		$this->url = $url;
 	}
 
 	/**
@@ -59,9 +65,11 @@ class Notifier implements INotifier {
 
 		foreach ($notification->getActions() as $action) {
 			if ($action->getLabel() === 'disable') {
-				$action->setParsedLabel((string) $l->t('Not now'));
+				$action->setParsedLabel((string) $l->t('Not now'))
+					->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE');
 			} else if ($action->getLabel() === 'enable') {
-				$action->setParsedLabel((string) $l->t('Send usage'));
+				$action->setParsedLabel((string) $l->t('Send usage'))
+					->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST');
 			}
 			$notification->addParsedAction($action);
 		}
