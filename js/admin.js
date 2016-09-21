@@ -4,13 +4,16 @@ $(document).ready(function() {
 		var $button = $(this);
 		$button.attr('disabled', true);
 
-		OC.AppConfig.postCall('setValue', {
-			app: 'survey_client',
-			key: $(this).attr('name').substring(14),
-			value: $(this).attr('checked') ? 'yes' : 'no'
-		}, function() {
-			$button.attr('disabled', false);
-		});
+		OCP.AppConfig.setValue(
+			'survey_client',
+			$(this).attr('name').substring(14),
+			$(this).attr('checked') ? 'yes' : 'no',
+			{
+				success: function() {
+					$button.attr('disabled', false);
+				}
+			}
+		);
 	});
 
 	$section.find('#survey_client_monthly_report').change(function() {
