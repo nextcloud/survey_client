@@ -75,6 +75,7 @@ class Server implements ICategory {
 			'filelocking.enabled' => $this->config->getSystemValue('filelocking.enabled', true) ? 'yes' : 'no',
 			'memcache.locking' => $this->config->getSystemValue('memcache.locking', 'none'),
 			'debug' => $this->config->getSystemValue('debug', false) ? 'yes' : 'no',
+			'cron' => $this->config->getAppValue('core', 'backgroundjobs_mode', 'ajax'),
 		];
 	}
 
