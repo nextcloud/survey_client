@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <info>
     <id>survey_client</id>
-    <name>Usage report</name>
+    <name>Usage survey</name>
     <description>
         Sends anonymized data to Nextcloud to help us to improve Nextcloud. You
         always have full control over the content sent to Nextcloud and can disable

@@ -1,4 +1,4 @@
-# Usage report / Survey client
+# Usage survey client
 
 Sends anonymized data to Nextcloud to help us to improve Nextcloud. You
 always have full control over the content sent to Nextcloud and can disable

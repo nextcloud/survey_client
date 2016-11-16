@@ -1,10 +1,10 @@
 <!--
-Thanks for reporting issues back to Nextcloud! This is the issue tracker of the Nextcloud Usage report/Survey client App, if you have any support question please check out https://help.nextcloud.com/
+Thanks for reporting issues back to Nextcloud! This is the issue tracker of the Usage survey client app, if you have any support question please check out https://help.nextcloud.com/
 
-This is the bug tracker for the Usage report/Survey client App. Find other components at https://github.com/nextcloud/core/blob/master/CONTRIBUTING.md#guidelines
+This is the bug tracker for the Usage survey client app. Find other components at https://github.com/nextcloud/core/blob/master/CONTRIBUTING.md#guidelines
 
 To make it possible for us to help you please fill out below information carefully.
---> 
+-->
 ### Steps to reproduce
 1.
 2.
@@ -33,7 +33,7 @@ Tell us what happens instead
 
 ```
 Login as admin user into your Nextcloud and access
-http://example.com/index.php/settings/integrity/failed 
+http://example.com/index.php/settings/integrity/failed
 paste the results here.
 ```
 
@@ -52,7 +52,7 @@ If you have access to your command line run e.g.:
 sudo -u www-data php occ config:list system
 from within your ownCloud installation folder
 
-or 
+or
 
 Insert your config.php content here
 (Without the database password, passwordsalt and secret)
@@ -77,6 +77,6 @@ Insert your Nextcloud log here
 Insert your browser log here, this could for example include:
 
 a) The javascript console log
-b) The network log 
+b) The network log
 c) ...
 ```
