@@ -32,7 +32,7 @@ $notificationManager->registerNotifier(
 	function() use ($l) {
 		return [
 			'id' => 'survey_client',
-			'name' => $l->t('Survey Client'),
+			'name' => $l->t('Usage survey'),
 		];
 	}
 );

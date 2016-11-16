@@ -27,7 +27,7 @@ style('survey_client', 'admin');
 ?>
 
 <div id="survey_client" class="section">
-	<h2><?php p($l->t('Usage report')); ?></h2>
+	<h2><?php p($l->t('Usage survey')); ?></h2>
 
 	<p>
 		<?php p($l->t('You can help us to improve Nextcloud be sending us some data about your current setup and usage.')); ?>
@@ -42,7 +42,7 @@ style('survey_client', 'admin');
 	<p>
 		<input id="survey_client_monthly_report" name="survey_client_monthly_report"
 			   type="checkbox" class="checkbox" value="1" <?php if ($_['is_enabled']): ?> checked="checked"<?php endif; ?> />
-		<label for="survey_client_monthly_report"><?php p($l->t('Send "Usage report" monthly')); ?></label>
+		<label for="survey_client_monthly_report"><?php p($l->t('Send usage survey monthly')); ?></label>
 	</p>
 
 	<h3><?php p($l->t('Data to send')); ?></h3>

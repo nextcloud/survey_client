@@ -11,7 +11,7 @@ If you have questions about how to install or use Nextcloud, please direct these
   - Go to one of the repositories, click "issues" and type any word in the top search/command bar.
   - You can also filter by appending e. g. "state:open" to the search string.
   - More info on [search syntax within github](https://help.github.com/articles/searching-issues)
-* This repository ([Usage report/Survey client](https://github.com/nextcloud/survey_client/issues)) is *only* for issues within the Nextcloud Survey client code.
+* This repository ([Usage survey client](https://github.com/nextcloud/survey_client/issues)) is *only* for issues within the Nextcloud usage survey client code.
 * __SECURITY__: Report any potential security bug to us via [our HackerOne page](https://hackerone.com/nextcloud) or security@nextcloud.com following our [security policy](https://nextcloud.com/security/) instead of filing an issue in our bug tracker.
 * Report the issue using our [template][template], it includes all the information we need to track down the issue.
 
