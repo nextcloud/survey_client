@@ -10,10 +10,10 @@
     <namespace>Survey_Client</namespace>
     <licence>AGPL</licence>
     <author>Joas Schilling, Björn Schiessle</author>
-    <version>0.1.5</version>
+    <version>1.0.0</version>
     <category>other</category>
     <dependencies>
-        <nextcloud min-version="11" max-version="11" />
+        <nextcloud min-version="12" max-version="12" />
     </dependencies>
     <default_enable/>
     <settings>
