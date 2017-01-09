@@ -61,7 +61,8 @@ class Notifier implements INotifier {
 		$l = $this->l10nFactory->get('survey_client', $languageCode);
 
 		$notification->setParsedSubject((string) $l->t(
-			'Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again.'));
+			'Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again.'))
+			->setLink($this->url->linkToRoute('settings.AdminSettings.index', ['section' => 'survey_client']));
 
 		foreach ($notification->getActions() as $action) {
 			if ($action->getLabel() === 'disable') {
