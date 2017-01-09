@@ -29,13 +29,11 @@ class AdminNotification extends QueuedJob {
 		$urlGenerator = \OC::$server->getURLGenerator();
 
 		$notification = $manager->createNotification();
-		$url = $urlGenerator->linkToRoute('settings.AdminSettings.index', ['section' => 'survey_client']);
 
 		$notification->setApp('survey_client')
 			->setDateTime(new \DateTime())
 			->setSubject('updated')
-			->setObject('dummy', 23)
-			->setLink($url);
+			->setObject('dummy', 23);
 
 		$enableAction = $notification->createAction();
 		$enableAction->setLabel('enable')
