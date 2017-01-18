@@ -122,7 +122,7 @@ class Database implements ICategory {
 		switch ($this->config->getSystemValue('dbtype')) {
 			case 'mysql':
 				$db_name = $this->config->getSystemValue('dbname');
-				$sql = 'SHOW TABLE STATUS FROM ' . $db_name;
+				$sql = 'SHOW TABLE STATUS FROM `' . $db_name . '`';
 				$result = $this->connection->executeQuery($sql);
 				$database_size = 0;
 				while ($row = $result->fetch()) {
