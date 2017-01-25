@@ -24,15 +24,19 @@ namespace OCA\Survey_Client\Settings;
 
 
 use OCP\IL10N;
-use OCP\Settings\ISection;
+use OCP\IURLGenerator;
+use OCP\Settings\IIconSection;
 
-class AdminSection implements ISection {
+class AdminSection implements IIconSection {
 
 	/** @var IL10N */
 	private $l;
+	/** @var IURLGenerator */
+	private $url;
 
-	public function __construct(IL10N $l) {
+	public function __construct(IL10N $l, IURLGenerator $url) {
 		$this->l = $l;
+		$this->url = $url;
 	}
 
 	/**
@@ -63,4 +67,10 @@ class AdminSection implements ISection {
 		return 80;
 	}
 
+	/**
+	 * {@inheritdoc}
+	 */
+	public function getIcon() {
+		return $this->url->imagePath('survey_client', 'app-dark.svg');
+	}
 }
