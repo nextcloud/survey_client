@@ -30,11 +30,11 @@ style('survey_client', 'admin');
 	<h2><?php p($l->t('Usage survey')); ?></h2>
 
 	<p>
-		<?php p($l->t('You can help us to improve Nextcloud by sending us some data about your current setup and usage.')); ?>
+		<?php p($l->t('You can help improve Nextcloud by sending us some data about your current setup and usage.')); ?>
 	</p>
 
 	<p>
-		<?php p($l->t('We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server.')); ?>
+		<?php p($l->t('We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server')); ?>
 	</p>
 
 	<button><?php p($l->t('Send new report now')); ?></button>
