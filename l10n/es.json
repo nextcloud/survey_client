@@ -13,6 +13,8 @@
     "Not now" : "Ahora no",
     "Send usage" : "Enviar uso",
     "Never" : "Nunca",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Puedes ayudar a mejorar Nextcloud mandándonos algunos datos sobre tu configuración y uso actuales.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Nos tomamos en serio tu privacidad. El envío de datos está desactivado por defecto y, si lo activas, primero se anonimizarán, y se te da la opción de elegir qué quieres compartir. Al recibir un informe, el anterior es eliminado. Sube un informe en blanco para borrar todos los datos almacenados actualmente en el servidor.",
     "Send new report now" : "Enviar ahora un nuevo informe",
     "Send usage survey monthly" : "Enviar la encuesta de uso mensualmente",
     "Data to send" : "Datos que se enviarán",
