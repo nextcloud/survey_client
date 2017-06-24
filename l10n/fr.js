@@ -15,6 +15,7 @@ OC.L10N.register(
     "Not now" : "Pas maintenant",
     "Send usage" : "Envoyer les statistiques",
     "Never" : "Jamais",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Vous pouvez aider à améliorer Nextcloud en nous envoyant des statistiques sur votre configuration et votre utilisation.",
     "Send new report now" : "Envoyer les statistiques maintenant",
     "Send usage survey monthly" : "Envoyer les statistiques chaque mois",
     "Data to send" : "Données à envoyer",
