@@ -11,13 +11,17 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP omgeving <em>(versie, geheugenlimiet, max. uitvoeringstijd, max. bestandsomvang)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Server details <em>(versie, memcache gebruikt, locking/previews/avatars ingeschakeld?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistieken <em>(aantal: bestanden, gebruikers, opslag per type, reacties en tags)</em>",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Wil je ons helpen om Nextcloud te verbeteren, door geanonimiseerde gegevens over je installatie en gebruik te delen? Je kunt dit altijd weer uit zetten bij de beheerdersinstellingen.",
     "Not now" : "Niet nu",
     "Send usage" : "Verstuur gebruik",
-    "Never" : "nooit",
+    "Never" : "Nooit",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Je kunt ons helpen Nextcloud te verbeteren door gegevens over je installatie en gebruik te delen.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We nemen je privacy serieus. Het delen van deze data staat standaard uit en je moet zelf aangeven als je dit wél wilt delen. De gegevens worden eerst geanonimiseerd en je kunt kiezen welke data je wilt delen. Nadat we een rapport hebben ontvangen, wordt de vorige verwijderd. Upload een leeg rapport om alle data te wissen die nu op de server staat.",
     "Send new report now" : "Verstuur nu een nieuw rapport",
     "Send usage survey monthly" : "Verstuur maandelijks gebruiksrapport",
-    "Data to send" : "Gegevens te versturen",
+    "Data to send" : "Te versturen gegevens",
     "Last report" : "Laatste rapport",
-    "Sent on: %s" : "Verstuurd op: %s"
+    "Sent on: %s" : "Verstuurd op: %s",
+    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Je kunt ons helpen Nextcloud te verbeteren door gegevens over je installatie en gebruik te delen."
 },
 "nplurals=2; plural=(n != 1);");
