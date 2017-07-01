@@ -15,6 +15,8 @@ OC.L10N.register(
     "Not now" : "Ikke nå",
     "Send usage" : "Send bruk",
     "Never" : "Aldri",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjelpe til med å forbedre Nextcloud ved å sende oss noe data om ditt nåværende oppsett og bruk.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi tar ditt personvern på alvor. Å sende data er skrudd av som forvalg, og skulle du velge å skru det på, vil de ble anonymisert først, og du vil bli gitt valget om hva du vil dele. Når du mottar en rapport, vil den forrige bli fjernet. Last opp en tom rapport for å slette all data som lagres på tjeneren for øyeblikket.",
     "Send new report now" : "Send ny rapport nå",
     "Send usage survey monthly" : "Send bruksspørreundersøkelse månedlig ",
     "Data to send" : "Data å sende",
