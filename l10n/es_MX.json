@@ -1,7 +1,7 @@
 { "translations": {
     "Usage survey" : "Encuesta de uso",
     "Sent on: {on}" : "Enviado el: {on}",
-    "An error occurred while sending your report." : "Se presentó un error al enviar su reporte.",
+    "An error occurred while sending your report." : "Se presentó un error al enviar tu reporte.",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Lista de aplicaciones<em>(para cada aplicación: nombre, versión, está habilitada?)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Ambiente de la base de datos <em>(tipo, versión, tamaño de la base de datos) </em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Información de encripción <em>(¿Está habilitada? ¿Cuál es el módulo predeterminado?)</em>",
