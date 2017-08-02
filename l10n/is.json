@@ -1,6 +1,7 @@
 { "translations": {
     "Usage survey" : "Könnun á notkun",
     "Sent on: {on}" : "Sent þann: {on}",
+    "An error occurred while sending your report." : "Villa kom upp við að senda skýrsluna þína.",
     "Not now" : "Ekki núna",
     "Send usage" : "Senda upplýsingar um notkun",
     "Never" : "Aldrei",
