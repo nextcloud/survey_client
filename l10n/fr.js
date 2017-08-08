@@ -6,7 +6,7 @@ OC.L10N.register(
     "An error occurred while sending your report." : "Une erreur est survenue lors de l’envoi des statistiques.",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Liste des applications <em>(pour chaque application : nom, version, est activée ?)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Environnement de la base de données <em>(type, version, taille de la base de données)</em>",
-    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Information du cryptage <em>(est-il activé ?, quel est le module par défaut)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Information du chiffrement <em>(est-il activé ?, quel est le module par défaut)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Nombre de partages <em>(par type et paramètre de permission)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Environnement PHP <em>(version, limite de la mémoire, temps maximal d'exécution, taille maximale des fichiers)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Détails sur l'instance du serveur <em>(version, cache mémoire utilisé, verrouillage/aperçus/avatars activés ?)</em>",
