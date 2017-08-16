@@ -9,6 +9,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-Umgebung <em>(Version, Speichergrenze, Max. Ausführungszeit, Max. Dateigröße)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Details zur Serverinstanz <em>(Version, Wird Memcache verwendet, Sind Sperren/Avatare aktiviert?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistik <em>(Anzahl von: Dateien, Benutzern, Speicher pro Typ, Kommentare und Schlagworte)</em>",
+    "Help improve Nextcloud" : "Helfe Nextcloud zu verbessern",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Möchtest Du uns helfen Nextcloud zu verbessern? Das kannst Du durch Übertragen von anonymisierten Daten von Deinen Einstellungen und Nutzung. Du kannst dies jederzeit in den Administrationseinstellungen deaktivieren.",
     "Not now" : "Nicht jetzt",
     "Send usage" : "Nutzung senden",
