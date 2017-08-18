@@ -8,6 +8,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-ympäristö <em>(versio, muistin raja, maks. suoritusaika, maks. tiedostokoko)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Palvelininstanssin ominaisuudet <em>(versio, memcache käytössä, lukitus/esikatselut/avatarit käytössä?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Tilastotieto <em>(tiedostojen, käyttäjien, muistien, komenttien ja tunnisteiden määrä)</em>",
+    "Help improve Nextcloud" : "Auta parantamaan Nextcloudia",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Haluatko auttaa meitä Nextcloudin kehittämisessä lähettämällä anonyymiä tietoa asetuksistasi ja käytöstäsi? Voit estää tietojen lähettämisen koska tahansa ylläpitoasetuksissa.",
     "Not now" : "Ei nyt",
     "Send usage" : "Lähetä käyttötiedot",
