@@ -1,0 +1,27 @@
+OC.L10N.register(
+    "survey_client",
+    {
+    "Usage survey" : "Användaröversikt",
+    "Sent on: {on}" : "Sändes: {on}",
+    "An error occurred while sending your report." : "Ett fel inträffade när rapporten sändes.",
+    "App list <em>(for each app: name, version, is enabled?)</em>" : "Applista <em>(för varje app: namn, version, aktiverad?)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Databasmiljö <em>(typ, version, databasstorlek)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Krypteringsinformation <em>(Aktiverad?, modul i grundinställningar)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Antal delningar <em>(per typ och rättighetsinställning)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-miljö<em>(version, minnesgräns, max. exekveringstid, max. filstorlek)</em>",
+    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Serverinstansdetaljer <em>(version, använt minne, låst/förhandsvisning/avatarer aktiverat?)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistik <em>(Antal: filer, användare, lagringar per typ, kommentarer och taggar)</em>",
+    "Help improve Nextcloud" : "Hjälp till att  förbättra Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Vill du hjälpa oss förbättra Nextcloud genom att förse oss med anonym data om din installation och användning? Du kan stänga av det när som helst i administratörsinställningarna.",
+    "Not now" : "Inte nu",
+    "Send usage" : "Sänd användning",
+    "Never" : "Aldrig",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjälpa till att förbättra Nextcloud genom att sända oss viss data om din nuvarande installation och användning.",
+    "Send new report now" : "Skicka rapporten nu",
+    "Send usage survey monthly" : "Skicka användaröversikt månadsvis",
+    "Data to send" : "Data att sända",
+    "Last report" : "Senaste rapport",
+    "Sent on: %s" : "Sändes: %s",
+    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Du kan hjälpa oss förbättra Nextcloud genom att sända oss data från din nuvarande installation och användning."
+},
+"nplurals=2; plural=(n != 1);");
