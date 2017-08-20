@@ -11,6 +11,7 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP omgeving <em>(versie, geheugenlimiet, max. uitvoeringstijd, max. bestandsomvang)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Server details <em>(versie, memcache gebruikt, locking/previews/avatars ingeschakeld?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistieken <em>(aantal: bestanden, gebruikers, opslag per type, reacties en tags)</em>",
+    "Help improve Nextcloud" : "Help Nextcloud verbeteren",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Wil je ons helpen om Nextcloud te verbeteren, door geanonimiseerde gegevens over je installatie en gebruik te delen? Je kunt dit altijd weer uit zetten bij de beheerdersinstellingen.",
     "Not now" : "Niet nu",
     "Send usage" : "Verstuur gebruik",
