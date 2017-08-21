@@ -22,6 +22,7 @@ OC.L10N.register(
     "Data to send" : "Data att sända",
     "Last report" : "Senaste rapport",
     "Sent on: %s" : "Sändes: %s",
-    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Du kan hjälpa oss förbättra Nextcloud genom att sända oss data från din nuvarande installation och användning."
+    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Du kan hjälpa oss förbättra Nextcloud genom att sända oss data från din nuvarande installation och användning.",
+    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjälpa oss förbättra Nextcloud genom att sända oss data om din nuvarande installation och användning."
 },
 "nplurals=2; plural=(n != 1);");
