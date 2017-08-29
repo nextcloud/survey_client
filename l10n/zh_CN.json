@@ -9,6 +9,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP 环境<em>(版本,内存限制,最大执行时间,最大文件尺寸)",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "服务器实例详情<em>(version, memcache used, locking/previews/avatars enabled?)</em>版本",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "统计<em>(number of: files, users, storages per type, comments and tags)</em>",
+    "Help improve Nextcloud" : "帮助改进 Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "你想通给我们提供一些关于你的安装及使用情况的匿名数据来帮忙改进 Nextcloud 吗？你可以随时在管理员菜单的设置中关闭它.",
     "Not now" : "以后再说",
     "Send usage" : "发送使用情况",
