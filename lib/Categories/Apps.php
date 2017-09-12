@@ -58,7 +58,7 @@ class Apps implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('App list <em>(for each app: name, version, is enabled?)</em>');
+		return (string) $this->l->t('App list <em>(for each app: name, version, enabled status)</em>');
 	}
 
 	/**
