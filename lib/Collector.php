@@ -151,7 +151,7 @@ class Collector {
 	}
 
 	/**
-	 * @return \OC_OCS_Result
+	 * @return \OC\OCS\Result
 	 */
 	public function sendReport() {
 		$report = $this->getReport();
@@ -166,7 +166,7 @@ class Collector {
 				],
 			]);
 		} catch (\Exception $e) {
-			return new \OC_OCS_Result(
+			return new \OC\OCS\Result(
 				$report,
 				Http::STATUS_INTERNAL_SERVER_ERROR
 			);
@@ -175,13 +175,13 @@ class Collector {
 		if ($response->getStatusCode() === Http::STATUS_OK) {
 			$this->config->setAppValue('survey_client', 'last_sent', time());
 			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
-			return new \OC_OCS_Result(
+			return new \OC\OCS\Result(
 				$report,
 				100// HTTP::STATUS_OK, TODO: <status>failure</status><statuscode>200</statuscode>
 			);
 		}
 
-		return new \OC_OCS_Result(
+		return new \OC\OCS\Result(
 			$report,
 			Http::STATUS_INTERNAL_SERVER_ERROR
 		);
