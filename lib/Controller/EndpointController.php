@@ -55,7 +55,7 @@ class EndpointController extends Controller {
 	}
 
 	/**
-	 * @return \OC_OCS_Result
+	 * @return \OC\OCS\Result
 	 */
 	public function enableMonthly() {
 		$this->jobList->add('OCA\Survey_Client\BackgroundJobs\MonthlyReport');
@@ -64,11 +64,11 @@ class EndpointController extends Controller {
 		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
-		return new \OC_OCS_Result();
+		return new \OC\OCS\Result();
 	}
 
 	/**
-	 * @return \OC_OCS_Result
+	 * @return \OC\OCS\Result
 	 */
 	public function disableMonthly() {
 		$this->jobList->remove('OCA\Survey_Client\BackgroundJobs\MonthlyReport');
@@ -77,11 +77,11 @@ class EndpointController extends Controller {
 		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
-		return new \OC_OCS_Result();
+		return new \OC\OCS\Result();
 	}
 
 	/**
-	 * @return \OC_OCS_Result
+	 * @return \OC\OCS\Result
 	 */
 	public function sendReport() {
 		return $this->collector->sendReport();
