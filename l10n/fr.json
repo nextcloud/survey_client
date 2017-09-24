@@ -2,7 +2,7 @@
     "Usage survey" : "Statistiques d'utilisation",
     "Sent on: {on}" : "Envoyé le : {on}",
     "An error occurred while sending your report." : "Une erreur est survenue lors de l’envoi des statistiques.",
-    "App list <em>(for each app: name, version, enabled status)</em>" : "Liste des applications <em>(pour chaque application : nom, version, statut activé)</em>",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Liste des applications <em>(pour chaque application : nom, version, statut)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Environnement de la base de données <em>(type, version, taille de la base de données)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Information du chiffrement <em>(est-il activé ?, quel est le module par défaut)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Nombre de partages <em>(par type et paramètre de permission)</em>",
