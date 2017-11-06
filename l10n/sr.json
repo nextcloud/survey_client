@@ -10,7 +10,7 @@
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Детаљи о инстанци сервера <em>(верзија, тип меморијског кеширања који се користи, стање закључавања, претпрегледа, аватара)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Статистике <em>(број: фајлова, корисника, складишта по типу, коментара, ознака)</em>",
     "Help improve Nextcloud" : "Помозите нам побољшамо Некстклауд",
-    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Да ли желите да нам помогнете да побољшамо Некстклауд тако што би сте нам послали анонимне податке о Вашим подешавањима и окружењу? Ово можете искључити сваког тренутка у административним поставкама.",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Да ли желите да нам помогнете да побољшамо Некстклауд тако што бисте нам послали анонимне податке о Вашим подешавањима и окружењу? Ово слање можете искључити сваког тренутка у административним поставкама.",
     "Not now" : "Не сад",
     "Send usage" : "Пошаљи коришћење",
     "Never" : "Никад",
