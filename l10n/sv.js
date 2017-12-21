@@ -1,7 +1,7 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "Användaröversikt",
+    "Usage survey" : "Skicka statistik",
     "Sent on: {on}" : "Sändes: {on}",
     "An error occurred while sending your report." : "Ett fel inträffade när rapporten sändes.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Applista <em>(för varje app: namn, version, aktiveringsstatus)</em>",
