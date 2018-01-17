@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * @author Joas Schilling <coding@schilljs.com>
  *
@@ -22,13 +23,15 @@
 namespace OCA\Survey_Client\Controller;
 
 use OCA\Survey_Client\Collector;
-use OCP\AppFramework\Controller;
-use OCP\AppFramework\Http;
+
+use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\OCSController;
 use OCP\BackgroundJob\IJobList;
 use OCP\IRequest;
 use OCP\Notification\IManager;
+use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 
-class EndpointController extends Controller {
+class EndpointController extends OCSController {
 
 	/** @var Collector */
 	protected $collector;
@@ -46,7 +49,11 @@ class EndpointController extends Controller {
 	 * @param IJobList $jobList
 	 * @param IManager $manager
 	 */
-	public function __construct($appName, IRequest $request, Collector $collector, IJobList $jobList, IManager $manager) {
+	public function __construct(string $appName,
+								IRequest $request,
+								Collector $collector,
+								IJobList $jobList,
+								IManager $manager) {
 		parent::__construct($appName, $request);
 
 		$this->collector = $collector;
@@ -55,35 +62,35 @@ class EndpointController extends Controller {
 	}
 
 	/**
-	 * @return \OC\OCS\Result
+	 * @return DataResponse
 	 */
-	public function enableMonthly() {
-		$this->jobList->add('OCA\Survey_Client\BackgroundJobs\MonthlyReport');
+	public function enableMonthly(): DataResponse {
+		$this->jobList->add(MonthlyReport::class);
 
 		$notification = $this->manager->createNotification();
 		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
-		return new \OC\OCS\Result();
+		return new DataResponse([]);
 	}
 
 	/**
-	 * @return \OC\OCS\Result
+	 * @return DataResponse
 	 */
-	public function disableMonthly() {
-		$this->jobList->remove('OCA\Survey_Client\BackgroundJobs\MonthlyReport');
+	public function disableMonthly(): DataResponse {
+		$this->jobList->remove(MonthlyReport::class);
 
 		$notification = $this->manager->createNotification();
 		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
-		return new \OC\OCS\Result();
+		return new DataResponse([]);
 	}
 
 	/**
-	 * @return \OC\OCS\Result
+	 * @return DataResponse
 	 */
-	public function sendReport() {
+	public function sendReport(): DataResponse {
 		return $this->collector->sendReport();
 	}
 }
