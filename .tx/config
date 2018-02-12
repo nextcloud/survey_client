@@ -4,6 +4,6 @@ lang_map = bg_BG: bg, cs_CZ: cs, fi_FI: fi, hu_HU: hu, nb_NO: nb, sk_SK: sk, th_
 
 [nextcloud.survey_client]
 file_filter = <lang>/survey_client.po
-source_file = templates/survey_client.pot
+source_file = translationfiles/templates/survey_client.pot
 source_lang = en
 type = PO
