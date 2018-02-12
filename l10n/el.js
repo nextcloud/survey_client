@@ -23,7 +23,6 @@ OC.L10N.register(
     "Sent on: %s" : "Στάλθηκε στις: %s",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Λίστα εφαρμογών<em>(Για κάθε εφαρμογή: όνομα, έκδοση, είναι ενεργοποιημένη;)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Λεπτομέρειες διακομιστή <em>(έκδοση, χρήση memcache, locking/previews/avatars ενεργοποιημένα;)</em>",
-    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Μπορείτε να μας βοηθήσετε να βελτιώσουμε το Nextcloud με την αποστολή κάποιων δεδομένων σχετικά με την τρέχουσα εγκατάστασή σας και τη χρήση που κάνετε. ",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Μπορείτε να μας βοηθήσετε να βελτιώσουμε το Nextcloud με την αποστολή κάποιων δεδομένων σχετικά με την τρέχουσα εγκατάστασή σας και τη χρήση που κάνετε. "
 },
 "nplurals=2; plural=(n != 1);");
