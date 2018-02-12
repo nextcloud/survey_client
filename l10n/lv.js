@@ -20,7 +20,6 @@ OC.L10N.register(
     "Last report" : "Pēdējā atskaite",
     "Sent on: %s" : "Nosūtīts: %s",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Aplikāciju saraksts <em> (katrai aplikācijai: nosaukums, versija, iespējota?) </em>",
-    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu tekošajiem iestatījumiem un izmantojamību.",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu tekošajiem iestatījumiem un izmantojamību."
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

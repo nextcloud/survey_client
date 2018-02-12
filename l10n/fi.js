@@ -21,7 +21,6 @@ OC.L10N.register(
     "Sent on: %s" : "Lähetetty: %s",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Sovelluslista <em>(jokaisesta sovelluksesta: nimi, versio, onko käytössä?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Palvelininstanssin ominaisuudet <em>(versio, memcache käytössä, lukitus/esikatselut/avatarit käytössä?)</em>",
-    "You can help us to improve Nextcloud be sending us some data about your current setup and usage." : "Voit auttaa meitä Nextcloudin kehittämisessä lähettämällä meille tietoja nykyisestä asennuksesta ja käytöstä.",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Voit auttaa meitä Nextcloudin kehittämisessä lähettämällä meille tietoja nykyisestä asennuksesta ja käytöstä."
 },
 "nplurals=2; plural=(n != 1);");
