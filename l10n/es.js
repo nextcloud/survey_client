@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Usage survey" : "Encuesta de uso",
     "Sent on: {on}" : "Enviado el {on}",
-    "An error occurred while sending your report." : "Ha ocurrido un error al enviar tu informe.",
+    "An error occurred while sending your report." : "Se ha producido un error al enviar tu informe.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Lista de apps <em>(para cada app: nombre, versión, activa/inactiva)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Entorno de base de datos <em>(tipo, versión, tamaño de la base de datos)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Información de cifrado <em>(¿está activado?, módulo por defecto)</em>",
