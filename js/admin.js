@@ -39,10 +39,10 @@ $(document).ready(function() {
 				$button.attr('disabled', false);
 
 				$section.find('.last_report').text(JSON.stringify(response.ocs.data, undefined, 4));
-				$section.find('.last_sent').text(t('survey_client', 'Sent on: {on}', {
+				$section.find('.last_sent').text(t('survey_client', 'Last report sent on: {on}', {
 					on: moment().format('LL')
 				}));
-				$section.find('.last_report').closest('div').removeClass('hidden');
+				$section.find('.last_report').closest('div').removeClass('empty');
 			},
 			error: function(xhr) {
 				$button.attr('disabled', false);
@@ -52,5 +52,12 @@ $(document).ready(function() {
 				$section.find('.last_report').text(JSON.stringify(response.ocs.data, undefined, 4));
 			}
 		});
+	});
+
+	$('#last_report h3').on('click', function(e) {
+		if (!$(this).parent().hasClass('empty')) {
+			$(this).parent().find('p').toggleClass('hidden');
+			$(this).find('.icon').toggleClass('icon-triangle-s');
+		}
 	});
 });
