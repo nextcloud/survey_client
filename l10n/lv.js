@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Izmantojamības aptauja",
-    "Sent on: {on}" : "Nosūtīts: {on}",
     "An error occurred while sending your report." : "Radās kļūda sūtot Jūsu atskaiti",
     "Database environment <em>(type, version, database size)</em>" : "Datu bāzes vide <em>(tips, versija, datu bāzes izmērs)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Šefrēšanas informācija <em>(iespējota?, kāds ir noklusētais modulis)</em>",
@@ -18,8 +17,9 @@ OC.L10N.register(
     "Send usage survey monthly" : "Sūtīt izmantojamības aptauju ik mēnesi",
     "Data to send" : "Dati sūtīšanai",
     "Last report" : "Pēdējā atskaite",
-    "Sent on: %s" : "Nosūtīts: %s",
+    "Sent on: {on}" : "Nosūtīts: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Aplikāciju saraksts <em> (katrai aplikācijai: nosaukums, versija, iespējota?) </em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu tekošajiem iestatījumiem un izmantojamību."
+    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu tekošajiem iestatījumiem un izmantojamību.",
+    "Sent on: %s" : "Nosūtīts: %s"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);");

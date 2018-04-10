@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Έρευνα χρήσης",
-    "Sent on: {on}" : "Αποστέλλεται σε: {on}",
     "An error occurred while sending your report." : "Παρουσιάστηκε σφάλμα κατά την αποστολή της αναφοράς σας.",
     "Database environment <em>(type, version, database size)</em>" : "Περιβάλλον βάσης δεδομένων <em>(Τύπος, έκδοση, μέγεθος βάσης δεδομένων) </em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Πληροφορίες κρυπτογράφησης <em>(είναι ενεργοποιημένες; , ποιό είναι το προεπιλεγμένο άρθρωμα) </em>",
@@ -20,9 +19,10 @@ OC.L10N.register(
     "Send usage survey monthly" : "Αποστολή έρευνας χρήσης μηνιαία",
     "Data to send" : "Δεδομένα προς αποστολή",
     "Last report" : "Τελευταία αναφορά",
-    "Sent on: %s" : "Στάλθηκε στις: %s",
+    "Sent on: {on}" : "Αποστέλλεται σε: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Λίστα εφαρμογών<em>(Για κάθε εφαρμογή: όνομα, έκδοση, είναι ενεργοποιημένη;)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Λεπτομέρειες διακομιστή <em>(έκδοση, χρήση memcache, locking/previews/avatars ενεργοποιημένα;)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Μπορείτε να μας βοηθήσετε να βελτιώσουμε το Nextcloud με την αποστολή κάποιων δεδομένων σχετικά με την τρέχουσα εγκατάστασή σας και τη χρήση που κάνετε. "
+    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Μπορείτε να μας βοηθήσετε να βελτιώσουμε το Nextcloud με την αποστολή κάποιων δεδομένων σχετικά με την τρέχουσα εγκατάστασή σας και τη χρήση που κάνετε. ",
+    "Sent on: %s" : "Στάλθηκε στις: %s"
 },
 "nplurals=2; plural=(n != 1);");

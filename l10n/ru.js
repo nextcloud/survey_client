@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Обзор использования",
-    "Sent on: {on}" : "Отправлено: {on}",
     "An error occurred while sending your report." : "При отправке вашего отчёта произошла ошибка.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Список приложений <em>(для каждого из приложений: его название, версия, включено или нет)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Информация о БД <em>(тип, версия, размер)</em>",
@@ -22,10 +21,11 @@ OC.L10N.register(
     "Send usage survey monthly" : "Отправлять информацию об использовании ежемесячно",
     "Data to send" : "Данные для отправки",
     "Last report" : "Последний отчёт",
-    "Sent on: %s" : "Отправлен: %s",
+    "Sent on: {on}" : "Отправлено: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Список приложений <em>(для каждого из приложений: его название, версия, включено или нет)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Подробности установки сервера <em>(версия, использование memcache, использование блокировок/пред.просмотра/аватаров)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Предоставляя обезличенную информацию о своих настройках и статистике использования, Вы помогаете нам улучшить Nextcloud. ",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Мы серьёзно относимся к соблюдению конфиденциальности. Данные обезличенны, вы можете включить / отключить их передачу в любое время, по умолчанию передача всегда отключена. Ниже можно настроить, какие именно данные будут отправляться, и всегда видеть последний отправленный нам отчёт. Когда сервер получает новый отчёт, все записи предыдущих отчётов удаляются. Если вы отключите один из приведённых ниже параметров, вы можете отправить новый отчёт, который удалит данные, хранящиеся на нашем сервере."
+    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Мы серьёзно относимся к соблюдению конфиденциальности. Данные обезличенны, вы можете включить / отключить их передачу в любое время, по умолчанию передача всегда отключена. Ниже можно настроить, какие именно данные будут отправляться, и всегда видеть последний отправленный нам отчёт. Когда сервер получает новый отчёт, все записи предыдущих отчётов удаляются. Если вы отключите один из приведённых ниже параметров, вы можете отправить новый отчёт, который удалит данные, хранящиеся на нашем сервере.",
+    "Sent on: %s" : "Отправлен: %s"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");
