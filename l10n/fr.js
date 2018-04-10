@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Statistiques d'utilisation",
-    "Sent on: {on}" : "Envoyé le : {on}",
     "An error occurred while sending your report." : "Une erreur est survenue lors de l’envoi des statistiques.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Liste des applications <em>(pour chaque application : nom, version, statut)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Environnement de la base de données <em>(type, version, taille de la base de données)</em>",
@@ -22,10 +21,11 @@ OC.L10N.register(
     "Send usage survey monthly" : "Envoyer les statistiques chaque mois",
     "Data to send" : "Données à envoyer",
     "Last report" : "Dernier envoi",
-    "Sent on: %s" : "Envoyé le : %s",
+    "Sent on: {on}" : "Envoyé le : {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Liste des applications <em>(pour chaque application : nom, version, est activée ?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Détails sur l'instance du serveur <em>(version, cache mémoire utilisé, verrouillage/aperçus/avatars activés ?)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Vous pouvez nous aider à améliorer Nextcloud en nous envoyant des statistiques sur votre configuration et votre utilisation.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Nous prenons votre vie privée au sérieux. Les données sont rendues anonymes et vous pouvez l'activer/désactiver à n'importe quel moment, par défaut il est toujours désactivé. Ci-dessous vous pouvez aussi choisir quel type de données nous est envoyés et vous pouvez toujours voir le dernier rapport qui nous a été envoyé. Quand le serveur reçoit un nouveau rapport de votre instance, toutes les entrées du précédent rapport sont supprimées. Si vous désactivez un des paramètres ci-dessous, vous pouvez envoyer un nouveau rapport, ce qui supprimera les données qui sont actuellement stockées sur le serveur."
+    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Nous prenons votre vie privée au sérieux. Les données sont rendues anonymes et vous pouvez l'activer/désactiver à n'importe quel moment, par défaut il est toujours désactivé. Ci-dessous vous pouvez aussi choisir quel type de données nous est envoyés et vous pouvez toujours voir le dernier rapport qui nous a été envoyé. Quand le serveur reçoit un nouveau rapport de votre instance, toutes les entrées du précédent rapport sont supprimées. Si vous désactivez un des paramètres ci-dessous, vous pouvez envoyer un nouveau rapport, ce qui supprimera les données qui sont actuellement stockées sur le serveur.",
+    "Sent on: %s" : "Envoyé le : %s"
 },
 "nplurals=2; plural=(n > 1);");

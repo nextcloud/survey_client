@@ -1,6 +1,5 @@
 { "translations": {
     "Usage survey" : "แบบสำรวจการใช้งาน",
-    "Sent on: {on}" : "ส่งเมื่อ: {เมื่อ}",
     "An error occurred while sending your report." : "เกิดข้อผิดพลาดขณะส่งรายงาน",
     "Database environment <em>(type, version, database size)</em>" : "สภาพแวดล้อมของฐานข้อมูล<em>(ประเภท, รุ่น, ขนาด)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "การเข้ารหัสข้อมูล <em>(ใช้งานหรือไม่? โมดูลปกติคืออะไร)</em>",
@@ -16,10 +15,11 @@
     "Send usage survey monthly" : "ส่งแบบสำรวจการใช้งานทุกเดือน",
     "Data to send" : "ข้อมูลที่ส่ง",
     "Last report" : "รายงานล่าสุด",
-    "Sent on: %s" : "ส่งเมื่อ: %s",
+    "Sent on: {on}" : "ส่งเมื่อ: {เมื่อ}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "รายการ แอพ <em>(แต่ละแอพ: ชื่อ, รุ่น, ใช้งานได้หรือไม่)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "ข้อมูลเกี่ยวกับ SERVER <em>(รุ่น, การใช้แคช, ล๊อค/ดูตัวอย่าง/ภาพโปรไฟล์ เปิดหรือไม่)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "ร่วมพัฒนา NextCloud ด้วยการส่งข้อมูลเกี่ยวกับการติดตั้ง และการใช้งานของคุณ",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "เราให้ความสำคัญกับข้อมูลส่วนบุคคลของคุณ ข้อมูลจะไม่ถูกระบุชื่อ คุณสามารถเปิด / ปิด ได้ทุกเมื่อ ปกติจะปิดใช้งาน ด้านล่างนี้คุณสามารถปรับประเภทของข้อมูลที่จะส่ง และจะแสดงข้อมูลล่าสุดก่อนส่ง เมื่อเซิร์ฟเวอร์ได้รับข้อมูลใหม่ของคุณ ข้อมูลเก่าจะถูกลบออกทั้งหมด ในกรณีที่คุณปิดการใช้งานการตั้งค่าด้านล่างนี้คุณสามารถส่งรายงานใหม่ และลบข้อมูลที่เก็บอยู่ในเซิร์ฟเวอร์"
+    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "เราให้ความสำคัญกับข้อมูลส่วนบุคคลของคุณ ข้อมูลจะไม่ถูกระบุชื่อ คุณสามารถเปิด / ปิด ได้ทุกเมื่อ ปกติจะปิดใช้งาน ด้านล่างนี้คุณสามารถปรับประเภทของข้อมูลที่จะส่ง และจะแสดงข้อมูลล่าสุดก่อนส่ง เมื่อเซิร์ฟเวอร์ได้รับข้อมูลใหม่ของคุณ ข้อมูลเก่าจะถูกลบออกทั้งหมด ในกรณีที่คุณปิดการใช้งานการตั้งค่าด้านล่างนี้คุณสามารถส่งรายงานใหม่ และลบข้อมูลที่เก็บอยู่ในเซิร์ฟเวอร์",
+    "Sent on: %s" : "ส่งเมื่อ: %s"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

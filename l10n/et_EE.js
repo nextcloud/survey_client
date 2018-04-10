@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Kasutuse uuring",
-    "Sent on: {on}" : "Saadetud: {on}",
     "An error occurred while sending your report." : "Raporti saatmisel tekkis viga.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Rakenduste nimekiri <em>(iga rakenduse kohta: nimi, versioon, olek)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Andmebaasikeskkond <em>(tüüp, versioon, suurus)</em>",
@@ -21,8 +20,9 @@ OC.L10N.register(
     "Send usage survey monthly" : "Saada kasutuse raport igakuiselt",
     "Data to send" : "Andmed, mida saata",
     "Last report" : "Viimane raport",
-    "Sent on: %s" : "Saadetud: %s",
+    "Sent on: {on}" : "Saadetud: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Rakenduste nimekiri <em>(iga rakenduse kohta: nimi, versioon, kas on sisse lülitatud?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Serveri instantsi üksikasjad <em>(versioon, memcache kasutamine, lukustamine/eelvaated/avatarid sisse lülitatud?)</em>"
+    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Serveri instantsi üksikasjad <em>(versioon, memcache kasutamine, lukustamine/eelvaated/avatarid sisse lülitatud?)</em>",
+    "Sent on: %s" : "Saadetud: %s"
 },
 "nplurals=2; plural=(n != 1);");
