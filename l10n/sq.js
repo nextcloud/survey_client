@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Sondazh përdorimi",
-    "Sent on: {on}" : "Dërguar në: {on}",
     "An error occurred while sending your report." : "U has një problem gjatë dërgimit te raportit tuaj.",
     "Database environment <em>(type, version, database size)</em>" : "Mjedisi i databazës <em> (lloji versioni, madhësia e databazës) </em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informacioni i inkriptimit <em> (është i aktivizuar?, cili është moduli i paracaktuar) </em>",
@@ -19,10 +18,11 @@ OC.L10N.register(
     "Send usage survey monthly" : "Dërgo pyetësorin e përdorimit mujor",
     "Data to send" : "Të dhëna për të dërguar",
     "Last report" : "Raporti i fundit",
-    "Sent on: %s" : "Dërguar tek: %s",
+    "Sent on: {on}" : "Dërguar në: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Lista Aplikacion <em> (për çdo aplikacion: emër, versioni, është i aktivizuar?) </em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Detajet e shembullit të serverit  (versioni, memcache e përdorur, aktivizim i kyçjes/shikimit paraprak/avatarëve ?) <em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Ju mund të na ndihmoni të përmirësojmë Nextcloud duke na dërguar disa të dhëna mbi organizimin dhe përdorimin tuaj aktual.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Ne e marrim seriozisht privatësinë tuaj. Të dhënat janë anonime dhe ju mund ta aktivizoni/çaktivizoni atë në çdo kohë, sipas parazgjedhkes ajo është gjithmonë e çaktivizuar. Më poshtë mund të përshtatni gjithashtu se çfarë lloj të dhënash dërgohen dhe gjithmonë të shihni raportin e fundit të dërguar tek ne. Kur serveri merr një raport të ri të instancës suaj, të gjitha shënimet nga raportet e mëparshme janë hequr. Në rast se e çaktivizon një nga cilësimet më poshtë, mund të dërgoni një raport të ri, për të fshirë të dhënat, që aktualisht ruhen në server."
+    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Ne e marrim seriozisht privatësinë tuaj. Të dhënat janë anonime dhe ju mund ta aktivizoni/çaktivizoni atë në çdo kohë, sipas parazgjedhkes ajo është gjithmonë e çaktivizuar. Më poshtë mund të përshtatni gjithashtu se çfarë lloj të dhënash dërgohen dhe gjithmonë të shihni raportin e fundit të dërguar tek ne. Kur serveri merr një raport të ri të instancës suaj, të gjitha shënimet nga raportet e mëparshme janë hequr. Në rast se e çaktivizon një nga cilësimet më poshtë, mund të dërgoni një raport të ri, për të fshirë të dhënat, që aktualisht ruhen në server.",
+    "Sent on: %s" : "Dërguar tek: %s"
 },
 "nplurals=2; plural=(n != 1);");

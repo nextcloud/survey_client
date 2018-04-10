@@ -1,6 +1,5 @@
 { "translations": {
     "Usage survey" : "Käyttötutkimus",
-    "Sent on: {on}" : "Lähetetty: {on}",
     "An error occurred while sending your report." : "Tapahtui virhe lähetettäessä raporttia.",
     "Database environment <em>(type, version, database size)</em>" : "Tietokantaympäristö <em>(tyyppi, versio, tietokannan koko)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Jakojen määrä <em>(tyyppi ja käyttöoikeusasetukset)</em>",
@@ -16,9 +15,10 @@
     "Send usage survey monthly" : "Lähetä käyttötutkimusraportti kuukausittain",
     "Data to send" : "Lähetettävät tiedot",
     "Last report" : "Edellinen raportti",
-    "Sent on: %s" : "Lähetetty: %s",
+    "Sent on: {on}" : "Lähetetty: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Sovelluslista <em>(jokaisesta sovelluksesta: nimi, versio, onko käytössä?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Palvelininstanssin ominaisuudet <em>(versio, memcache käytössä, lukitus/esikatselut/avatarit käytössä?)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Voit auttaa meitä Nextcloudin kehittämisessä lähettämällä meille tietoja nykyisestä asennuksesta ja käytöstä."
+    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Voit auttaa meitä Nextcloudin kehittämisessä lähettämällä meille tietoja nykyisestä asennuksesta ja käytöstä.",
+    "Sent on: %s" : "Lähetetty: %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

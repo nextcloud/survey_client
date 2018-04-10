@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Gebruikersonderzoek",
-    "Sent on: {on}" : "Verstuurd op: {on}",
     "An error occurred while sending your report." : "Er trad een fout op bij het versturen van je rapport",
     "App list <em>(for each app: name, version, enabled status)</em>" : "App lijst <em>(voor elke app: naam, versie, ingeschakeld?)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Database omgeving<em>(type, versie, database omvang)</em>",
@@ -22,10 +21,11 @@ OC.L10N.register(
     "Send usage survey monthly" : "Verstuur maandelijks gebruiksrapport",
     "Data to send" : "Te versturen gegevens",
     "Last report" : "Laatste rapport",
-    "Sent on: %s" : "Verstuurd op: %s",
+    "Sent on: {on}" : "Verstuurd op: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "App lijst <em>(voor elke app: naam, versie, ingeschakeld?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Server details <em>(versie, memcache gebruikt, locking/previews/avatars ingeschakeld?)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Je kunt ons helpen Nextcloud te verbeteren door gegevens over je huidige installatie en gebruik te versturen.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "We nemen je privacy serieus. De gegevens zijn geanonimiseerd en je kunt het op elk gewenst moment in- of uitschakelen. Standaard is het altijd uitgeschakeld. Hieronder kun je de type data aanpassen en het laatste rapport bekijken dat aan ons is gestuurd. Als je één van de onderstaande instellingen uitschakelt, kun je een nieuw rapport versturen. De gegevens die we eerder van je server hebben ontvangen, worden dan overschreven."
+    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "We nemen je privacy serieus. De gegevens zijn geanonimiseerd en je kunt het op elk gewenst moment in- of uitschakelen. Standaard is het altijd uitgeschakeld. Hieronder kun je de type data aanpassen en het laatste rapport bekijken dat aan ons is gestuurd. Als je één van de onderstaande instellingen uitschakelt, kun je een nieuw rapport versturen. De gegevens die we eerder van je server hebben ontvangen, worden dan overschreven.",
+    "Sent on: %s" : "Verstuurd op: %s"
 },
 "nplurals=2; plural=(n != 1);");

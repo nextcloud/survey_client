@@ -2,7 +2,6 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "使用状況レポート",
-    "Sent on: {on}" : "送信オン: {on}",
     "An error occurred while sending your report." : "レポート送信中にエラーになりました",
     "Database environment <em>(type, version, database size)</em>" : "データベース環境 <em>(タイプ, バージョン, データベース容量)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "暗号化情報 <em>(有効にしているか, デフォルトモジュールは何か)</em>",
@@ -20,10 +19,11 @@ OC.L10N.register(
     "Send usage survey monthly" : "使用状況レポートを毎月送信",
     "Data to send" : "送信データ",
     "Last report" : "新しいレポート",
-    "Sent on: %s" : "送信オン: %s",
+    "Sent on: {on}" : "送信オン: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "アプリリスト <em>(アプリ毎: 名前, バージョン, 有効か無効か)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "サーバー設定状況 <em>(バージョン, memcache の利用, locking/previews/avatars の利用の有無)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Nextcloud の改良に役立てるために設定環境と使用状況データを提供する",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "プライバシー情報について慎重に取り扱います。データ匿名化され、いつでも有効/無効を切り替えられます、デフォルトでは送信されません。どのデータを送信するか選択することができますし、どの情報を最新のレポートで送信したかいつでも見ることができます。新しいレポートをサーバーが受け取ったら、あなたのサーバーの全ての古いレポートを削除します。また、下記の設定で無効にしたものがあれば、新しいレポートを送信して今あるサーバー上の全てのデータを削除することができます。"
+    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "プライバシー情報について慎重に取り扱います。データ匿名化され、いつでも有効/無効を切り替えられます、デフォルトでは送信されません。どのデータを送信するか選択することができますし、どの情報を最新のレポートで送信したかいつでも見ることができます。新しいレポートをサーバーが受け取ったら、あなたのサーバーの全ての古いレポートを削除します。また、下記の設定で無効にしたものがあれば、新しいレポートを送信して今あるサーバー上の全てのデータを削除することができます。",
+    "Sent on: %s" : "送信オン: %s"
 },
 "nplurals=1; plural=0;");
