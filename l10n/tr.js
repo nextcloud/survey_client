@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Kullanım anketi",
+    "Last report sent on: {on}" : "Son rapor gönderimi: {on}",
     "An error occurred while sending your report." : "Raporunuz gönderilirken bir sorun çıktı.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Uygulama listesi <em>(her uygulama için, ad, sürüm, etkinlik durumu)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Veritabanı ortamı <em>(tür, sürüm, veritabanı boyutu)</em>",
@@ -20,6 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Bilgileri şimdi gönder",
     "Send usage survey monthly" : "Kullanım bilgileri aylık olarak gönderilsin",
     "Data to send" : "Gönderilecek veriler",
+    "Last report sent on: %s" : "Son rapor gönderimi: %s",
     "Last report" : "Son rapor",
     "Sent on: {on}" : "Gönderilme: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Uygulama listesi <em>(her uygulama için, ad, sürüm, etkin?)</em>",
