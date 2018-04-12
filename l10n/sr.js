@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Испитивање о коришћењу",
+    "Last report sent on: {on}" : "Последњи извештај послат: {on}",
     "An error occurred while sending your report." : "Грешка приликом слања извештаја.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Листа апликација <em>(за сваку апликацију: име, верзија и да ли је укључена)</em>",
     "Database environment <em>(type, version, database size)</em>" : "База <em>(тип, верзија, величина базе)</em>",
@@ -20,6 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Пошаљите извештај сада",
     "Send usage survey monthly" : "Пошаљите извештај о коришћењу на месечном нивоу",
     "Data to send" : "Подаци за слање",
+    "Last report sent on: %s" : "Последњи извештај послат: %s",
     "Last report" : "Последњи извештај",
     "Sent on: {on}" : "Послато на: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Листа апликација <em>(за сваку апликацију: име, верзија, да ли је укључена?)</em>",

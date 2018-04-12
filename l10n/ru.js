@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Обзор использования",
+    "Last report sent on: {on}" : "Последний отчёт отправлен: {on}",
     "An error occurred while sending your report." : "При отправке вашего отчёта произошла ошибка.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Список приложений <em>(для каждого из приложений: его название, версия, включено или нет)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Информация о БД <em>(тип, версия, размер)</em>",
@@ -20,6 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Отправить отчёт сейчас",
     "Send usage survey monthly" : "Отправлять информацию об использовании ежемесячно",
     "Data to send" : "Данные для отправки",
+    "Last report sent on: %s" : "Последний отчёт отправлен: %s",
     "Last report" : "Последний отчёт",
     "Sent on: {on}" : "Отправлено: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Список приложений <em>(для каждого из приложений: его название, версия, включено или нет)</em>",
