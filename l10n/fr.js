@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Statistiques d'utilisation",
+    "Last report sent on: {on}" : "Dernier rapport envoyé le : {on}",
     "An error occurred while sending your report." : "Une erreur est survenue lors de l’envoi des statistiques.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Liste des applications <em>(pour chaque application : nom, version, statut)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Environnement de la base de données <em>(type, version, taille de la base de données)</em>",
@@ -20,6 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Envoyer les statistiques maintenant",
     "Send usage survey monthly" : "Envoyer les statistiques chaque mois",
     "Data to send" : "Données à envoyer",
+    "Last report sent on: %s" : "Dernier rapport envoyé le : %s",
     "Last report" : "Dernier envoi",
     "Sent on: {on}" : "Envoyé le : {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Liste des applications <em>(pour chaque application : nom, version, est activée ?)</em>",

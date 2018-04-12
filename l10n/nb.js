@@ -20,6 +20,7 @@ OC.L10N.register(
     "Send new report now" : "Send ny rapport nå",
     "Send usage survey monthly" : "Send bruksspørreundersøkelse månedlig ",
     "Data to send" : "Data å sende",
+    "Last report sent on: %s" : "Siste rapport sendt: %s",
     "Last report" : "Siste rapport",
     "Sent on: {on}" : "Sendt den: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Programliste <em>(Status for hvert program: Navn, versjon)</em>",
