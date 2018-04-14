@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Bruksspørreskjema",
+    "Last report sent on: {on}" : "Siste rapport sendt: {on}",
     "An error occurred while sending your report." : "Feil under forsendelse av din rapport.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Programliste <em>(for hvert program: navn, versjon, påslått status)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Database-miljø <em>(type, versjon, databasestørrelse)</em>",
