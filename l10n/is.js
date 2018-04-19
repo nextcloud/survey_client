@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Könnun á notkun",
+    "Last report sent on: {on}" : "Síðasta skýrsla send þann: {on}",
     "An error occurred while sending your report." : "Villa kom upp við að senda skýrsluna þína.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Forritalisti <em>(fyrir hvert forrit: nafn, útgáfa, staða virkni)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Gagnagrunnsumhverfi <em>(tegund, útgáfa, stærð gagnagrunns)</em>",
@@ -20,6 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Senda nýja skýrslu núna",
     "Send usage survey monthly" : "Senda mánaðarlega könnun á notkun",
     "Data to send" : "Gögn til sendingar",
+    "Last report sent on: %s" : "Síðasta skýrsla send þann: %s",
     "Last report" : "Síðasta skýrsla",
     "Sent on: {on}" : "Sent þann: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Forritalisti <em>(fyrir hvert forrit: nafn, útgáfa, er virkjað?)</em>",
