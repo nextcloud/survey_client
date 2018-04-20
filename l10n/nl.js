@@ -21,6 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Verstuur nu een nieuw rapport",
     "Send usage survey monthly" : "Verstuur maandelijks gebruiksrapport",
     "Data to send" : "Te versturen gegevens",
+    "Last report sent on: %s" : "Laatste reportage verstuurd op %s",
     "Last report" : "Laatste rapport",
     "Sent on: {on}" : "Verstuurd op: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "App lijst <em>(voor elke app: naam, versie, ingeschakeld?)</em>",
