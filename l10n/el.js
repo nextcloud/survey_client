@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Έρευνα χρήσης",
+    "Last report sent on: {on}" : "Η τελευταία αναφορά στάλθηκε στις: {on}",
     "An error occurred while sending your report." : "Παρουσιάστηκε σφάλμα κατά την αποστολή της αναφοράς σας.",
     "Database environment <em>(type, version, database size)</em>" : "Περιβάλλον βάσης δεδομένων <em>(Τύπος, έκδοση, μέγεθος βάσης δεδομένων) </em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Πληροφορίες κρυπτογράφησης <em>(είναι ενεργοποιημένες; , ποιό είναι το προεπιλεγμένο άρθρωμα) </em>",
