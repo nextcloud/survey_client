@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Käyttötutkimus",
+    "Last report sent on: {on}" : "Viimeisin raportti lähetetty: {on}",
     "An error occurred while sending your report." : "Tapahtui virhe lähetettäessä raporttia.",
     "Database environment <em>(type, version, database size)</em>" : "Tietokantaympäristö <em>(tyyppi, versio, tietokannan koko)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Jakojen määrä <em>(tyyppi ja käyttöoikeusasetukset)</em>",
@@ -16,6 +17,7 @@ OC.L10N.register(
     "Send new report now" : "Lähetä uusi raportti nyt",
     "Send usage survey monthly" : "Lähetä käyttötutkimusraportti kuukausittain",
     "Data to send" : "Lähetettävät tiedot",
+    "Last report sent on: %s" : "Viimeisin raportti lähetetty: %s",
     "Last report" : "Edellinen raportti",
     "Sent on: {on}" : "Lähetetty: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Sovelluslista <em>(jokaisesta sovelluksesta: nimi, versio, onko käytössä?)</em>",
