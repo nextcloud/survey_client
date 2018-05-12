@@ -9,7 +9,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Nombre d'accions<em> (per tipus i configuració de permisos)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Entorn PHP <em>(versió, límit de memòria, temps d'execució màxim, mida del fitxer màxim)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalls del servidor<em> (versió, memcached utilitzada, estat del bloqueig / anterior / avatars)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Estadística <em>(nombre de: fitxers, usuaris, emmagatzemaments per tipus, comentaris i etiquetes)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Estadística <em>(nombre de: fitxers, usuaris, emmagatzematge per tipus, comentaris i etiquetes)</em>",
     "Help improve Nextcloud" : "Ajudeu a millorar Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Voleu ajudar-nos a millorar Nextcloud proporcionant dades anònimes sobre la vostra configuració i ús? Podeu desactivar-lo de nou en qualsevol moment a la configuració de l'administrador.",
     "Not now" : "Ara no",
