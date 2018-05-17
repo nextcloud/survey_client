@@ -9,4 +9,4 @@ OC.L10N.register(
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Môžete nám pomôcť vylepšiť Nextcloud odoslaním dát o vašej inštalácii a o používaní.",
     "Sent on: %s" : "Odoslané: %s"
 },
-"nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;");
+"nplurals=4; plural=(n % 1 == 0 ? 4: n==1 ? 1: n % 1 == 0 && n>=2 && n<=4 ? 3);");
