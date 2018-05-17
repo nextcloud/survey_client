@@ -28,4 +28,4 @@ OC.L10N.register(
     "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "თქვენს კონფიდენციალურობას სერიოზულად ვუდგებით. მონაცემები იგზავნება ანონიმურად, ამის გადაყენება ნებისმიერ დროს შეგიძლიათ, საწყისად ეს გათიშულია. ქვემოთ ასევე შეგიძლიათ გაუკეთოთ რეგულირება თუ რა სახის მონაცემი გამოგვეგზავნება და იხილოთ ბოლო გამოგზავნილი რეპორტი. როდესაც სერვერი მიიღებთს ახალ რეპორტს, წინა რეპორტში ყველა შენატანი უქმდება. ქვემოთ ჩამოთვლილ პარამეტრებიდან ერთ-ერთის გათიშვისას შეძლებთ რეპორტის გამოგზავნას, რაც ამ სერვერზე ამ მომენტისთვის არსებულ მონაცემებს გააუქმებს.",
     "Sent on: %s" : "გაიგზავნა: %s"
 },
-"nplurals=1; plural=0;");
+"nplurals=2; plural=(n==1);");
