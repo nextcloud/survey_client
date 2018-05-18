@@ -11,4 +11,4 @@ OC.L10N.register(
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Padėkite mums tobulinti Nextcloud, siųsdami mums kai kuriuos duomenis apie savo esamą sąranką bei naudojimą.",
     "Sent on: %s" : "Išsiųstas: %s"
 },
-"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 1 : (n%10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 3 : n % 1 != 0 ? 4);");
+"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");
