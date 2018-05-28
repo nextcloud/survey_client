@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Průzkum používání",
+    "Last report sent on: {on}" : "Poslední hlášení odesláno: {on}",
     "An error occurred while sending your report." : "Při odesílání sestavy došlo k chybě.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Seznam aplikací <em>(pro každou aplikaci: název, verze, povolený stav)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Databázové prostředí <em>(typ, verze, velikost databáze)</em>",
