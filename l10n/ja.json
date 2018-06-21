@@ -1,6 +1,6 @@
 { "translations": {
     "Usage survey" : "使用状況レポート",
-    "An error occurred while sending your report." : "レポート送信中にエラーになりました",
+    "An error occurred while sending your report." : "レポート送信中にエラーが発生しました。",
     "App list <em>(for each app: name, version, enabled status)</em>" : "アプリ一覧 <em>(各アプリ: 名前、バージョン、有効か無効か)</em>",
     "Database environment <em>(type, version, database size)</em>" : "データベース環境 <em>(種類、バージョン、データベースサイズ)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "暗号化情報 <em>(有効かどうか、デフォルトモジュールの種類)</em>",
