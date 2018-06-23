@@ -16,6 +16,8 @@ OC.L10N.register(
     "Not now" : "Nicht jetzt",
     "Send usage" : "Nutzung senden",
     "Never" : "niemals",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sendet anonymisierte Daten an Nextcloud, damit wir Nextcloud noch besser machen können.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Sendet anonymisierte Daten an Nextcloud, damit wir Nextcloud noch besser machen können. Sie\n          haben jederzeit volle Kontrolle über die an Nextcloud gesendeten Daten.\n         Jederzeit abschaltbar.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kannst uns helfen Nextcloud zu verbessern. Sende uns Daten von Deinen Einstellungen und Nutzung.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Wir nehmen Deinen Datenschutz sehr ernst. Das Senden der Daten ist standardmäßig deaktiviert. Wenn Du das Senden aktivierst, so sind Deine Daten anonymisiert und Du entscheidest welche Informationen Du uns sendest. Sobald Du uns einen Bericht sendest, wird der vorherige Bericht gelöscht. Sende uns einen leeren Bericht um all Deine Informationen auf unseren Servern zu löschen.",
     "Send new report now" : "Neuen Bericht jetzt senden",
