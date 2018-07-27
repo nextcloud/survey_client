@@ -22,6 +22,7 @@ OC.L10N.register(
     "Send new report now" : "Odeslat nový přehled hned",
     "Send usage survey monthly" : "Odeslat přehled o používání měsíčně",
     "Data to send" : "Data k odeslání",
+    "Last report sent on: %s" : "Poslední hlášení odesláno: %s",
     "Last report" : "Poslední přehled",
     "Sent on: {on}" : "Odesláno: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Seznam aplikací <em>(pro každou aplikaci: název, verze, je povolena?)</em>",
