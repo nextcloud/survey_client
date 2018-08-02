@@ -12,6 +12,7 @@
     <licence>agpl</licence>
     <author>Joas Schilling, Björn Schiessle</author>
     <namespace>Survey_Client</namespace>
+    <default_enable/>
     <category>tools</category>
     <website>https://github.com/nextcloud/survey_client</website>
     <bugs>https://github.com/nextcloud/survey_client/issues</bugs>
