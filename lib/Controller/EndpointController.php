@@ -71,7 +71,7 @@ class EndpointController extends OCSController {
 		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
-		return new DataResponse([]);
+		return new DataResponse();
 	}
 
 	/**
@@ -84,7 +84,7 @@ class EndpointController extends OCSController {
 		$notification->setApp('survey_client');
 		$this->manager->markProcessed($notification);
 
-		return new DataResponse([]);
+		return new DataResponse();
 	}
 
 	/**
