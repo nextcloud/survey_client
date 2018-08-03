@@ -19,28 +19,10 @@
  *
  */
 
-$application = new \OCA\Survey_Client\AppInfo\Application();
-
-\OCP\API::register(
-	'post',
-	'/apps/survey_client/api/v1/report',
-	[$application->getContainer()->query('EndpointController'), 'sendReport'],
-	'survey_client',
-	\OCP\API::ADMIN_AUTH
-);
-
-\OCP\API::register(
-	'post',
-	'/apps/survey_client/api/v1/monthly',
-	[$application->getContainer()->query('EndpointController'), 'enableMonthly'],
-	'survey_client',
-	\OCP\API::ADMIN_AUTH
-);
-
-\OCP\API::register(
-	'delete',
-	'/apps/survey_client/api/v1/monthly',
-	[$application->getContainer()->query('EndpointController'), 'disableMonthly'],
-	'survey_client',
-	\OCP\API::ADMIN_AUTH
-);
+return [
+	'ocs' => [
+		['name' => 'Endpoint#sendReport', 'url' => '/api/v1/report', 'verb' => 'POST'],
+		['name' => 'Endpoint#enableMonthly', 'url' => '/api/v1/monthly', 'verb' => 'POST'],
+		['name' => 'Endpoint#disableMonthly', 'url' => '/api/v1/monthly', 'verb' => 'DELETE'],
+	],
+];
