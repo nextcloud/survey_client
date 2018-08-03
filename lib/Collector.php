@@ -31,6 +31,7 @@ use OCA\Survey_Client\Categories\Php;
 use OCA\Survey_Client\Categories\Server;
 use OCA\Survey_Client\Categories\Stats;
 use OCP\AppFramework\Http;
+use OCP\AppFramework\Http\DataResponse;
 use OCP\Http\Client\IClientService;
 use OCP\IConfig;
 use OCP\IDBConnection;
@@ -151,9 +152,9 @@ class Collector {
 	}
 
 	/**
-	 * @return \OC\OCS\Result
+	 * @return DataResponse
 	 */
-	public function sendReport() {
+	public function sendReport(): DataResponse {
 		$report = $this->getReport();
 
 		$client = $this->clientService->newClient();
@@ -166,7 +167,7 @@ class Collector {
 				],
 			]);
 		} catch (\Exception $e) {
-			return new \OC\OCS\Result(
+			return new DataResponse(
 				$report,
 				Http::STATUS_INTERNAL_SERVER_ERROR
 			);
@@ -175,13 +176,12 @@ class Collector {
 		if ($response->getStatusCode() === Http::STATUS_OK) {
 			$this->config->setAppValue('survey_client', 'last_sent', time());
 			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
-			return new \OC\OCS\Result(
-				$report,
-				100// HTTP::STATUS_OK, TODO: <status>failure</status><statuscode>200</statuscode>
+			return new DataResponse(
+				$report
 			);
 		}
 
-		return new \OC\OCS\Result(
+		return new DataResponse(
 			$report,
 			Http::STATUS_INTERNAL_SERVER_ERROR
 		);
