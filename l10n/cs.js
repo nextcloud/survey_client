@@ -10,7 +10,6 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Počet sdílení <em>(podle typu a nastavení oprávnění)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP prostředí <em>(verze, limit paměti, max. doba provedení, max. velikost souboru)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Podrobnosti o instanci serveru <em>(verze, použití memcache, stav blokování /náhledů/avatarů)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(počet: souborů, uživatelů, uložišť podle typu, komentářů a značek)</em>",
     "Help improve Nextcloud" : "Pomozte zlepšit Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Chcete nám pomoci zlepšit aplikaci Nextcloud poskytnutím některých anonymních údajů o vašem nastavení a použití? Můžete vše znovu kdykoli vypnout v nastavení administrace.",
     "Not now" : "Teď ne",
@@ -27,6 +26,7 @@ OC.L10N.register(
     "Sent on: {on}" : "Odesláno: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Seznam aplikací <em>(pro každou aplikaci: název, verze, je povolena?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Podrobnosti instance serveru <em>(verze, použití memcache, blokování/náhledy/avatary jsou povoleny?)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(počet: souborů, uživatelů, uložišť podle typu, komentářů a značek)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Můžete nám pomoci zlepšit Nextcloud tím, že nám pošlete nějaké údaje o vašem aktuálním nastavení a použití.",
     "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Vaše soukromí breme vážně. Data jsou anonymní a můžete je kdykoli povolit / zskázat, ve výchozím nastavení jsou vždy zakázána. Níže můžete také nastavit, jaký druh dat je odeslán a vždy vidět poslední zprávu, která nám byla zaslána. Když server obdrží nový přehled vaší instance, budou odebrány všechny položky z předchozích zpráv. Pokud zakážete některá z níže uvedených nastavení, můžete odeslat nový přehled, který odstraní data, která jsou aktuálně uložena na serveru.",
     "Sent on: %s" : "Odeslán: %s"

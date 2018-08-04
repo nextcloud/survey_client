@@ -5,7 +5,6 @@
     "Database environment <em>(type, version, database size)</em>" : "Tietokantaympäristö <em>(tyyppi, versio, tietokannan koko)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Jakojen määrä <em>(tyyppi ja käyttöoikeusasetukset)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-ympäristö <em>(versio, muistin raja, maks. suoritusaika, maks. tiedostokoko)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Tilastotieto <em>(tiedostojen, käyttäjien, muistien, komenttien ja tunnisteiden määrä)</em>",
     "Help improve Nextcloud" : "Auta parantamaan Nextcloudia",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Haluatko auttaa meitä Nextcloudin kehittämisessä lähettämällä anonyymiä tietoa asetuksistasi ja käytöstäsi? Voit estää tietojen lähettämisen koska tahansa ylläpitoasetuksissa.",
     "Not now" : "Ei nyt",
@@ -20,6 +19,7 @@
     "Sent on: {on}" : "Lähetetty: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Sovelluslista <em>(jokaisesta sovelluksesta: nimi, versio, onko käytössä?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Palvelininstanssin ominaisuudet <em>(versio, memcache käytössä, lukitus/esikatselut/avatarit käytössä?)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Tilastotieto <em>(tiedostojen, käyttäjien, muistien, komenttien ja tunnisteiden määrä)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Voit auttaa meitä Nextcloudin kehittämisessä lähettämällä meille tietoja nykyisestä asennuksesta ja käytöstä.",
     "Sent on: %s" : "Lähetetty: %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
