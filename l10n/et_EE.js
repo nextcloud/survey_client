@@ -9,7 +9,6 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Jagamiste hulk <em>(tüübi kohta ja õiguste seaded)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP keskkond <em>(versioon, mälupiirand, maksimaalne täitmisaeg, maksimaalne failisuurus)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Serveri instantsi üksikasjad <em>(versioon, memcache kasutamine, lukustamise/eelvaadete/avataride staatus)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(failide, kasutajate, andmehoidla tüüpide, kommentaarite ja siltide arv)</em>",
     "Help improve Nextcloud" : "Aita Nextcloudi parendada",
     "Not now" : "Mitte praegu",
     "Send usage" : "Saada kasutusraport",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Sent on: {on}" : "Saadetud: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Rakenduste nimekiri <em>(iga rakenduse kohta: nimi, versioon, kas on sisse lülitatud?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Serveri instantsi üksikasjad <em>(versioon, memcache kasutamine, lukustamine/eelvaated/avatarid sisse lülitatud?)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(failide, kasutajate, andmehoidla tüüpide, kommentaarite ja siltide arv)</em>",
     "Sent on: %s" : "Saadetud: %s"
 },
 "nplurals=2; plural=(n != 1);");

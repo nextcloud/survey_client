@@ -8,7 +8,6 @@ OC.L10N.register(
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Πληροφορίες κρυπτογράφησης <em>(είναι ενεργοποιημένες; , ποιό είναι το προεπιλεγμένο άρθρωμα) </em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Αριθμός διαμοιρασμών<em>(ανά τύπο και ρύθμιση δικαιωμάτων)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Περιβάλλον PHP <em>(έκδοση, όριο μνήμης, μέγιστος χρόνος εκτέλεσης, μέγιστο μέγεθος αρχείου)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Στατιστικά <em>(αριθμός: αρχείων, χρηστών, μονάδων αποθήκευσης ανά τύπο, σχόλια και ετικέτες)</em>",
     "Help improve Nextcloud" : "Βοηθήστε στην βελτίωση του Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Θέλετε να μας βοηθήσετε να βελτιώσουμε το Nextcloud παρέχοντας κάποια ανώνυμα δεδομένα σχετικά με τις ρύθμισεις και τη χρήση; Μπορείτε να την απενεργοποιήσετε ανά πάσα στιγμή από τις ρυθμίσεις διαχειριστή ξανά.",
     "Not now" : "Όχι τώρα",
@@ -23,6 +22,7 @@ OC.L10N.register(
     "Sent on: {on}" : "Αποστέλλεται σε: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Λίστα εφαρμογών<em>(Για κάθε εφαρμογή: όνομα, έκδοση, είναι ενεργοποιημένη;)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Λεπτομέρειες διακομιστή <em>(έκδοση, χρήση memcache, locking/previews/avatars ενεργοποιημένα;)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Στατιστικά <em>(αριθμός: αρχείων, χρηστών, μονάδων αποθήκευσης ανά τύπο, σχόλια και ετικέτες)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Μπορείτε να μας βοηθήσετε να βελτιώσουμε το Nextcloud με την αποστολή κάποιων δεδομένων σχετικά με την τρέχουσα εγκατάστασή σας και τη χρήση που κάνετε. ",
     "Sent on: %s" : "Στάλθηκε στις: %s"
 },
