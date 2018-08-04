@@ -9,7 +9,6 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "共有の数 <em>(種類ごとならびにパーミッション設定)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP環境 <em>(バージョン、メモリ上限、最大実行時間、最大ファイルサイズ)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "サーバーインスタンスの詳細 <em>(バージョン、memcacheの利用、locking/previews/avatarsの状況)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "統計 <em>(総数: ファイル数、ユーザー数、ストレージ種類数、コメントとタグ数)</em>",
     "Help improve Nextcloud" : "Nextcloudの改善を助けてください",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Nextcloudの改善に役立てるため、設定ならびに使用状況の一部を匿名化したデータを、提供していただけないでしょうか？ この設定は、いつでも管理者設定から無効にできます。",
     "Not now" : "あとで",
@@ -24,6 +23,7 @@ OC.L10N.register(
     "Sent on: {on}" : "送信オン: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "アプリリスト <em>(アプリ毎: 名前, バージョン, 有効か無効か)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "サーバー設定状況 <em>(バージョン, memcache の利用, locking/previews/avatars の利用の有無)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "統計 <em>(総数: ファイル数、ユーザー数、ストレージ種類数、コメントとタグ数)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "設定ならびに使用状況に関する一部のデータを送信していただくと、Nextcloudの改善に役立ちます。",
     "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "プライバシー情報について慎重に取り扱います。データ匿名化され、いつでも有効/無効を切り替えられます、デフォルトでは送信されません。どのデータを送信するか選択することができますし、どの情報を最新のレポートで送信したかいつでも見ることができます。新しいレポートをサーバーが受け取ったら、あなたのサーバーのすべての古いレポートを削除します。また、下記の設定で無効にしたものがあれば、新しいレポートを送信して今あるサーバー上のすべてのデータを削除することができます。",
     "Sent on: %s" : "送信オン: %s"

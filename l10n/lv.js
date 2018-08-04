@@ -7,7 +7,6 @@ OC.L10N.register(
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Šefrēšanas informācija <em>(iespējota?, kāds ir noklusētais modulis)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Koplietojumu skaits <em>(pēc tipa un piekļuvju uzstādījumiem)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP vide <em>(versija, atmiņas limits, max. izpildes laiks, max. datnes izmērs)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(skaits: datnes, lietotāji, krātuves pēc tipa, komentāri un birkas)</em>",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Vēlaties mums palīdzēt uzlabot Nextcloud, anonīmi sniedzot datus par Jūsu iestatījumiem un izmantojamību? Jūs varat šo iespēju atspējot jebkurā brīdī administratora uzstādījumos.",
     "Not now" : "Ne tagad",
     "Send usage" : "Nosūtīt izmantojamību",
@@ -19,6 +18,7 @@ OC.L10N.register(
     "Last report" : "Pēdējā atskaite",
     "Sent on: {on}" : "Nosūtīts: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "Aplikāciju saraksts <em> (katrai aplikācijai: nosaukums, versija, iespējota?) </em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(skaits: datnes, lietotāji, krātuves pēc tipa, komentāri un birkas)</em>",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu tekošajiem iestatījumiem un izmantojamību.",
     "Sent on: %s" : "Nosūtīts: %s"
 },

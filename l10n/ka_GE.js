@@ -9,7 +9,6 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "გაზიარებების ოდენობა <em>(თითო სახეობაზე და უფლების კონფიგურაციაზე)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP გარემო <em>(ვერსია, მეხსიერების ლიმიტი, მაქს. ეგზეკუციის დრო, მაქს. ფაილის ზომა)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "სერვერის ინსტანციის დეტალები <em>(ვერსია, memcache-ის გამოყენება, ჩაკეტვის/პრევიუს/ავატარის სტატუსი)</em>",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "სტატისტიკა <em>(ფაილების, მომხმარებლების, თითოეულ სახეობაზე საცავის, კომენტარის და ტეგების რაოდენობა)",
     "Help improve Nextcloud" : "დაგვეხმარეთ გავაუმჯობესოთ Nextcloud-ი",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "გსურთ დაგვეხმაროთ Nextcloud-ის გაუმჯობესებაში თქვენს ინსტალაციაზე და მის მოხმარებაზე ანონიმური მონაცემების გაგმოგზავნით? ადმინისტრაციის პარამეტრებიდან ამის გათიშვას შეძლებთ ნებისმიერ დროს.",
     "Not now" : "ახლა არა",
@@ -24,6 +23,7 @@ OC.L10N.register(
     "Sent on: {on}" : "გაიგზავნა: {on}",
     "App list <em>(for each app: name, version, is enabled?)</em>" : "აპლიკაციების სია <em>(თითოეულ აპლიკაციაზე: სახელი, ვერსია, მოქმედია თუ არა?)</em>",
     "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "სერვერის ინსტანციის დეტალები <em>(ვერსია, memcache-ის გამოყენება, ჩაკეტვის/პრევიუს/ავატარის სტატუსი)</em>",
+    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "სტატისტიკა <em>(ფაილების, მომხმარებლების, თითოეულ სახეობაზე საცავის, კომენტარის და ტეგების რაოდენობა)",
     "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "შეგიძლიათ დაგვეხმაროთ გავაუმჯობესოთ Nextcloud თქვენს ინსტალაციაზე და მის გამოყენებაზე მონაცემების გამოგზავნით.",
     "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "თქვენს კონფიდენციალურობას სერიოზულად ვუდგებით. მონაცემები იგზავნება ანონიმურად, ამის გადაყენება ნებისმიერ დროს შეგიძლიათ, საწყისად ეს გათიშულია. ქვემოთ ასევე შეგიძლიათ გაუკეთოთ რეგულირება თუ რა სახის მონაცემი გამოგვეგზავნება და იხილოთ ბოლო გამოგზავნილი რეპორტი. როდესაც სერვერი მიიღებთს ახალ რეპორტს, წინა რეპორტში ყველა შენატანი უქმდება. ქვემოთ ჩამოთვლილ პარამეტრებიდან ერთ-ერთის გათიშვისას შეძლებთ რეპორტის გამოგზავნას, რაც ამ სერვერზე ამ მომენტისთვის არსებულ მონაცემებს გააუქმებს.",
     "Sent on: %s" : "გაიგზავნა: %s"
