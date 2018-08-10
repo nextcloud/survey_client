@@ -8,6 +8,7 @@
     "Number of shares <em>(per type and permission setting)</em>" : "Número de recursos compartidos <em>(por tipo y configuración de permisos)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Entorno PHP <em>(versión, límite de memoria, tiempo de ejecución máximo, tamaño de archivo máximo)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalles de la instancia del servidor <em>(versión, uso de memcache, estado de bloque/previsualizaciones/avatares)</em>",
+    "Statistic <em>(number of: Files, users, storages per type, comments and tags)</em>" : "Estadísticas <em>(número de: Archivos, usuarios, almacenamientos por tipo, comentarios y etiquetas)</em>",
     "Help improve Nextcloud" : "Ayuda a mejorar Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "¿Quieres ayudarnos a mejorar Nextcloud aportando algunos datos anonimizados sobre tu configuración y uso? Puedes desactivarlo de nuevo en cualquier momento en la configuración de administrador.",
     "Not now" : "Ahora no",
