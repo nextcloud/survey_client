@@ -10,6 +10,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Количество общих ресурсов <em>(по типу и настройкам доступа)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Информация о PHP <em>(версия, лимит памяти, макс. выполнения, макс. размер файла)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Подробности установки сервера <em>(версия, использование memcache, состояние блокировок / пред. просмотра / аватаров)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Статистика <em>(число файлов, пользователей, хранилищ по типам, комментариев и меток)</em>",
     "Help improve Nextcloud" : "Помогайте улучшать Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Предоставляя обезличенную информацию о своих настройках и статистике использования, Вы помогаете нам улучшить Nextcloud. Отключить передачу данных можно в любое время в настройках администратора.",
     "Not now" : "Не сейчас",
