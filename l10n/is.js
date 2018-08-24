@@ -10,6 +10,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Fjöldi sameigna <em>(eftir gerð og heimildum)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-umhverfi <em>(útgáfa, takmörk minnis, hám. keyrslutími, hám. skráastærð)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Nánar um ástand netþjóns <em>(útgáfa, notað skyndiminni, staða læsinga/forskoðunar/auðkennismynda)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Tölfræði <em>(fjöldi skráa, notenda, geymslur af hvaða gerð, athugasemdir og merki)</em>",
     "Help improve Nextcloud" : "Hjálpaðu til við að bæta Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Myndir þú vilja hjálpa til við að bæta Nextcloud með því að senda okkur ákveðin nafnlaus gögn um uppsetninguna þína og notkun? Þú getur gert þetta óvirkt aftur hvenær sem er í kerfisstjórnunarstillingunum.",
     "Not now" : "Ekki núna",
