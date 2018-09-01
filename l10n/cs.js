@@ -10,6 +10,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Počet sdílení <em>(podle typu a nastavení oprávnění)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP prostředí <em>(verze, limit paměti, max. doba provedení, max. velikost souboru)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Podrobnosti o instanci serveru <em>(verze, použití memcache, stav blokování /náhledů/avatarů)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(počet souborů, uživatelů, jednotlivých úložišť, komentářů a štítků)</em>",
     "Help improve Nextcloud" : "Pomozte zlepšit Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Chcete nám pomoci zlepšit aplikaci Nextcloud poskytnutím některých anonymních údajů o vašem nastavení a použití? Můžete vše znovu kdykoli vypnout v nastavení administrace.",
     "Not now" : "Teď ne",
