@@ -125,11 +125,11 @@ class Stats implements ICategory {
 	 * @return int
 	 */
 	protected function countEntries($tableName, $column = '*') {
-		if ($column !== '*') {
-			$column = 'DISTINCT(' . $column . ')';
-		}
-
 		$query = $this->connection->getQueryBuilder();
+
+		if ($column !== '*') {
+			$column = 'DISTINCT(' . $query->getColumnName($column ) . ')';
+		}
 		$query->selectAlias($query->createFunction('COUNT(' . $column . ')'), 'num_entries')
 			->from($tableName);
 		$result = $query->execute();
