@@ -26,11 +26,7 @@ OC.L10N.register(
     "Last report sent on: %s" : "Son rapor gönderimi: %s",
     "Last report" : "Son rapor",
     "Sent on: {on}" : "Gönderilme: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Uygulama listesi <em>(her uygulama için, ad, sürüm, etkin?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Sunucu kopyası bilgileri <em>(sürüm, kullanılan memcache, kilitleme/önizleme/avatarlar etkin mi?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "İstatistikler <em>(dosya sayısı, kullanıcılar, tüm depolama türleri, yorum ve etiketler)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Adsız bilgiler sağlayarak gelecek Nextcloud sürümlerini geliştirmemize yardımcı olabilirsiniz.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Gizliliğinize önem veriyoruz. Verilerde herhangi bir kişisel bilgi bulunmaz ve adsız olarak gönderilir. Bilgi gönderimini istediğiniz zaman durdurabilirsiniz. Ayrıca aşağıdan istediğiniz zaman bize gönderilen son rapordaki bilgileri görüp ayarlayabilirsiniz. Sunucu kullandığınız kopyadan yeni bir rapor aldığında, önceki rapordaki tüm bilgiler silinir. Aşağıdaki ayarlardan birini devre dışı bırakırsanız yeni bir rapor gönderebilirsiniz, böylece sunucuda bulunan önceki veriler silinir.",
     "Sent on: %s" : "Gönderim zamanı: %s"
 },
 "nplurals=2; plural=(n > 1);");
