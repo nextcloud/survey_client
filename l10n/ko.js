@@ -21,11 +21,7 @@ OC.L10N.register(
     "Data to send" : "보낼 데이터",
     "Last report" : "마지막 보고",
     "Sent on: {on}" : "보낸 날짜: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "앱 목록<em>(개별 앱의 이름, 버전, 활성화 상태)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "서버 인스턴스 정보<em>(버전, memcache 사용, 잠금/미리 보기/아바타 상태)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "통계<em>(파일, 사용자, 종류별 저장소, 댓글, 태그 개수)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Nextcloud 개선을 돕기 위해서 설치 및 사용 통계를 익명으로 전송할 수 있습니다.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "귀하의 개인 정보는 소중합니다. 통계 정보는 기본적으로 전송하지 않으며, 전송하기로 결정한 경우에는 우선 익명화 절차를 거치고 공유할 항목을 선택할 수 있습니다. 통계 정보를 수신하면 이전 정보는 삭제됩니다. 빈 통계 정보를 전송하면 서버에 저장된 모든 데이터를 삭제합니다",
     "Sent on: %s" : "보낸 날짜: %s"
 },
 "nplurals=1; plural=0;");

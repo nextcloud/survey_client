@@ -24,11 +24,7 @@
     "Last report sent on: %s" : "Последно изпращане на данни: %s",
     "Last report" : "Последно изпращане",
     "Sent on: {on}" : "Изпращане на: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Приложения <em>(за всяко: име, версия, включено/изключено?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Данни за сървъра <em>(версия, memcache, locking/previews/avatars enabled?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Статистика <em>(брой на: файловете, потребителите, storages per type, коментарите и етикетите)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Можете да ни помогнете в усъвършенстването на Nextcloud като ни изпращате данни за текущата инсталация.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Отнасяме се много сериозно към поверителността на данните ви. Всички данни които събираме са анонимни, можете да спирате и пускате изпращането на данни по всяко време, като стандартно функционалността е изключена. Долу може да изберете какъв тип данни да изпращате и да видите кога за последно са изпратени. Когато наш сървър получи данни, предишните данни биват изтрити. Ако махнете отметката, за изпращане на даден тип информация, можете да изпратите веднага нов доклад - така предходните данни (съдържащи информация, която не желаете да изпращате), които съхраняваме на нашите сървъри ще бъдат изтрити.",
     "Sent on: %s" : "Изпращане на: %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

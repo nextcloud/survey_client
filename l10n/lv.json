@@ -15,9 +15,7 @@
     "Data to send" : "Dati sūtīšanai",
     "Last report" : "Pēdējā atskaite",
     "Sent on: {on}" : "Nosūtīts: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Aplikāciju saraksts <em> (katrai aplikācijai: nosaukums, versija, iespējota?) </em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(skaits: datnes, lietotāji, krātuves pēc tipa, komentāri un birkas)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu tekošajiem iestatījumiem un izmantojamību.",
     "Sent on: %s" : "Nosūtīts: %s"
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
 }

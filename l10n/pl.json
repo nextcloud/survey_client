@@ -21,11 +21,7 @@
     "Last report sent on: %s" : "Ostatni raport wysłano: %s",
     "Last report" : "Ostatni raport",
     "Sent on: {on}" : "Wysłano: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Lista aplikacji <em>(dla każdej: nazwa, wersja, czy jest włączona?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Szczegóły instancji serwera <em>(wersja, użyty memcache, czy są włączone blokowanie/podgląd/avatary?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statystyki <em>(liczba: plików, użytkowników, typów pamięci, komentarzy oraz tagów)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Możesz nam pomóc ulepszyć Nextcloud poprzez przesyłanie nam danych dotyczących Twojej konfiguracji i użytkowania.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Prywatność traktujemy poważnie. Dane są anonimizowane, a ich wysyłanie można włączać/wyłączać w dowolnym momencie, domyślnie nie są wysyłane. Poniżej możesz również dostosować, jakie dane przesyłasz i zobaczyć ostatni wysłany do nas raport. Kiedy serwer otrzyma nowy raport, wszystkie poprzednie wpisy zostaną usunięte. Jeśli wyłączysz jedno z poniższych ustawień, możesz wysłać nowy raport, który usunie dane aktualnie zapisane na serwerze.",
     "Sent on: %s" : "Wysłano: %s"
 },"pluralForm" :"nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"
 }
