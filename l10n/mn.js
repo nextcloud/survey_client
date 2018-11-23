@@ -7,7 +7,6 @@ OC.L10N.register(
     "Not now" : "одоо биш",
     "Never" : "хэзээч",
     "Data to send" : "өгөгдлийг илгээх",
-    "Last report" : "сүүлийн тайлан",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "App жагсаалт (програм бүрийн хувьд: нэр, хувилбар, идэвхтэй байна уу?) "
+    "Last report" : "сүүлийн тайлан"
 },
 "nplurals=2; plural=(n != 1);");

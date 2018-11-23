@@ -26,11 +26,7 @@ OC.L10N.register(
     "Last report sent on: %s" : "Letzter Bericht gesendet am: %s",
     "Last report" : "Letzter Bericht",
     "Sent on: {on}" : "Gesendet am: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "App-Liste <em>(Zu jeder App: Name, Version, ist aktiviert?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Details zur Server-Instanz <em>(Version, Wird Memcache verwendet, Sind Sperren/Avatare aktiviert?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistik <em>(Anzahl von: Dateien, Benutzern, Speicher pro Typ, Kommentare und Schlagworte)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Sie können uns helfen Nextcloud zu verbessern. Senden Sie uns Daten von Ihren Einstellungen und Nutzung.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Wir nehmen den Datenschutz sehr ernst. Die Daten sind anonymisiert und Sie können das Übertragen jederzeit aktivieren und deaktivieren. Standardmässig ist es deaktiviert. Weiter unten können Sie einstellen welche Daten gesendet werden und jederzeit den letzten Bericht anschauen. Wenn unser Server einen neuen Bericht von Ihrer Nextcloud empfängt, dann werden alle bisherigen Daten gelöscht. Wenn Sie eine der unteren Einstellungen deaktivieren, dann wird ein neuer Bericht gesendet und alle bisher bei Nextcloud gespeicherten Daten gelöscht.",
     "Sent on: %s" : "Gesendet am: %s"
 },
 "nplurals=2; plural=(n != 1);");

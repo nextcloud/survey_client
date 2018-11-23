@@ -19,10 +19,7 @@ OC.L10N.register(
     "Last report sent on: %s" : "Viimeisin raportti lähetetty: %s",
     "Last report" : "Edellinen raportti",
     "Sent on: {on}" : "Lähetetty: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Sovelluslista <em>(jokaisesta sovelluksesta: nimi, versio, onko käytössä?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Palvelininstanssin ominaisuudet <em>(versio, memcache käytössä, lukitus/esikatselut/avatarit käytössä?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Tilastotieto <em>(tiedostojen, käyttäjien, muistien, komenttien ja tunnisteiden määrä)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Voit auttaa meitä Nextcloudin kehittämisessä lähettämällä meille tietoja nykyisestä asennuksesta ja käytöstä.",
     "Sent on: %s" : "Lähetetty: %s"
 },
 "nplurals=2; plural=(n != 1);");

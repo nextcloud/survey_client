@@ -19,11 +19,7 @@
     "Data to send" : "Dados a enviar",
     "Last report" : "Último relatório",
     "Sent on: {on}" : "Enviado em: {em}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Lista de aplicações <em>(por cada aplicação: nome, versão, está disponível?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Detalhes da instância do servidor <em>(versão, memcache usada, bloqueio/pre-visualizações/avatars disponíveis?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Estatística <em>(número de: ficheiros, armazenamentos por tipo, comentários e etiquetas)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Pode ajudar-nos a melhor a Nextcloud enviando-nos alguns dados sobre a sua configuração e utilização actuais.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "A sua privacidade é importante para nós. Os dados são anonimizado e pode activar/desactivar o envio a qualquer altura, estando este inactivo por defeito. A baixo pode ainda ajustar o tipo de dados que pretende enviar e ver o último relatório que nos foi enviado. Quando o servidor recebe um relatório novo sobre a sua instância, toads as entradas de relatórios anteriores são removidos. Se desactivar uma das seguintes definições, pode enviar um novo relatório, que irá apagar os dados actualmente armazenados no servidor. ",
     "Sent on: %s" : "Enviado em: %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
