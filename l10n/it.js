@@ -26,11 +26,7 @@ OC.L10N.register(
     "Last report sent on: %s" : "Ultimo report inviato il: %s",
     "Last report" : "Ultimo resoconto",
     "Sent on: {on}" : "Inviato il: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Elenco delle applicazioni <em>(per ogni applicazione: nome, versione, è abilitata?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Dettagli dell'istanza del server <em>(versione, memcache utilizzata, blocco/anteprime/avatar abilitati?)",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistiche <em>(numero di: file, utenti, archiviazioni per tipo, commenti e etichette)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Puoi contribuire a migliorare Nextcloud inviando alcuni dati sulla tua configurazione attuale e sull'utilizzo.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Siamo molto attenti alla tua riservatezza. I dati sono resi anonimi e puoi abilitare/disabilitare l'invio in qualsiasi momento, è disabilitato in modo predefinito. Di seguito puoi regolare quale tipo di dati vengono inviati e vedere sempre l'ultimo resoconto inviatoci. Quando il server riceve un resoconto della tua istanza, tutte le voci del resoconto precedente sono rimosse. Nel caso in cui tu decida di disabilitare una delle impostazioni seguenti, puoi inviare un nuovo resoconto per eliminare i dati attualmente memorizzati sul server.",
     "Sent on: %s" : "Inviato il: %s"
 },
 "nplurals=2; plural=(n != 1);");

@@ -23,11 +23,7 @@
     "Last report sent on: %s" : "Siste rapport sendt: %s",
     "Last report" : "Siste rapport",
     "Sent on: {on}" : "Sendt den: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Programliste <em>(Status for hvert program: Navn, versjon)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Tjenerinstallasjonsdetaljer <em>(versjon, minnehurtiglager brukt, status for låsing/forhåndsvisninger, avatarer)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistikk<em>(antall: filer, brukere, lager per type, kommentarer og merkelapper)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjelpe til med å forbedre Nextcloud ved å sende oss noe data om ditt nåværende oppsett og bruk.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Vi tar ditt personvern seriøst. Dataene er anonymisert og du kan aktivere/deaktivere når som helst, som standard er det alltid deaktivert. Under kan du også bestemme hvilke data som sendes og du kan alltid se siste rapporten som er sendt oss. Når Nextcloud mottar en ny rapport fra din instans blir tidligere rapport fjernet. Hvis du deaktiverer en av innstillingene under kan du sende en ny rapport, og dermed slette dataene som er lagret på tjeneren vår.",
     "Sent on: %s" : "Sendt den: %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

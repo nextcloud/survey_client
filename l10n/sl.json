@@ -24,11 +24,7 @@
     "Last report sent on: %s" : "Nazadnje poslano poročilo: %s",
     "Last report" : "Zadnje poročilo",
     "Sent on: {on}" : "Poslano: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Seznam programov <em>(za vsak program: ime, različica, stanje)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "Podrobnosti strežnika <em>(različica, uporabljen memcache, stanje zaklepa/predogleda/uporabljene podobe)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(število datotek, število uporabnikov, omejitev shrambe, opombe, oznake)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Lahko sodelujete pri izboljševanju okolja Nextcloud s pošiljanjem izbranih podatkov o trenutnih nastavitvah in načinu uporabe.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Zasebnost jemljemo skrajno resno. Podatki so anonimizirani, pošiljanje lahko kadarkoli omogočite oziroma onemogočite, slednje je vedno privzeta nastavitev. Na spodnjem seznamu lahko prilagodite podatke, ki bodo zbrani v poročilu, vedno tudi vidite zadnje poslano poročilo. Ko strežnik prejme novo poročilo, odstrani vse podatke predhodnih poročil. Če le spremenite nabor podatkov za pošiljanje na spodnjem seznamu in pošljete poročilo, se vsi podatki prav tako posodobijo na zadnje vrednosti.",
     "Sent on: %s" : "Poslano: %s"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }

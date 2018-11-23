@@ -25,11 +25,7 @@ OC.L10N.register(
     "Last report sent on: %s" : "Utolsó riport megtekintése: %s",
     "Last report" : "Utolsó jelentés",
     "Sent on: {on}" : "Küldés időpontja: {on}",
-    "App list <em>(for each app: name, version, is enabled?)</em>" : "Alkalmazás lista <em>(az egyes alkalmazások: neve, verziószáma, engedélyezve?)</em>",
-    "Server instance details <em>(version, memcache used, locking/previews/avatars enabled?)</em>" : "A kiszolgáló adatai <em>(verzió, memcache használat, zárás/előnézet/avatárok engedélyezve?)</em>",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statisztikai <em>(Számadatok a következőkről: fájlok, felhasználók, tárhelyek típusonként, megjegyzések és címkék szerint)</em>",
-    "You can help us to improve Nextcloud by sending us some data about your current setup and usage." : "Segíthet nekünk a Nextcloud javításában, ha elküldi számunkra az aktuális beállításokról és felhasználásokról szóló adatokat.",
-    "We take your privacy seriously. The data is anonymized and you can enable/disable it at any time, by default it is always disabled. Below you can also adjust what kind of data is sent and always see the last report sent to us. When the server receives a new report of your instance, all entries from previous reports are removed. If you disable one of the settings below, you can send a new report, which will delete the data that is currently stored on the server." : "Komolyan vesszük a magánéletet. Az adatok névtelenek, és bármikor engedélyezheted vagy letilthatod a statisztikai jelentések küldését, alapértelmezetten tiltva van. Az alábbiakban megadhatod, hogy milyen statisztikai adatokat szeretnél elküldeni. Amikor a szerver új jelentést kap, az előző jelentések összes bejegyzése eltávolításra kerül. Ha letiltja az alábbi beállításokat, új jelentést küldhet, amely törli a szerveren jelenleg tárolt jelentéseket.",
     "Sent on: %s" : "Küldés időpontja: %s"
 },
 "nplurals=2; plural=(n != 1);");
