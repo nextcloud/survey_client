@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "Skicka statistik",
+    "Last report sent on: {on}" : "Senaste rapporten sänd den: {on}",
     "An error occurred while sending your report." : "Ett fel inträffade när rapporten sändes.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Applista <em>(för varje app: namn, version, aktiveringsstatus)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Databasmiljö <em>(typ, version, databasstorlek)</em>",
@@ -19,6 +20,7 @@ OC.L10N.register(
     "Send new report now" : "Skicka rapporten nu",
     "Send usage survey monthly" : "Skicka användarstatistik månadsvis",
     "Data to send" : "Data att inkludera",
+    "Last report sent on: %s" : "Senaste rapporten skickad den: %s",
     "Last report" : "Senaste rapport",
     "Sent on: {on}" : "Sändes: {on}",
     "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistik <em>(Antal: filer, användare, lagringar per typ, kommentarer och taggar)</em>",
