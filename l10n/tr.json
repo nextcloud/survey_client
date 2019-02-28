@@ -22,9 +22,6 @@
     "Send usage survey monthly" : "Kullanım bilgileri aylık olarak gönderilsin",
     "Data to send" : "Gönderilecek veriler",
     "Last report sent on: %s" : "Son rapor gönderimi: %s",
-    "Last report" : "Son rapor",
-    "Sent on: {on}" : "Gönderilme: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "İstatistikler <em>(dosya sayısı, kullanıcılar, tüm depolama türleri, yorum ve etiketler)</em>",
-    "Sent on: %s" : "Gönderim zamanı: %s"
+    "Last report" : "Son rapor"
 },"pluralForm" :"nplurals=2; plural=(n > 1);"
 }

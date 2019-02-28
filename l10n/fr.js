@@ -24,9 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Envoyer les statistiques chaque mois",
     "Data to send" : "Données à envoyer",
     "Last report sent on: %s" : "Dernier rapport envoyé le : %s",
-    "Last report" : "Dernier envoi",
-    "Sent on: {on}" : "Envoyé le : {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistique <em>(nombre de : fichiers, utilisateurs, stockage par type, commentaires et étiquettes)</em>",
-    "Sent on: %s" : "Envoyé le : %s"
+    "Last report" : "Dernier envoi"
 },
 "nplurals=2; plural=(n > 1);");

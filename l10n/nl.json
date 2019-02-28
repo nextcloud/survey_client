@@ -22,9 +22,6 @@
     "Send usage survey monthly" : "Verstuur maandelijks gebruiksrapport",
     "Data to send" : "Te versturen gegevens",
     "Last report sent on: %s" : "Laatste reportage verstuurd op %s",
-    "Last report" : "Laatste rapport",
-    "Sent on: {on}" : "Verstuurd op: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistieken <em>(aantal: bestanden, gebruikers, opslag per type, reacties en tags)</em>",
-    "Sent on: %s" : "Verstuurd op: %s"
+    "Last report" : "Laatste rapport"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

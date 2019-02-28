@@ -19,9 +19,6 @@ OC.L10N.register(
     "Send new report now" : "Envieu un informe nou ",
     "Send usage survey monthly" : "Envieu una enquesta d'ús mensual",
     "Data to send" : "Dades per enviar",
-    "Last report" : "Darrer informe",
-    "Sent on: {on}" : "S'ha enviat a: ",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Estadística <em>(nombre de: fitxers, usuaris, emmagatzematge per tipus, comentaris i etiquetes)</em>",
-    "Sent on: %s" : "S'ha enviat a: %s"
+    "Last report" : "Darrer informe"
 },
 "nplurals=2; plural=(n != 1);");

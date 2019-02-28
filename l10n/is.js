@@ -24,9 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Senda mánaðarlega könnun á notkun",
     "Data to send" : "Gögn til sendingar",
     "Last report sent on: %s" : "Síðasta skýrsla send þann: %s",
-    "Last report" : "Síðasta skýrsla",
-    "Sent on: {on}" : "Sent þann: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Tölfræði <em>(fjöldi af: skrám, notendum, geymslur af hvaða gerð, athugasemdir og merki)</em>",
-    "Sent on: %s" : "Sent þann: %s"
+    "Last report" : "Síðasta skýrsla"
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");

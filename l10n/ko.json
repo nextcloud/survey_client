@@ -17,9 +17,6 @@
     "Send new report now" : "지금 새 보고서 보내기",
     "Send usage survey monthly" : "월별 사용 통계 보내기",
     "Data to send" : "보낼 데이터",
-    "Last report" : "마지막 보고",
-    "Sent on: {on}" : "보낸 날짜: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "통계<em>(파일, 사용자, 종류별 저장소, 댓글, 태그 개수)</em>",
-    "Sent on: %s" : "보낸 날짜: %s"
+    "Last report" : "마지막 보고"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

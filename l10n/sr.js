@@ -24,9 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Пошаљите извештај о коришћењу на месечном нивоу",
     "Data to send" : "Подаци за слање",
     "Last report sent on: %s" : "Последњи извештај послат: %s",
-    "Last report" : "Последњи извештај",
-    "Sent on: {on}" : "Послато на: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Статистике <em>(број: фајлова, корисника, складишта по типу, коментара, ознака)</em>",
-    "Sent on: %s" : "Послато на: %s"
+    "Last report" : "Последњи извештај"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");
