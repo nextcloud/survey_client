@@ -17,9 +17,6 @@
     "Send new report now" : "立即发送新报告",
     "Send usage survey monthly" : "按月发送使用情况",
     "Data to send" : "发送数据",
-    "Last report" : "最后上报",
-    "Sent on: {on}" : "已发送：{on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "统计<em>(number of: files, users, storages per type, comments and tags)</em>",
-    "Sent on: %s" : "已发送：%s"
+    "Last report" : "最后上报"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

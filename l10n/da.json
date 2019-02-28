@@ -17,9 +17,6 @@
     "Send new report now" : "Send ny rapport nu",
     "Send usage survey monthly" : "Send en månedlig forbrugsrapport.",
     "Data to send" : "Data er sendt",
-    "Last report" : "Sidste rapport",
-    "Sent on: {on}" : "Sendt: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistik <em>(Antal: filer, brugere, plads pr. type, kommentarer og mærkater)</em>",
-    "Sent on: %s" : "sendt d.: %s"
+    "Last report" : "Sidste rapport"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

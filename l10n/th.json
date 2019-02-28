@@ -13,9 +13,6 @@
     "Send new report now" : "ส่งแบบสำรวจใหม่ ตอนนี้",
     "Send usage survey monthly" : "ส่งแบบสำรวจการใช้งานทุกเดือน",
     "Data to send" : "ข้อมูลที่ส่ง",
-    "Last report" : "รายงานล่าสุด",
-    "Sent on: {on}" : "ส่งเมื่อ: {เมื่อ}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "สถิติ <em>(จำนวน: ไฟล์, ผู้ใช้งาน, พื้นที่เก็บแต่ละประเภท, คอมเมนท์ และ แท๊ก)</em>",
-    "Sent on: %s" : "ส่งเมื่อ: %s"
+    "Last report" : "รายงานล่าสุด"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

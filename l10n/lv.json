@@ -13,9 +13,6 @@
     "Send new report now" : "Nosūtīt jaunu atskaiti tagad",
     "Send usage survey monthly" : "Sūtīt izmantojamības aptauju ik mēnesi",
     "Data to send" : "Dati sūtīšanai",
-    "Last report" : "Pēdējā atskaite",
-    "Sent on: {on}" : "Nosūtīts: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(skaits: datnes, lietotāji, krātuves pēc tipa, komentāri un birkas)</em>",
-    "Sent on: %s" : "Nosūtīts: %s"
+    "Last report" : "Pēdējā atskaite"
 },"pluralForm" :"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);"
 }

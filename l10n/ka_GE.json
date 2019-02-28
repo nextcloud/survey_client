@@ -17,9 +17,6 @@
     "Send new report now" : "ახალი რეპორტის გაგზავნა ახლა",
     "Send usage survey monthly" : "მოხმარების გამოკლევის ყოველთვიურად გადაგზავნა",
     "Data to send" : "მონაცემი რომელიც გაიგზავნება",
-    "Last report" : "ბოლო რეპორტი",
-    "Sent on: {on}" : "გაიგზავნა: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "სტატისტიკა <em>(ფაილების, მომხმარებლების, თითოეულ სახეობაზე საცავის, კომენტარის და ტეგების რაოდენობა)",
-    "Sent on: %s" : "გაიგზავნა: %s"
+    "Last report" : "ბოლო რეპორტი"
 },"pluralForm" :"nplurals=2; plural=(n!=1);"
 }

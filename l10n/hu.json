@@ -21,9 +21,6 @@
     "Send usage survey monthly" : "Statisztikai adatok küldése havonta",
     "Data to send" : "Küldeni kívánt adatok",
     "Last report sent on: %s" : "Utolsó riport megtekintése: %s",
-    "Last report" : "Utolsó jelentés",
-    "Sent on: {on}" : "Küldés időpontja: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statisztikai <em>(Számadatok a következőkről: fájlok, felhasználók, tárhelyek típusonként, megjegyzések és címkék szerint)</em>",
-    "Sent on: %s" : "Küldés időpontja: %s"
+    "Last report" : "Utolsó jelentés"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

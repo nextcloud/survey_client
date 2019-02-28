@@ -16,9 +16,6 @@
     "Send new report now" : "Αποστολή νέας αναφοράς τώρα",
     "Send usage survey monthly" : "Αποστολή έρευνας χρήσης μηνιαία",
     "Data to send" : "Δεδομένα προς αποστολή",
-    "Last report" : "Τελευταία αναφορά",
-    "Sent on: {on}" : "Αποστέλλεται σε: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Στατιστικά <em>(αριθμός: αρχείων, χρηστών, μονάδων αποθήκευσης ανά τύπο, σχόλια και ετικέτες)</em>",
-    "Sent on: %s" : "Στάλθηκε στις: %s"
+    "Last report" : "Τελευταία αναφορά"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

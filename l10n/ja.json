@@ -17,9 +17,6 @@
     "Send new report now" : "新しい使用状況レポートを送信",
     "Send usage survey monthly" : "使用状況レポートを毎月送信する",
     "Data to send" : "送信データ",
-    "Last report" : "新しいレポート",
-    "Sent on: {on}" : "送信オン: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "統計 <em>(総数: ファイル数、ユーザー数、ストレージ種類数、コメントとタグ数)</em>",
-    "Sent on: %s" : "送信オン: %s"
+    "Last report" : "新しいレポート"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

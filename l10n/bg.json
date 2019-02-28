@@ -22,9 +22,6 @@
     "Send usage survey monthly" : "Изпращай данни за ползването ежемесечно",
     "Data to send" : "Данни за изпращане",
     "Last report sent on: %s" : "Последно изпращане на данни: %s",
-    "Last report" : "Последно изпращане",
-    "Sent on: {on}" : "Изпращане на: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Статистика <em>(брой на: файловете, потребителите, storages per type, коментарите и етикетите)</em>",
-    "Sent on: %s" : "Изпращане на: %s"
+    "Last report" : "Последно изпращане"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -22,9 +22,6 @@
     "Send usage survey monthly" : "Odeslat přehled o používání měsíčně",
     "Data to send" : "Data k odeslání",
     "Last report sent on: %s" : "Poslední hlášení odesláno: %s",
-    "Last report" : "Poslední přehled",
-    "Sent on: {on}" : "Odesláno: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(počet: souborů, uživatelů, uložišť podle typu, komentářů a značek)</em>",
-    "Sent on: %s" : "Odeslán: %s"
+    "Last report" : "Poslední přehled"
 },"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;"
 }
