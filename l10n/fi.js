@@ -17,9 +17,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Lähetä käyttötutkimusraportti kuukausittain",
     "Data to send" : "Lähetettävät tiedot",
     "Last report sent on: %s" : "Viimeisin raportti lähetetty: %s",
-    "Last report" : "Edellinen raportti",
-    "Sent on: {on}" : "Lähetetty: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Tilastotieto <em>(tiedostojen, käyttäjien, muistien, komenttien ja tunnisteiden määrä)</em>",
-    "Sent on: %s" : "Lähetetty: %s"
+    "Last report" : "Edellinen raportti"
 },
 "nplurals=2; plural=(n != 1);");

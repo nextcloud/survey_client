@@ -16,9 +16,6 @@ OC.L10N.register(
     "Send new report now" : "Dergo raport të ri",
     "Send usage survey monthly" : "Dërgo pyetësorin e përdorimit mujor",
     "Data to send" : "Të dhëna për të dërguar",
-    "Last report" : "Raporti i fundit",
-    "Sent on: {on}" : "Dërguar në: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "I pandryshueshëm <em> (numri i: skedarëve, përdoruesve, ruajtjeve sipas llojit, komenteve dhe etiketimeve) </em>",
-    "Sent on: %s" : "Dërguar tek: %s"
+    "Last report" : "Raporti i fundit"
 },
 "nplurals=2; plural=(n != 1);");

@@ -22,9 +22,6 @@
     "Send usage survey monthly" : "Pošlji poročilo o uporabi enkrat mesečno",
     "Data to send" : "Podatki v poročilu",
     "Last report sent on: %s" : "Nazadnje poslano poročilo: %s",
-    "Last report" : "Zadnje poročilo",
-    "Sent on: {on}" : "Poslano: {on}",
-    "Statistic <em>(number of: files, users, storages per type, comments and tags)</em>" : "Statistika <em>(število datotek, število uporabnikov, omejitev shrambe, opombe, oznake)</em>",
-    "Sent on: %s" : "Poslano: %s"
+    "Last report" : "Zadnje poročilo"
 },"pluralForm" :"nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);"
 }
