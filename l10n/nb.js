@@ -4,7 +4,7 @@ OC.L10N.register(
     "Usage survey" : "Statistikk for bruksmønster",
     "Last report sent on: {on}" : "Siste rapport sendt: {on}",
     "An error occurred while sending your report." : "Feil under forsendelse av din rapport.",
-    "App list <em>(for each app: name, version, enabled status)</em>" : "App-liste <em>(for hver app: navn, versjon, påslått status)</em>",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Liste over apper <em>(for hver app: navn, versjon, påslått status)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Database-miljø <em>(type, versjon, databasestørrelse)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Krypteringsinformasjon <em>(er den påskrudd?, hva er forvalgt modul)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Antall ressurser <em>(per type og tilgangsinnstilling)</em>",
