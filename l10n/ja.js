@@ -2,6 +2,7 @@ OC.L10N.register(
     "survey_client",
     {
     "Usage survey" : "使用状況レポート",
+    "Last report sent on: {on}" : "最新のレポート送信時刻: {on}",
     "An error occurred while sending your report." : "レポート送信中にエラーが発生しました。",
     "App list <em>(for each app: name, version, enabled status)</em>" : "アプリ一覧 <em>(各アプリ: 名前、バージョン、有効か無効か)</em>",
     "Database environment <em>(type, version, database size)</em>" : "データベース環境 <em>(種類、バージョン、データベースサイズ)</em>",
@@ -19,6 +20,7 @@ OC.L10N.register(
     "Send new report now" : "新しい使用状況レポートを送信",
     "Send usage survey monthly" : "使用状況レポートを毎月送信する",
     "Data to send" : "送信データ",
-    "Last report" : "新しいレポート"
+    "Last report sent on: %s" : "最新のレポート送信時刻: %s",
+    "Last report" : "最新のレポート"
 },
 "nplurals=1; plural=0;");
