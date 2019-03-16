@@ -12,10 +12,11 @@
     "Not now" : "Ara no",
     "Send usage" : "Ús actual",
     "Never" : "Mai",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Envia dades anònimes a Nextcloud per ajudar-nos a millorar Nextcloud.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Podeu ajudar a millorar Nextcloud enviant-nos algunes dades sobre la vostra configuració i ús actual.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ens prenem seriosament la vostra privadesa. L'enviament de dades està desactivat de manera predeterminada, i si el voleu activar, serà anonimat primer, i se us donarà l'opció de què voleu compartir. En rebre un informe, s'elimina l'anterior. Carregueu un informe net per eliminar totes les dades actualment emmagatzemades al servidor",
-    "Send new report now" : "Envieu un informe nou ",
-    "Send usage survey monthly" : "Envieu una enquesta d'ús mensual",
+    "Send new report now" : "Envia un nou informe ara ",
+    "Send usage survey monthly" : "Envia una enquesta d'ús mensualment",
     "Data to send" : "Dades per enviar",
     "Last report" : "Darrer informe"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
