@@ -23,6 +23,7 @@ namespace OCA\Survey_Client\BackgroundJobs;
 
 use OC\BackgroundJob\TimedJob;
 use OCA\Survey_Client\AppInfo\Application;
+use OCP\AppFramework\Http;
 
 class MonthlyReport extends TimedJob {
 
@@ -40,7 +41,7 @@ class MonthlyReport extends TimedJob {
 		$collector = $application->getContainer()->query('OCA\Survey_Client\Collector');
 		$result = $collector->sendReport();
 
-		if (!$result->succeeded()) {
+		if ($result->getStatus() !== Http::STATUS_OK) {
 			\OC::$server->getLogger()->info('Error while sending usage statistic');
 		}
 	}
