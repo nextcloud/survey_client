@@ -22,17 +22,4 @@
 $l = \OC::$server->getL10N('survey_client');
 
 $notificationManager = \OC::$server->getNotificationManager();
-$notificationManager->registerNotifier(
-	function() {
-		return new \OCA\Survey_Client\Notifier(
-			\OC::$server->getL10NFactory(),
-			\OC::$server->getURLGenerator()
-		);
-	},
-	function() use ($l) {
-		return [
-			'id' => 'survey_client',
-			'name' => $l->t('Usage survey'),
-		];
-	}
-);
+$notificationManager->registerNotifierService(\OCA\Survey_Client\Notifier::class);
