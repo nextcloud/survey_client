@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "사용량 통계 조사",
     "Last report sent on: {on}" : "마지막 보고서 전송: {on}",
     "An error occurred while sending your report." : "보고서를 보내는 중 오류가 발생했습니다.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "앱 목록<em>(개별 앱의 이름, 버전, 활성화 상태)</em>",
@@ -11,6 +10,7 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP 환경<em>(버전, 메모리 제한, 최대 실행 시간, 최대 파일 크기)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "서버 인스턴스 정보<em>(버전, memcache 사용, 잠금/미리 보기/아바타 상태)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "통계<em>(파일 개수, 사용자 수, 종류별 저장소 개수, 댓글과 태그 개수)</em>",
+    "Usage survey" : "사용량 통계 조사",
     "Help improve Nextcloud" : "Nextcloud 기능 개선 돕기",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Nextcloud 개선을 돕기 위해서 설치 및 사용 통계를 익명으로 전송하시겠습니까? 관리자 설정에서 언제든지 비활성화할 수 있습니다.",
     "Not now" : "지금은 하지 않음",

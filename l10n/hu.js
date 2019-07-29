@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "Használati és statisztikai adatok",
     "Last report sent on: {on}" : "Utolsó riport megtekintése: {on}",
     "An error occurred while sending your report." : "Hiba történt a jelentés elküldése közben.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Alkalmazás lista <em>(minden appnak: név, verzió, engedélyezési állapot)</em>",
@@ -11,6 +10,7 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP környezet <em>(verzió, memória korlát, max. végrehajtási idő, max. fájlméret)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Szerver telepítés részletek <em>(verzió, memcache használat, zárolási állapot/előnézetek/avatarok)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statisztikai <em>(fájlok, felhasználók, típusonkénti tárhelyek, megjegyzések és címkék szerinti összegzés)</em>",
+    "Usage survey" : "Használati és statisztikai adatok",
     "Help improve Nextcloud" : "Segíts jobbá tenni a Nextcloudot",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Szeretnél segíteni nekünk, hogy javítsuk a Nextcloud-ot? Névtelen statisztikai adatok küldésével megteheted! Amennyiben utólag meggondolod magad bármikor letilthatod a rendszergazdai beállításokban.",
     "Not now" : "Most nem",
