@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "Statistikk for bruksmønster",
     "Last report sent on: {on}" : "Siste rapport sendt: {on}",
     "An error occurred while sending your report." : "Feil under forsendelse av din rapport.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Liste over apper <em>(for hver app: navn, versjon, påslått status)</em>",
@@ -10,6 +9,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Antall ressurser <em>(per type og tilgangsinnstilling)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-miljø <em>(versjon, minnegrense, maksimal eksekveringstid, maksimal filstørrelse)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Serverinstallasjonsdetaljer <em>(versjon, bruk av hurtigminne, status for låsing/forhåndsvisninger/avatarer)</em>",
+    "Usage survey" : "Statistikk for bruksmønster",
     "Help improve Nextcloud" : "Hjelp til med å forbedre Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Du kan hjelpe til med å forbedre Nextcloud ved å sende oss noe anonymisert data om ditt nåværende oppsett og bruk. Du kan skru det av igjen når som helst fra administrasjonsinnstillingene.",
     "Not now" : "Ikke nå",

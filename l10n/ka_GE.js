@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "გამოყენების გამოკვლევა",
     "An error occurred while sending your report." : "თქვენი რეპორტის გაგზავნისას წარმოიშვა შეცდომა.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "აპლიკაციების სია <em>(თითოეულ აპლიკაციაზე: სახელი, ვერსია, მოქმედების სტატუსი)</em>",
     "Database environment <em>(type, version, database size)</em>" : "მონაცემთა ბაზის გარემო <em>(სახეობა, ვერსია მონაცემთა ბაზის ზომა)</em>",
@@ -9,6 +8,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "გაზიარებების ოდენობა <em>(თითო სახეობაზე და უფლების კონფიგურაციაზე)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP გარემო <em>(ვერსია, მეხსიერების ლიმიტი, მაქს. ეგზეკუციის დრო, მაქს. ფაილის ზომა)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "სერვერის ინსტანციის დეტალები <em>(ვერსია, memcache-ის გამოყენება, ჩაკეტვის/პრევიუს/ავატარის სტატუსი)</em>",
+    "Usage survey" : "გამოყენების გამოკვლევა",
     "Help improve Nextcloud" : "დაგვეხმარეთ გავაუმჯობესოთ Nextcloud-ი",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "გსურთ დაგვეხმაროთ Nextcloud-ის გაუმჯობესებაში თქვენს ინსტალაციაზე და მის მოხმარებაზე ანონიმური მონაცემების გაგმოგზავნით? ადმინისტრაციის პარამეტრებიდან ამის გათიშვას შეძლებთ ნებისმიერ დროს.",
     "Not now" : "ახლა არა",

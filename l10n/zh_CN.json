@@ -1,5 +1,4 @@
 { "translations": {
-    "Usage survey" : "使用情况调查",
     "Last report sent on: {on}" : "最后一次报告发送于: {on}",
     "An error occurred while sending your report." : "发送报告时发生了错误。",
     "App list <em>(for each app: name, version, enabled status)</em>" : "应用列表 <em>（对于每个应用：名称、版本、启用状态）</em>",
@@ -9,6 +8,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP 环境<em>（版本，内存限制，最大执行时间，最大文件尺寸）</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "服务器实例详情 <em>（版本、memcache 用量、锁定/预览/头像的状态）</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "统计 <em>(文件数, 用户, 各存储类型, 评论及标签)</em>",
+    "Usage survey" : "使用情况调查",
     "Help improve Nextcloud" : "帮助改进 Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "您想通过给我们提供一些关于您的安装及使用情况的匿名数据来帮忙改进 Nextcloud 吗？您可以随时在管理员菜单的设置中关闭它。",
     "Not now" : "以后再说",
