@@ -1,5 +1,4 @@
 { "translations": {
-    "Usage survey" : "Skicka statistik",
     "Last report sent on: {on}" : "Senaste rapporten sänd den: {on}",
     "An error occurred while sending your report." : "Ett fel inträffade när rapporten sändes.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Applista <em>(för varje app: namn, version, aktiveringsstatus)</em>",
@@ -9,6 +8,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-miljö<em>(version, minnesgräns, max. exekveringstid, max. filstorlek)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Serverinstansdetaljer <em>(version, använt memcache, status över låsning/förhandsvisning/avatarer)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistik <em>(antal filer, användare, lagringar per typ, kommentarer och taggar)</em>",
+    "Usage survey" : "Skicka statistik",
     "Help improve Nextcloud" : "Hjälp till att  förbättra Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Vill du hjälpa oss förbättra Nextcloud genom att förse oss med anonym data om din installation och användning? Du kan stänga av det när som helst i administratörsinställningarna.",
     "Not now" : "Inte nu",

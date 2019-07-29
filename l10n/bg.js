@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "Проучване",
     "Last report sent on: {on}" : "Последно изпращане на данни: {on}",
     "An error occurred while sending your report." : "Възникна грешка при изпращането на данните.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Приложения <em>(за всяко: име, версия, включено/изключено)</em>",
@@ -11,6 +10,7 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP средата <em>(версия, лимит на паметта, max. execution time, макс. размер за файл)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Данни за сървъра <em>(версия, memcache, състояние на locking/previews/avatars)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Статистика <em>(брой на: файлове, потребители, storages per type, коментари и етикети)</em>",
+    "Usage survey" : "Проучване",
     "Help improve Nextcloud" : "Помогнете за развитието на Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Желаете ли да помогнете в усъвършенстването на Nextcloud, чрез изпращане на анонимни данни за текущата инсталация? Може да спрете изпращането по всяко време от Административни > Проучване.",
     "Not now" : "Не сега",

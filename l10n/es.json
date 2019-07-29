@@ -1,5 +1,4 @@
 { "translations": {
-    "Usage survey" : "Encuesta de uso",
     "Last report sent on: {on}" : "Último informe enviado el {on}",
     "An error occurred while sending your report." : "Se ha producido un error al enviar tu informe.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Lista de apps <em>(para cada app: nombre, versión, activa o inactiva)</em>",
@@ -9,6 +8,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Entorno PHP <em>(versión, límite de memoria, tiempo de ejecución máximo, tamaño de archivo máximo)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalles de la instancia del servidor <em>(versión, uso de memcache, estado del bloqueo de archivos/previsualizaciones/avatares)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Estadísticas <em>(número de archivos, usuarios, almacenamientos por tipo, comentarios y etiquetas)</em>",
+    "Usage survey" : "Encuesta de uso",
     "Help improve Nextcloud" : "Ayuda a mejorar Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "¿Quieres ayudarnos a mejorar Nextcloud aportando algunos datos anónimos sobre tu configuración y uso? Puedes desactivarlo en cualquier momento en la configuración de administrador.",
     "Not now" : "Ahora no",

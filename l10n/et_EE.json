@@ -1,5 +1,4 @@
 { "translations": {
-    "Usage survey" : "Kasutuse uuring",
     "An error occurred while sending your report." : "Raporti saatmisel tekkis viga.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Rakenduste nimekiri <em>(iga rakenduse kohta: nimi, versioon, olek)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Andmebaasikeskkond <em>(tüüp, versioon, suurus)</em>",
@@ -7,6 +6,7 @@
     "Number of shares <em>(per type and permission setting)</em>" : "Jagamiste hulk <em>(tüübi kohta ja õiguste seaded)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP keskkond <em>(versioon, mälupiirand, maksimaalne täitmisaeg, maksimaalne failisuurus)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Serveri instantsi üksikasjad <em>(versioon, memcache kasutamine, lukustamise/eelvaadete/avataride staatus)</em>",
+    "Usage survey" : "Kasutuse uuring",
     "Help improve Nextcloud" : "Aita Nextcloudi parendada",
     "Not now" : "Mitte praegu",
     "Send usage" : "Saada kasutusraport",

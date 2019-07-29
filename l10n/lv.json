@@ -1,10 +1,10 @@
 { "translations": {
-    "Usage survey" : "Izmantojamības aptauja",
     "An error occurred while sending your report." : "Radās kļūda sūtot Jūsu atskaiti",
     "Database environment <em>(type, version, database size)</em>" : "Datu bāzes vide <em>(tips, versija, datu bāzes izmērs)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Šefrēšanas informācija <em>(iespējota?, kāds ir noklusētais modulis)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Koplietojumu skaits <em>(pēc tipa un piekļuvju uzstādījumiem)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP vide <em>(versija, atmiņas limits, max. izpildes laiks, max. datnes izmērs)</em>",
+    "Usage survey" : "Izmantojamības aptauja",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Vēlaties mums palīdzēt uzlabot Nextcloud, anonīmi sniedzot datus par Jūsu iestatījumiem un izmantojamību? Jūs varat šo iespēju atspējot jebkurā brīdī administratora uzstādījumos.",
     "Not now" : "Ne tagad",
     "Send usage" : "Nosūtīt izmantojamību",

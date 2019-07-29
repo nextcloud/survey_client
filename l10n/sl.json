@@ -1,5 +1,4 @@
 { "translations": {
-    "Usage survey" : "Poročilo o uporabi",
     "Last report sent on: {on}" : "Nazadnje poslano poročilo: {on}",
     "An error occurred while sending your report." : "Med pošiljanjem poročila je prišlo do napake.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Seznam programov <em>(za vsak program: ime, različica, stanje)</em>",
@@ -9,6 +8,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Okolje PHP <em>(različica, omejitev pomnilnika, največji čas izvajanja, omejitev velikosti datotek)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Podrobnosti strežnika <em>(različica, uporabljen memcache, stanje zaklepa/predogleda/uporabljene podobe)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(število datotek, število uporabnikov, omejitev shrambe, opombe, oznake)</em>",
+    "Usage survey" : "Poročilo o uporabi",
     "Help improve Nextcloud" : "Sodelujte pri izboljševanju oblaka Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ali bi želeli sodelovati pri izboljševanju okolja Nextcloud s pošiljanjem anonimiziranih podatkov o nastavitvah in uporabi? Nastavitev lahko kadarkoli onemogočite skrbniškimi med nastavitvami.",
     "Not now" : "Ne zdaj",
