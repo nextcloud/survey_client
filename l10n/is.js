@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "Könnun á notkun",
     "Last report sent on: {on}" : "Síðasta skýrsla send þann: {on}",
     "An error occurred while sending your report." : "Villa kom upp við að senda skýrsluna þína.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Forritalisti <em>(fyrir hvert forrit: nafn, útgáfa, staða virkni)</em>",
@@ -11,6 +10,7 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-umhverfi <em>(útgáfa, takmörk minnis, hám. keyrslutími, hám. skráastærð)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Nánar um ástand netþjóns <em>(útgáfa, notað skyndiminni, staða læsinga/forskoðunar/auðkennismynda)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Tölfræði <em>(fjöldi skráa, notenda, geymslur af hvaða gerð, athugasemdir og merki)</em>",
+    "Usage survey" : "Könnun á notkun",
     "Help improve Nextcloud" : "Hjálpaðu til við að bæta Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Myndir þú vilja hjálpa til við að bæta Nextcloud með því að senda okkur ákveðin nafnlaus gögn um uppsetninguna þína og notkun? Þú getur gert þetta óvirkt aftur hvenær sem er í kerfisstjórnunarstillingunum.",
     "Not now" : "Ekki núna",

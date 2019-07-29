@@ -1,5 +1,4 @@
 { "translations": {
-    "Usage survey" : "Gebruikersonderzoek",
     "Last report sent on: {on}" : "Laatste rapportage verstuurd op: {on}",
     "An error occurred while sending your report." : "Er trad een fout op bij het versturen van je rapport",
     "App list <em>(for each app: name, version, enabled status)</em>" : "App lijst <em>(voor elke app: naam, versie, ingeschakeld?)</em>",
@@ -9,6 +8,7 @@
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP omgeving <em>(versie, geheugenlimiet, max. uitvoeringstijd, max. bestandsomvang)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Server details <em>(versie, memcache gebruikt, status van locking/previews/avatars)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistiek <em>(aantal bestanden, gebruikers, opslag per type, reacties en tags)</em>",
+    "Usage survey" : "Gebruikersonderzoek",
     "Help improve Nextcloud" : "Help Nextcloud verbeteren",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Wil je ons helpen om Nextcloud te verbeteren, door geanonimiseerde gegevens over je installatie en gebruik te delen? Je kunt dit altijd weer uit zetten bij de beheerdersinstellingen.",
     "Not now" : "Niet nu",

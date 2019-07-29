@@ -1,7 +1,6 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Usage survey" : "Enquesta d'ús",
     "Last report sent on: {on}" : "Darrer informe enviar al: [on]",
     "An error occurred while sending your report." : "S'ha produït un error en enviar l'informe.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Llista d'aplicacions <em>(per a cada aplicació: nom, versió, estat habilitat)</em>",
@@ -11,6 +10,7 @@ OC.L10N.register(
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Entorn de PHP <em>(versió, límit de memòria, temps d'execució màxim, mida del fitxer màxim)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalls de l'instància del servidor<em>(versió, memcached utilitzada, estat del bloqueig/previsualitzacions/avatars)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Estadística <em>(nombre de fitxers, usuaris, emmagatzematges per tipus, comentaris i etiquetes)</em>",
+    "Usage survey" : "Enquesta d'ús",
     "Help improve Nextcloud" : "Ajudeu a millorar Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Voleu ajudar-nos a millorar Nextcloud proporcionant dades anònimes sobre la vostra configuració i ús? Podeu desactivar-ho en qualsevol moment a la configuració de l'administrador.",
     "Not now" : "Ara no",

@@ -1,10 +1,10 @@
 { "translations": {
-    "Usage survey" : "Käyttötutkimus",
     "Last report sent on: {on}" : "Viimeisin raportti lähetetty: {on}",
     "An error occurred while sending your report." : "Tapahtui virhe lähetettäessä raporttia.",
     "Database environment <em>(type, version, database size)</em>" : "Tietokantaympäristö <em>(tyyppi, versio, tietokannan koko)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Jakojen määrä <em>(tyyppi ja käyttöoikeusasetukset)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-ympäristö <em>(versio, muistin raja, maks. suoritusaika, maks. tiedostokoko)</em>",
+    "Usage survey" : "Käyttötutkimus",
     "Help improve Nextcloud" : "Auta parantamaan Nextcloudia",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Haluatko auttaa meitä Nextcloudin kehittämisessä lähettämällä anonyymiä tietoa asetuksistasi ja käytöstäsi? Voit estää tietojen lähettämisen koska tahansa ylläpitoasetuksissa.",
     "Not now" : "Ei nyt",
