@@ -4,9 +4,12 @@ language: php
 #  - 7.2
 #  - 7.3
 
+services:
+  - mysql
+
 env:
   global:
-    - CORE_BRANCH=master
+    - CORE_BRANCH=stable17
     - APP_NAME=survey_client
 #  matrix:
 #    - DB=sqlite
