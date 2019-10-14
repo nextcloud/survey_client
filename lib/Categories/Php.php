@@ -69,7 +69,7 @@ class Php implements ICategory {
 			'memory_limit' => $this->phpIni->getBytes('memory_limit'),
 			'max_execution_time' => $this->phpIni->getNumeric('max_execution_time'),
 			'upload_max_filesize' => $this->phpIni->getBytes('upload_max_filesize'),
-			'loaded_extensions' => implode(',', get_loaded_extensions())
+			'loaded_extensions' => implode(',', get_loaded_extensions() ?? [])
 		];
 	}
 
