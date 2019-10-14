@@ -57,7 +57,7 @@ class Php implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>');
+		return (string) $this->l->t('PHP environment <em>(version, memory limit, max. execution time, max. file size, loaded_extensions)</em>');
 	}
 
 	/**
@@ -69,6 +69,7 @@ class Php implements ICategory {
 			'memory_limit' => $this->phpIni->getBytes('memory_limit'),
 			'max_execution_time' => $this->phpIni->getNumeric('max_execution_time'),
 			'upload_max_filesize' => $this->phpIni->getBytes('upload_max_filesize'),
+			'loaded_extensions' => implode(',', get_loaded_extensions())
 		];
 	}
 
