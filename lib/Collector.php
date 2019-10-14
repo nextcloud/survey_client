@@ -81,7 +81,7 @@ class Collector {
 			$this->config,
 			$this->l
 		);
-		$this->categories[] = new php(
+		$this->categories[] = new Php(
 			$this->phpIni,
 			$this->l
 		);
