@@ -1,7 +1,9 @@
 { "translations": {
     "Last report sent on: {on}" : "Viimeisin raportti lähetetty: {on}",
     "An error occurred while sending your report." : "Tapahtui virhe lähetettäessä raporttia.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Sovelluslista <em>(jokaisen sovelluksen osalta: nimi, versio, onko käytössä)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Tietokantaympäristö <em>(tyyppi, versio, tietokannan koko)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Salaustietoa <em>(onko salaus käytössä, mikä on oletusmoduuli)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Jakojen määrä <em>(tyyppi ja käyttöoikeusasetukset)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP-ympäristö <em>(versio, muistin raja, maks. suoritusaika, maks. tiedostokoko)</em>",
     "Usage survey" : "Käyttötutkimus",
