@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$button.attr('disabled', true);
 
 		$.ajax({
-			url: OC.linkToOCS('apps/survey_client/api/v1/', 2) + 'monthly?format=json',
+			url: OC.linkToOCS('apps/survey_client/api/v1', 2) + 'monthly?format=json',
 			type: $(this).attr('checked') ? 'POST' : 'DELETE',
 			success: function() {
 				$button.attr('disabled', false);
@@ -33,7 +33,7 @@ $(document).ready(function() {
 		var $button = $(this);
 		$button.attr('disabled', true);
 		$.ajax({
-			url: OC.linkToOCS('apps/survey_client/api/v1/', 2) + 'report?format=json',
+			url: OC.linkToOCS('apps/survey_client/api/v1', 2) + 'report?format=json',
 			type: 'POST',
 			success: function(response) {
 				$button.attr('disabled', false);
