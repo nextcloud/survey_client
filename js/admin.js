@@ -46,7 +46,7 @@ $(document).ready(function() {
 			},
 			error: function(xhr) {
 				$button.attr('disabled', false);
-				OC.Notification.showTemporary(t('survey_client', 'An error occurred while sending your report.'));
+				OCP.Toast.error(t('survey_client', 'An error occurred while sending your report.'));
 
 				var response = xhr.responseJSON;
 				$section.find('.last_report').text(JSON.stringify(response.ocs.data, undefined, 4));
