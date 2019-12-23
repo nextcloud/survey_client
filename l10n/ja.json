@@ -15,6 +15,7 @@
     "Send usage" : "使用状況を送信",
     "Never" : "使用しない",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Nextcloudの改善に役立つ匿名データをNextcloudに送信します。",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "匿名化されたデータを Nextcloud に送信して、Nextcloud の改善に役立てるようにします。\nあなたが Nextcloud に送信されるデータを常に完全に制御でき、いつでも無効にすることができます",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "設定ならびに使用状況に関する一部のデータを送信していただくと、Nextcloudの改善に役立ちます。",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "プライバシー情報について慎重に取り扱います。データは、明示的にオンを選択しなければデフォルトでは送信されませんし、オンにした場合でも、まず匿名化された上にどのデータを送信するか選択することができます。レポートを受け取ったら、古いデータは削除されます。レポートの削除を受け取ったら現在あるサーバー上のすべてのデータを削除します。",
     "Send new report now" : "新しい使用状況レポートを送信",
