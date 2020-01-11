@@ -10,7 +10,7 @@
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(število datotek, število uporabnikov, omejitev shrambe, opombe, oznake)</em>",
     "Usage survey" : "Poročilo o uporabi",
     "Help improve Nextcloud" : "Sodelujte pri izboljševanju oblaka Nextcloud",
-    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ali bi želeli sodelovati pri izboljševanju okolja Nextcloud s pošiljanjem anonimiziranih podatkov o nastavitvah in uporabi? Nastavitev lahko kadarkoli onemogočite skrbniškimi med nastavitvami.",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ali bi želeli sodelovati pri izboljševanju okolja Nextcloud s pošiljanjem anonimiziranih podatkov o nastavitvah in uporabi? Nastavitev lahko kadarkoli onemogočite med skrbniškimi nastavitvami.",
     "Not now" : "Ne zdaj",
     "Send usage" : "Pošlji poročilo",
     "Never" : "Nikoli ne pošlji",
