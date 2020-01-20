@@ -8,7 +8,7 @@
         always have full control over the content sent to Nextcloud and can disable
         it again at any time.
     </description>
-    <version>1.6.0</version>
+    <version>1.7.0</version>
     <licence>agpl</licence>
     <author>Björn Schiessle</author>
     <author>Joas Schilling</author>
@@ -18,7 +18,7 @@
     <website>https://github.com/nextcloud/survey_client</website>
     <bugs>https://github.com/nextcloud/survey_client/issues</bugs>
     <dependencies>
-		<nextcloud min-version="18" max-version="18" />
+		<nextcloud min-version="19" max-version="19" />
     </dependencies>
     <settings>
         <admin>OCA\Survey_Client\Settings\AdminSettings</admin>
