@@ -6,7 +6,7 @@
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informazioni di cifratura <em>(è abilitata?, qual è il modulo predefinito)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Numero di condivisioni <em>(per tipo e permessi)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Ambiente PHP <em>(versione, limite di memoria, tempo di esecuzione max., dimensione dei file max.)</em>",
-    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Dettagli istanza del server <em>(versione, memcache utilizzarta, stato di blocco/anteprime/avatar)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Dettagli istanza del server <em>(versione, memcache utilizzata, stato di blocco/anteprime/avatar)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistiche <em>(numero di: file, utenti, archiviazioni per tipo, commenti e etichette)</em>",
     "Usage survey" : "Sondaggio di utilizzo",
     "Help improve Nextcloud" : "Aiutaci a migliorare Nextcloud",
