@@ -1,8 +1,8 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Last report sent on: {on}" : "Senaste rapporten sänd den: {on}",
-    "An error occurred while sending your report." : "Ett fel inträffade när rapporten sändes.",
+    "Last report sent on: {on}" : "Senaste rapporten skickad den: {on}",
+    "An error occurred while sending your report." : "Ett fel inträffade när din rapport skickades.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Applista <em>(för varje app: namn, version, aktiveringsstatus)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Databasmiljö <em>(typ, version, databasstorlek)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Krypteringsinformation <em>(Aktiverad?, modul i grundinställningar)</em>",
