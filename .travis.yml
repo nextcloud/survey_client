@@ -8,7 +8,7 @@ services:
 
 env:
   global:
-    - CORE_BRANCH=master
+    - CORE_BRANCH=stable19
     - APP_NAME=survey_client
 #  matrix:
 #    - DB=sqlite
