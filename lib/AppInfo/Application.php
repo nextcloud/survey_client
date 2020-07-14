@@ -22,10 +22,22 @@
 namespace OCA\Survey_Client\AppInfo;
 
 
+use OCA\Survey_Client\Notifier;
 use OCP\AppFramework\App;
+use OCP\AppFramework\Bootstrap\IBootContext;
+use OCP\AppFramework\Bootstrap\IBootstrap;
+use OCP\AppFramework\Bootstrap\IRegistrationContext;
 
-class Application extends App {
+class Application extends App implements IBootstrap {
 	public function __construct (array $urlParams = array()) {
 		parent::__construct('survey_client', $urlParams);
+	}
+
+	public function register(IRegistrationContext $context): void {
+	}
+
+	public function boot(IBootContext $context): void {
+		$notificationManager = $context->getServerContainer()->getNotificationManager();
+		$notificationManager->registerNotifierService(Notifier::class);
 	}
 }
