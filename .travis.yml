@@ -2,13 +2,13 @@ language: php
 #php:
 #  - 7.2
 #  - 7.3
-#  - 7.4snapshot
+#  - 7.4
 services:
   - mysql
 
 env:
   global:
-    - CORE_BRANCH=master
+    - CORE_BRANCH=stable20
     - APP_NAME=survey_client
 #  matrix:
 #    - DB=sqlite
