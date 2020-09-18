@@ -8,7 +8,7 @@
         always have full control over the content sent to Nextcloud and can disable
         it again at any time.
     </description>
-    <version>1.8.0</version>
+    <version>1.9.0</version>
     <licence>agpl</licence>
     <author>Björn Schiessle</author>
     <author>Joas Schilling</author>
@@ -18,7 +18,7 @@
     <website>https://github.com/nextcloud/survey_client</website>
     <bugs>https://github.com/nextcloud/survey_client/issues</bugs>
     <dependencies>
-        <nextcloud min-version="20" max-version="20" />
+        <nextcloud min-version="21" max-version="21" />
     </dependencies>
     <repair-steps>
         <post-migration>
