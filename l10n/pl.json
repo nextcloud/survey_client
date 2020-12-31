@@ -4,7 +4,7 @@
     "App list <em>(for each app: name, version, enabled status)</em>" : "Lista aplikacji <em>(dla każdej: nazwa, wersja, stan włączenia)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Środowisko bazy danych <em>(typ, wersja, rozmiar)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informacje o szyfrowaniu <em>(czy jest włączone?, jaki jest domyślny moduł)</em>",
-    "Number of shares <em>(per type and permission setting)</em>" : "Liczba współdzielenia <em>(według typu i ustawienia uprawnień)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Liczba udostępnień <em>(według typu i ustawienia uprawnień)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Środowisko PHP <em>(wersja, limit pamięci, maks. czas wykonania, maks. rozmiar pliku)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Szczegóły serwera <em>(wersja, użyta pamięć, status blokad/podglądów/awatarów)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statystyki <em>(liczba: plików, użytkowników, typów pamięci, komentarzy oraz etykiet)</em>",
