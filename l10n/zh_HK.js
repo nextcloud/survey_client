@@ -8,7 +8,7 @@ OC.L10N.register(
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "加密信息<em>（啟用了嗎？默認模塊是什麼？）</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "分享數量<em>（按類型和權限設置）</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP環境<em>（版本，內存限制，最大執行時間，最大文件大小）</em>",
-    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "服務器實例詳細信息<em>（版本，使用的內存緩存，鎖定/預覽/頭像的狀態）</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "伺服器實例詳細信息<em>（版本，使用的內存緩存，鎖定/預覽/頭像的狀態）</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "統計信息<em>（文件，用戶，每種類型的存儲，註釋和標籤的數量）</em>",
     "Usage survey" : "用量調查",
     "Help improve Nextcloud" : "幫助改善Nextcloud",
