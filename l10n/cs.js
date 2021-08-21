@@ -5,7 +5,7 @@ OC.L10N.register(
     "An error occurred while sending your report." : "Při odesílání hlášení došlo k chybě.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Seznam aplikací <em>(pro každou aplikaci: název, verze, zda povolená)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Databázové prostředí <em>(typ, verze, velikost databáze)</em>",
-    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informace o šifrování <em>(je to zapnuto?, jaký je výchozí modul)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informace o šifrování <em>(Je zapnuto? Jaký je výchozí modul?)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Počet sdílení <em>(podle typu a nastavení oprávnění)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP prostředí <em>(verze, limit paměti, max. doba vykonávání, max. velikost souboru)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Podrobnosti o instanci serveru <em>(verze, použití memcache, stav blokování/náhledů/avatarů)</em>",
