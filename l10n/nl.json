@@ -4,7 +4,7 @@
     "App list <em>(for each app: name, version, enabled status)</em>" : "App lijst <em>(voor elke app: naam, versie, ingeschakeld?)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Database omgeving<em>(type, versie, database omvang)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Crypto informatie <em>(ingeschakeld?, wat is de standaardmodule)</em>",
-    "Number of shares <em>(per type and permission setting)</em>" : "Aantal shares <em>(per type en permissie-instelling)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Aantal shares <em>(per type en machtiging-instelling)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP omgeving <em>(versie, geheugenlimiet, max. uitvoeringstijd, max. bestandsomvang)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Server details <em>(versie, memcache gebruikt, status van locking/previews/avatars)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistiek <em>(aantal bestanden, gebruikers, opslag per type, reacties en tags)</em>",
