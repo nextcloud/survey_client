@@ -24,6 +24,7 @@ namespace OCA\Survey_Client\BackgroundJobs;
 use OC\BackgroundJob\TimedJob;
 use OCA\Survey_Client\AppInfo\Application;
 use OCP\AppFramework\Http;
+use OCP\BackgroundJob\IJob;
 
 class MonthlyReport extends TimedJob {
 
@@ -33,6 +34,7 @@ class MonthlyReport extends TimedJob {
 	public function __construct() {
 		// Run all 28 days
 		$this->setInterval(28 * 24 * 60 * 60);
+		$this->setTimeSensitivity(IJob::TIME_INSENSITIVE);
 	}
 
 	protected function run($argument) {
