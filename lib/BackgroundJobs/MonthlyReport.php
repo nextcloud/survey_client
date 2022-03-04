@@ -34,7 +34,8 @@ class MonthlyReport extends TimedJob {
 	public function __construct() {
 		// Run all 28 days
 		$this->setInterval(28 * 24 * 60 * 60);
-		$this->setTimeSensitivity(IJob::TIME_INSENSITIVE);
+		// keeping time sensitive to not overload the target server at a single specific time of the day
+		$this->setTimeSensitivity(IJob::TIME_SENSITIVE);
 	}
 
 	protected function run($argument) {
