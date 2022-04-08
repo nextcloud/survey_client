@@ -21,17 +21,15 @@
 
 namespace OCA\Survey_Client\BackgroundJobs;
 
-use OC\BackgroundJob\TimedJob;
 use OCA\Survey_Client\AppInfo\Application;
 use OCP\AppFramework\Http;
+use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\BackgroundJob\IJob;
+use OCP\BackgroundJob\TimedJob;
 
 class MonthlyReport extends TimedJob {
-
-	/**
-	 * MonthlyReport constructor.
-	 */
-	public function __construct() {
+	public function __construct(ITimeFactory $time) {
+		parent::__construct($time);
 		// Run all 28 days
 		$this->setInterval(28 * 24 * 60 * 60);
 		// keeping time sensitive to not overload the target server at a single specific time of the day
