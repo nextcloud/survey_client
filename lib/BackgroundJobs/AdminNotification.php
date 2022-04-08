@@ -21,36 +21,51 @@
 
 namespace OCA\Survey_Client\BackgroundJobs;
 
-use OC\BackgroundJob\QueuedJob;
+use OCP\AppFramework\Utility\ITimeFactory;
+use OCP\BackgroundJob\QueuedJob;
+use OCP\IGroupManager;
+use OCP\IURLGenerator;
+use OCP\Notification\IManager;
 
 class AdminNotification extends QueuedJob {
-	protected function run($argument) {
-		$manager = \OC::$server->getNotificationManager();
-		$urlGenerator = \OC::$server->getURLGenerator();
+	protected IManager $manager;
+	protected IGroupManager $groupManager;
+	protected IURLGenerator $url;
 
-		$notification = $manager->createNotification();
+	public function __construct(ITimeFactory $time,
+								IManager $manager,
+								IGroupManager $groupManager,
+								IURLGenerator $url) {
+		parent::__construct($time);
+		$this->manager = $manager;
+		$this->groupManager = $groupManager;
+		$this->url = $url;
+	}
+
+	protected function run($argument): void {
+		$notification = $this->manager->createNotification();
 
 		$notification->setApp('survey_client')
 			->setDateTime(new \DateTime())
 			->setSubject('updated')
-			->setObject('dummy', 23);
+			->setObject('dummy', '23');
 
 		$enableAction = $notification->createAction();
 		$enableAction->setLabel('enable')
-			->setLink($urlGenerator->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST')
+			->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST')
 			->setPrimary(true);
 		$notification->addAction($enableAction);
 
 		$disableAction = $notification->createAction();
 		$disableAction->setLabel('disable')
-			->setLink($urlGenerator->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE')
+			->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE')
 			->setPrimary(false);
 		$notification->addAction($disableAction);
 
-		$adminGroup = \OC::$server->getGroupManager()->get('admin');
+		$adminGroup = $this->groupManager->get('admin');
 		foreach ($adminGroup->getUsers() as $admin) {
 			$notification->setUser($admin->getUID());
-			$manager->notify($notification);
+			$this->manager->notify($notification);
 		}
 	}
 }
