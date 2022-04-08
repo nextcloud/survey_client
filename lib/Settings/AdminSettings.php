@@ -47,15 +47,6 @@ class AdminSettings implements ISettings {
 	/** @var IJobList */
 	private $jobList;
 
-	/**
-	 * Admin constructor.
-	 *
-	 * @param Collector $collector
-	 * @param IConfig $config
-	 * @param IL10N $l
-	 * @param IDateTimeFormatter $dateTimeFormatter
-	 * @param IJobList $jobList
-	 */
 	public function __construct(Collector $collector,
 								IConfig $config,
 								IL10N $l,
@@ -73,7 +64,7 @@ class AdminSettings implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm() {
-		$lastSentReportTime = (int) $this->config->getAppValue('survey_client', 'last_sent', 0);
+		$lastSentReportTime = (int) $this->config->getAppValue('survey_client', 'last_sent', '0');
 		if ($lastSentReportTime === 0) {
 			$lastSentReportDate = $this->l->t('Never');
 		} else {

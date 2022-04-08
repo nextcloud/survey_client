@@ -18,4 +18,17 @@
 			<directory name="vendor/phpunit/php-code-coverage" />
 		</ignoreFiles>
 	</extraFiles>
+	<issueHandlers>
+		<UndefinedClass>
+			<errorLevel type="suppress">
+				<referencedClass name="OC" />
+				<referencedClass name="bantu\IniGetWrapper\IniGetWrapper" />
+			</errorLevel>
+		</UndefinedClass>
+		<UndefinedDocblockClass>
+			<errorLevel type="suppress">
+				<referencedClass name="bantu\IniGetWrapper\IniGetWrapper" />
+			</errorLevel>
+		</UndefinedDocblockClass>
+	</issueHandlers>
 </psalm>

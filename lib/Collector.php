@@ -55,18 +55,9 @@ class Collector {
 	/** @var IniGetWrapper */
 	protected $phpIni;
 
-	/** @var \OCP\IL10N */
+	/** @var IL10N */
 	protected $l;
 
-	/**
-	 * Collector constructor.
-	 *
-	 * @param IClientService $clientService
-	 * @param IConfig $config
-	 * @param IDBConnection $connection
-	 * @param IniGetWrapper $phpIni
-	 * @param IL10N $l
-	 */
 	public function __construct(IClientService $clientService, IConfig $config, IDBConnection $connection, IniGetWrapper $phpIni, IL10N $l) {
 		$this->clientService = $clientService;
 		$this->config = $config;
@@ -173,7 +164,7 @@ class Collector {
 		}
 
 		if ($response->getStatusCode() === Http::STATUS_OK) {
-			$this->config->setAppValue('survey_client', 'last_sent', time());
+			$this->config->setAppValue('survey_client', 'last_sent', (string) time());
 			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
 			return new DataResponse(
 				$report

@@ -31,20 +31,15 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Database implements ICategory {
-	/** @var \OCP\IConfig */
+	/** @var IConfig */
 	protected $config;
 
-	/** @var \OCP\IDBConnection */
+	/** @var IDBConnection */
 	protected $connection;
 
-	/** @var \OCP\IL10N */
+	/** @var IL10N */
 	protected $l;
 
-	/**
-	 * @param IConfig $config
-	 * @param IDBConnection $connection
-	 * @param IL10N $l
-	 */
 	public function __construct(IConfig $config, IDBConnection $connection, IL10N $l) {
 		$this->config = $config;
 		$this->connection = $connection;
@@ -137,6 +132,7 @@ class Database implements ICategory {
 				if (file_exists($this->config->getSystemValue('dbhost'))) {
 					$database_size = filesize($this->config->getSystemValue('dbhost'));
 				} else {
+					/** @psalm-suppress UndefinedInterfaceMethod */
 					$params = $this->connection->getParams();
 					if (file_exists($params['path'])) {
 						$database_size = filesize($params['path']);
