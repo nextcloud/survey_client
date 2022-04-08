@@ -15,9 +15,8 @@
 	<author>Björn Schiessle</author>
 	<author>Joas Schilling</author>
 
-	<default_enable/>
-
 	<namespace>Survey_Client</namespace>
+	<default_enable/>
 
 	<category>tools</category>
 
