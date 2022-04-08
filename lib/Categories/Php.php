@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use bantu\IniGetWrapper\IniGetWrapper;
 use OCP\IL10N;
 
@@ -57,7 +56,7 @@ class Php implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>');
+		return $this->l->t('PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>');
 	}
 
 	/**

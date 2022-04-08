@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use OCP\IConfig;
 use OCP\IL10N;
 
@@ -57,7 +56,7 @@ class Server implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>');
+		return $this->l->t('Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>');
 	}
 
 	/**

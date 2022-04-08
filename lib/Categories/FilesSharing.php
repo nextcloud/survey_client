@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use OCP\IDBConnection;
 use OCP\IL10N;
 
@@ -57,7 +56,7 @@ class FilesSharing implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Number of shares <em>(per type and permission setting)</em>');
+		return $this->l->t('Number of shares <em>(per type and permission setting)</em>');
 	}
 
 	/**

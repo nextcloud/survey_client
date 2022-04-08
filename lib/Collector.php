@@ -38,8 +38,7 @@ use OCP\IDBConnection;
 use OCP\IL10N;
 
 class Collector {
-
-	const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
+	public const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
 
 	/** @var ICategory[] */
 	protected $categories;
@@ -56,18 +55,9 @@ class Collector {
 	/** @var IniGetWrapper */
 	protected $phpIni;
 
-	/** @var \OCP\IL10N */
+	/** @var IL10N */
 	protected $l;
 
-	/**
-	 * Collector constructor.
-	 *
-	 * @param IClientService $clientService
-	 * @param IConfig $config
-	 * @param IDBConnection $connection
-	 * @param IniGetWrapper $phpIni
-	 * @param IL10N $l
-	 */
 	public function __construct(IClientService $clientService, IConfig $config, IDBConnection $connection, IniGetWrapper $phpIni, IL10N $l) {
 		$this->clientService = $clientService;
 		$this->config = $config;
@@ -118,8 +108,8 @@ class Collector {
 
 		foreach ($this->categories as $category) {
 			$categories[$category->getCategory()] = [
-				'displayName'	=> $category->getDisplayName(),
-				'enabled'		=> $this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes',
+				'displayName' => $category->getDisplayName(),
+				'enabled' => $this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes',
 			];
 		}
 
@@ -174,7 +164,7 @@ class Collector {
 		}
 
 		if ($response->getStatusCode() === Http::STATUS_OK) {
-			$this->config->setAppValue('survey_client', 'last_sent', time());
+			$this->config->setAppValue('survey_client', 'last_sent', (string) time());
 			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
 			return new DataResponse(
 				$report

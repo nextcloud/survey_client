@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use OCP\IDBConnection;
 use OCP\IL10N;
 
@@ -57,7 +56,7 @@ class Stats implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Statistic <em>(number of files, users, storages per type, comments and tags)</em>');
+		return $this->l->t('Statistic <em>(number of files, users, storages per type, comments and tags)</em>');
 	}
 
 	/**
@@ -105,9 +104,9 @@ class Stats implements ICategory {
 
 		if ($type === 'home') {
 			$query->where($query->expr()->like('id', $query->createNamedParameter('home::%')));
-		} else if ($type === 'local') {
+		} elseif ($type === 'local') {
 			$query->where($query->expr()->like('id', $query->createNamedParameter('local::%')));
-		} else if ($type === 'other') {
+		} elseif ($type === 'other') {
 			$query->where($query->expr()->notLike('id', $query->createNamedParameter('home::%')));
 			$query->andWhere($query->expr()->notLike('id', $query->createNamedParameter('local::%')));
 		}
@@ -128,7 +127,7 @@ class Stats implements ICategory {
 		$query = $this->connection->getQueryBuilder();
 
 		if ($column !== '*') {
-			$column = 'DISTINCT(' . $query->getColumnName($column ) . ')';
+			$column = 'DISTINCT(' . $query->getColumnName($column) . ')';
 		}
 		$query->selectAlias($query->createFunction('COUNT(' . $column . ')'), 'num_entries')
 			->from($tableName);

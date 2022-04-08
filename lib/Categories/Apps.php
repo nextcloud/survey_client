@@ -21,8 +21,7 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
-use Doctrine\DBAL\Connection;
+use OCP\DB\QueryBuilder\IQueryBuilder;
 use OCP\IDBConnection;
 use OCP\IL10N;
 
@@ -58,7 +57,7 @@ class Apps implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('App list <em>(for each app: name, version, enabled status)</em>');
+		return $this->l->t('App list <em>(for each app: name, version, enabled status)</em>');
 	}
 
 	/**
@@ -71,7 +70,7 @@ class Apps implements ICategory {
 			->from('appconfig')
 			->where($query->expr()->in('configkey', $query->createNamedParameter(
 				['enabled', 'installed_version'],
-				Connection::PARAM_STR_ARRAY
+				IQueryBuilder::PARAM_STR_ARRAY
 			)));
 		$result = $query->execute();
 

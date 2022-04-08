@@ -87,10 +87,10 @@ class Notifier implements INotifier {
 
 		foreach ($notification->getActions() as $action) {
 			if ($action->getLabel() === 'disable') {
-				$action->setParsedLabel((string) $l->t('Not now'))
+				$action->setParsedLabel($l->t('Not now'))
 					->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE');
-			} else if ($action->getLabel() === 'enable') {
-				$action->setParsedLabel((string) $l->t('Send usage'))
+			} elseif ($action->getLabel() === 'enable') {
+				$action->setParsedLabel($l->t('Send usage'))
 					->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST');
 			}
 			$notification->addParsedAction($action);

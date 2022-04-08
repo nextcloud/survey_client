@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use OCP\IConfig;
 use OCP\IDBConnection;
 use OCP\IL10N;
@@ -32,20 +31,15 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Database implements ICategory {
-	/** @var \OCP\IConfig */
+	/** @var IConfig */
 	protected $config;
 
-	/** @var \OCP\IDBConnection */
+	/** @var IDBConnection */
 	protected $connection;
 
-	/** @var \OCP\IL10N */
+	/** @var IL10N */
 	protected $l;
 
-	/**
-	 * @param IConfig $config
-	 * @param IDBConnection $connection
-	 * @param IL10N $l
-	 */
 	public function __construct(IConfig $config, IDBConnection $connection, IL10N $l) {
 		$this->config = $config;
 		$this->connection = $connection;
@@ -63,7 +57,7 @@ class Database implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Database environment <em>(type, version, database size)</em>');
+		return $this->l->t('Database environment <em>(type, version, database size)</em>');
 	}
 
 	/**
@@ -138,6 +132,7 @@ class Database implements ICategory {
 				if (file_exists($this->config->getSystemValue('dbhost'))) {
 					$database_size = filesize($this->config->getSystemValue('dbhost'));
 				} else {
+					/** @psalm-suppress UndefinedInterfaceMethod */
 					$params = $this->connection->getParams();
 					if (file_exists($params['path'])) {
 						$database_size = filesize($params['path']);
@@ -154,8 +149,7 @@ class Database implements ICategory {
 				$result->closeCursor();
 				if ($row['proname'] === 'pg_database_size') {
 					$database = $this->config->getSystemValue('dbname');
-					if (strpos($database, '.') !== false)
-					{
+					if (strpos($database, '.') !== false) {
 						list($database, ) = explode('.', $database);
 					}
 					$sql = "SELECT oid
