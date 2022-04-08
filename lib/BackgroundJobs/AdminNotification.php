@@ -52,6 +52,5 @@ class AdminNotification extends QueuedJob {
 			$notification->setUser($admin->getUID());
 			$manager->notify($notification);
 		}
-
 	}
 }

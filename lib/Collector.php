@@ -38,8 +38,7 @@ use OCP\IDBConnection;
 use OCP\IL10N;
 
 class Collector {
-
-	const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
+	public const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
 
 	/** @var ICategory[] */
 	protected $categories;
@@ -118,8 +117,8 @@ class Collector {
 
 		foreach ($this->categories as $category) {
 			$categories[$category->getCategory()] = [
-				'displayName'	=> $category->getDisplayName(),
-				'enabled'		=> $this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes',
+				'displayName' => $category->getDisplayName(),
+				'enabled' => $this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes',
 			];
 		}
 

@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use OCP\IConfig;
 use OCP\IDBConnection;
 use OCP\IL10N;
@@ -154,8 +153,7 @@ class Database implements ICategory {
 				$result->closeCursor();
 				if ($row['proname'] === 'pg_database_size') {
 					$database = $this->config->getSystemValue('dbname');
-					if (strpos($database, '.') !== false)
-					{
+					if (strpos($database, '.') !== false) {
 						list($database, ) = explode('.', $database);
 					}
 					$sql = "SELECT oid

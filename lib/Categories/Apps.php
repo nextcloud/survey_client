@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use Doctrine\DBAL\Connection;
 use OCP\IDBConnection;
 use OCP\IL10N;

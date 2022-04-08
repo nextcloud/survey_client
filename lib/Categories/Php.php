@@ -21,7 +21,6 @@
 
 namespace OCA\Survey_Client\Categories;
 
-
 use bantu\IniGetWrapper\IniGetWrapper;
 use OCP\IL10N;
 

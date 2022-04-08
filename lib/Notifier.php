@@ -89,7 +89,7 @@ class Notifier implements INotifier {
 			if ($action->getLabel() === 'disable') {
 				$action->setParsedLabel((string) $l->t('Not now'))
 					->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE');
-			} else if ($action->getLabel() === 'enable') {
+			} elseif ($action->getLabel() === 'enable') {
 				$action->setParsedLabel((string) $l->t('Send usage'))
 					->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST');
 			}
