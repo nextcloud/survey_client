@@ -56,7 +56,7 @@ class Stats implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Statistic <em>(number of files, users, storages per type, comments and tags)</em>');
+		return $this->l->t('Statistic <em>(number of files, users, storages per type, comments and tags)</em>');
 	}
 
 	/**

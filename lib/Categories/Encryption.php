@@ -56,7 +56,7 @@ class Encryption implements ICategory {
 	 * @return string
 	 */
 	public function getDisplayName() {
-		return (string) $this->l->t('Encryption information <em>(is it enabled?, what is the default module)</em>');
+		return $this->l->t('Encryption information <em>(is it enabled?, what is the default module)</em>');
 	}
 
 	/**
