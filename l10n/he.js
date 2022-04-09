@@ -17,13 +17,13 @@ OC.L10N.register(
     "Send usage" : "שליחת נתוני שימוש",
     "Never" : "אף פעם",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "שליחת נתונים אלמוניים ל־Nextcloud כדי לסייע לנו בשיפור Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "שולח נתונים אלמוניים ל־Nextcloud כדי לסייע לנו לשפר את Nextcloud. תמיד\n        יש לך שליטה מלאה על התוכן שנשלח ל־Nextcloud וניתן להשבית זאת בכל עת.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "ניתן לסייע בשיפור Nextcloud על ידי שליחת נתונים כלשהם אלינו בנוגע להתקנה הנוכחית ואופן השימוש שלך.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "אנו מתייחסים לפרטיות שלך ברצינות רבה. שליחה של נתונים אינה פעילה כבררת מחדל ובמקרה שבחרת להפעיל את האפשרות הזאת, הנתונים של ינוקו מפרטים מזהים ויתאפשר לך לבחור מה ברצונך לשתף. בעת קבלת דוח הקודם לו נמחק. ניתן להעלות דוח ריק כדי למחוק את כל הנתונים שמאוחסנים כרגע על השרת.",
     "Send new report now" : "שליחת דוח חדש כעת",
     "Send usage survey monthly" : "שליחת סקר שימוש חודשי",
     "Data to send" : "נתונים לשליחה",
     "Last report sent on: %s" : "הדוח האחרון נשלח ב־: %s",
-    "Last report" : "דוח אחרון"
+    "Last report" : "דוח אחרון",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "שולח נתונים אלמוניים ל־Nextcloud כדי לסייע לנו לשפר את Nextcloud. תמיד\n        יש לך שליטה מלאה על התוכן שנשלח ל־Nextcloud וניתן להשבית זאת בכל עת."
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

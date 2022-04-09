@@ -15,13 +15,13 @@
     "Send usage" : "Senda upplýsingar um notkun",
     "Never" : "Aldrei",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sendir nafnlaus gögn til Nextcloud til að hjálpa okkur við að bæta Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Sendir nafnlaus gögn til Nextcloud til að hjálpa okkur við að bæta Nextcloud.\n        Þú ert ávallt með fulla stjórn á hvaða efni sé sent til Nextcloud og getur\n        gert það óvirkt hvenær sem er.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Þú getur hjálpað til við að bæta Nextcloud með því að senda okkur ákveðin gögn um uppsetninguna þína og notkun.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Við tökum gagnaleynd þína alvarlega. Sending notkunargagna er sjálfgefið óvirk og ef þú myndir velja að virkja hana, eru gögnin fyrst gerð algerlega órekjanleg og þér gefinn kostur á að velja hvað af þessum gögnum verður deilt. Þegar skýrsla berst er fyrri skýrsla fjarlægð. Sendu inn auða skýrslu til að hreinsa út öll gögn sem hafa verið geymd á þjóninum.",
     "Send new report now" : "Senda nýja skýrslu núna",
     "Send usage survey monthly" : "Senda mánaðarlega könnun á notkun",
     "Data to send" : "Gögn til sendingar",
     "Last report sent on: %s" : "Síðasta skýrsla send þann: %s",
-    "Last report" : "Síðasta skýrsla"
+    "Last report" : "Síðasta skýrsla",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Sendir nafnlaus gögn til Nextcloud til að hjálpa okkur við að bæta Nextcloud.\n        Þú ert ávallt með fulla stjórn á hvaða efni sé sent til Nextcloud og getur\n        gert það óvirkt hvenær sem er."
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }

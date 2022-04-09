@@ -17,13 +17,13 @@ OC.L10N.register(
     "Send usage" : "Envoyer les statistiques",
     "Never" : "Jamais",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Envoyer des données anonymisées à Nextcloud pour nous aider à améliorer Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envoyer des données anonymisées à Nextcloud pour nous aider à améliorer Nextcloud. Vous\navez toujours le plein contrôle du contenu envoyé à Nextcloud et pouvez le désactiver\nà n'importe quel moment.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Vous pouvez aider à améliorer Nextcloud en nous envoyant des statistiques sur votre configuration et votre utilisation.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Nous prenons votre vie privée au sérieux. L'envoi des données est désactivé par défaut, et si vous décidez de l'activer, ils seront d'abord rendues anonymes, et vous aurez le choix des choses à partager. Lors de la réception d'un rapport, le précédent est supprimé. Téléversez un rapport vierge pour supprimer toutes les données actuellement stockées sur le serveur",
     "Send new report now" : "Envoyer les statistiques maintenant",
     "Send usage survey monthly" : "Envoyer les statistiques chaque mois",
     "Data to send" : "Données à envoyer",
     "Last report sent on: %s" : "Dernier rapport envoyé le : %s",
-    "Last report" : "Dernier envoi"
+    "Last report" : "Dernier envoi",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envoyer des données anonymisées à Nextcloud pour nous aider à améliorer Nextcloud. Vous\navez toujours le plein contrôle du contenu envoyé à Nextcloud et pouvez le désactiver\nà n'importe quel moment."
 },
 "nplurals=2; plural=(n > 1);");
