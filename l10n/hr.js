@@ -17,13 +17,13 @@ OC.L10N.register(
     "Send usage" : "Pošalji podatke o korištenju",
     "Never" : "Nikad",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Šalje anonimne podatke Nextcloudu koji nam pomažu poboljšati Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Šalje anonimne podatke Nextcloudu koji nam pomažu poboljšati Nextcloud. Vi\n                uvijek imate potpunu kontrolu nad sadržajem koji šaljete Nextcloudu i možete onemogućiti\n                 slanje u bilo kojem trenutku.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Možete nam pomoći da poboljšamo Nextcloud slanjem nekih podataka o svojoj trenutnoj instalaciji i korištenju.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ozbiljno shvaćamo vašu privatnost. Slanje podataka po zadanim je postavkama onemogućeno, a ako ga odlučite omogućiti, prvo će se podaci anonimizirati, a vi ćete moći birati što želite dijeliti. Nakon primitka novog izvješća, prethodno se uklanja. Otpremite prazno izvješće kako biste izbrisali sve podatke koji su trenutno pohranjeni na poslužitelju",
     "Send new report now" : "Pošalji novo izvješće",
     "Send usage survey monthly" : "Pošalji mjesečnu anketu o korištenju",
     "Data to send" : "Podaci za slanje",
     "Last report sent on: %s" : "Posljednje izvješće poslano: %s",
-    "Last report" : "Posljednje izvješće"
+    "Last report" : "Posljednje izvješće",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Šalje anonimne podatke Nextcloudu koji nam pomažu poboljšati Nextcloud. Vi\n                uvijek imate potpunu kontrolu nad sadržajem koji šaljete Nextcloudu i možete onemogućiti\n                 slanje u bilo kojem trenutku."
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

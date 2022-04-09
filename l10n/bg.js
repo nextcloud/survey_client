@@ -17,13 +17,13 @@ OC.L10N.register(
     "Send usage" : "Изпрати данни",
     "Never" : "Никога",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Изпраща анонимни данни, с цел усъвършенстване на Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Изпращайки анонимни данни за текущата инсталация за усъвършенстването\n        на Nextcloud. Ако пожелаете, можете да спирате и пускате изпращането\n        на данни по всяко време.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Можете да помогнете в усъвършенстването на Nextcloud като изпращате данни за текущата инсталация.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Отнасяме се много сериозно към поверителността на данните ви. Стандартно функционалността е изключена, а ако решите да я включите данните ще бъдат изпращани анонимно, като ви се предоставя възможността да избирате какъв тип данни да изпращате. Когато получим нови данни изтриваме предходните. Upload a clean report to delete all data currently stored on the server",
     "Send new report now" : "Изпрати данни сега",
     "Send usage survey monthly" : "Изпращай данни за ползването ежемесечно",
     "Data to send" : "Данни за изпращане",
     "Last report sent on: %s" : "Последно изпращане на данни: %s",
-    "Last report" : "Последно изпращане"
+    "Last report" : "Последно изпращане",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Изпращайки анонимни данни за текущата инсталация за усъвършенстването\n        на Nextcloud. Ако пожелаете, можете да спирате и пускате изпращането\n        на данни по всяко време."
 },
 "nplurals=2; plural=(n != 1);");

@@ -16,13 +16,13 @@ OC.L10N.register(
     "Send usage" : "Send bruk",
     "Never" : "Aldri",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sender anonymiserte data til Nextcloud som brukes for å forbedre Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Sender anonymiserte data til Nextcloud som brukes for å forbedre Nextcloud. Du\n        har full kontroll over innhold som sendes Nextcloud og kan deaktivere \n        dette når som helst.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjelpe til med å forbedre Nextcloud ved å sende oss noe data om ditt nåværende oppsett og bruk.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi tar ditt personvern på alvor. Å sende data er skrudd av som forvalg, ønsker du å sende inn statistikk for bruksmønster blir disse anonymisert først. Du kan velge hva du vil dele. Når du mottar en rapport slettes den forrige. Last opp en tom rapport for å slette alle data som er lagret på serveren.",
     "Send new report now" : "Send ny rapport nå",
     "Send usage survey monthly" : "Send statistikk for bruk månedlig ",
     "Data to send" : "Data å sende",
     "Last report sent on: %s" : "Siste rapport sendt: %s",
-    "Last report" : "Siste rapport"
+    "Last report" : "Siste rapport",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Sender anonymiserte data til Nextcloud som brukes for å forbedre Nextcloud. Du\n        har full kontroll over innhold som sendes Nextcloud og kan deaktivere \n        dette når som helst."
 },
 "nplurals=2; plural=(n != 1);");
