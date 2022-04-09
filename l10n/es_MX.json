@@ -14,13 +14,13 @@
     "Send usage" : "Enviar uso",
     "Never" : "Nunca",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Envía datos anónimos a Nextcloud para ayudarnos a mejorarlo.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envía datos anonimos a Nextcloud para ayudarnos a mejorarlo. Siempre\n tienes control completo del contenido que se envia a Nextcloud y puedes volver a\n deshabilitarlo en cualquier momento.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Puedes ayudar a mejorar Nextcloud enviándonos algunos datos de tu configuración actual y uso.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Tomamos tu privacidad muy seriamente. El envío de datos está deshabilitado por omisión y si decides habilitarlo, primero se harán anónimos y tendrás la opción de decidir que cosas quieres compartir. Tras recibir un reporte nuevo, el reporte anterior será eliminado. Carga un reporte nuevo para borrar todos los datos actualmente almacenados en el servidor. ",
     "Send new report now" : "Enviar un nuevo reporte ahora",
     "Send usage survey monthly" : "Enviar la encuesta de uso mensual",
     "Data to send" : "Datos a enviar",
     "Last report sent on: %s" : "Último reporte enviado el: %s",
-    "Last report" : "Último reporte"
+    "Last report" : "Último reporte",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envía datos anonimos a Nextcloud para ayudarnos a mejorarlo. Siempre\n tienes control completo del contenido que se envia a Nextcloud y puedes volver a\n deshabilitarlo en cualquier momento."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

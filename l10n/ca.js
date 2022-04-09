@@ -17,13 +17,13 @@ OC.L10N.register(
     "Send usage" : "Envia l'ús",
     "Never" : "Mai",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Envia dades anònimes al Nextcloud per a ajudar-nos a millorar el Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envia dades anònimes al Nextcloud per a ajudar-nos a millorar el Nextcloud.\nSempre teniu el control total sobre el contingut enviat al Nextcloud i ho podeu inhabilitar\nen qualsevol moment.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Podeu ajudar a millorar el Nextcloud enviant-nos algunes dades sobre la vostra configuració i ús actuals.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ens prenem seriosament la vostra privadesa. L'enviament de dades està inhabilitat per defecte i, si el voleu habilitar, serà anònim i tindreu l'opció de triar què voleu compartir. En rebre un informe, se suprimeix l'anterior. Pugeu un informe net per a suprimir totes les dades emmagatzemades actualment en el servidor.",
     "Send new report now" : "Envia un informe nou ara ",
     "Send usage survey monthly" : "Envia una enquesta d'ús mensualment",
     "Data to send" : "Dades que s'enviaran",
     "Last report sent on: %s" : "Data d'enviament del darrer informe: %s",
-    "Last report" : "Darrer informe"
+    "Last report" : "Darrer informe",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envia dades anònimes al Nextcloud per a ajudar-nos a millorar el Nextcloud.\nSempre teniu el control total sobre el contingut enviat al Nextcloud i ho podeu inhabilitar\nen qualsevol moment."
 },
 "nplurals=2; plural=(n != 1);");
