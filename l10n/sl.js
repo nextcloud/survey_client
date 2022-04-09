@@ -17,13 +17,13 @@ OC.L10N.register(
     "Send usage" : "Pošlji poročilo",
     "Never" : "Nikoli ne pošlji",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Pošljite anonimizirane podatke in s tem pomagajte pri izboljševanju okolja Nextcloud.",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Pošljite anonimizirane podatke uporabe za pomoč pri izboljševanju okolja Nextcloud.\n        Vedno imate popoln nadzor nad vsebino poročil in možnost prilagajanja\n        načina in časa pošiljanja.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Lahko sodelujete pri izboljševanju okolja Nextcloud s pošiljanjem izbranih podatkov o trenutnih nastavitvah in načinu uporabe.",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Zasebnost jemljemo resno. Pošiljanje poročil je privzeto onemogočeno, če možnost omogočite pa bodo podatki najprej anonimizirani, prav tako lahko izberete, katere podatke bi želeli poslati. Po prejetju poročila se vsa starejša izbrišejo, vsi stari podatki pa se na strežniku posodobijo na zadnje vrednosti.",
     "Send new report now" : "Pošlji novo poročilo takoj",
     "Send usage survey monthly" : "Pošlji poročilo o uporabi enkrat mesečno",
     "Data to send" : "Podatki v poročilu",
     "Last report sent on: %s" : "Nazadnje poslano poročilo: %s",
-    "Last report" : "Zadnje poročilo"
+    "Last report" : "Zadnje poročilo",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Pošljite anonimizirane podatke uporabe za pomoč pri izboljševanju okolja Nextcloud.\n        Vedno imate popoln nadzor nad vsebino poročil in možnost prilagajanja\n        načina in časa pošiljanja."
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");
