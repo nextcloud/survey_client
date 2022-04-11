@@ -17,6 +17,7 @@ OC.L10N.register(
     "Send usage" : "傳送使用狀況",
     "Never" : "絕不",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "傳送匿名資料到 Nextcloud 以協助我們改善 Nextcloud。",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "傳送匿名資料至 Nextcloud 以協助我們改善 Nextcloud。您\n\t\t永遠都有對傳送至 Nextcloud 的資料的完整控制權，且\n\t\t隨時可將其停用。",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "您可以透過傳送一些關於您目前設定與使用情況的資料來協助改善 Nextcloud。",
     "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "我們認真對待您的隱私。預設停用傳送資料，且如果您選擇將其開啟，其將先被匿名化，並有選項可以選擇要分享哪些東西。收到回報後，前一個回報將會被移除。上傳乾淨的回報來刪除目前儲存在伺服器上的所有資料。",
     "Send new report now" : "現在傳送新回報",
