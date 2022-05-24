@@ -26,4 +26,4 @@ OC.L10N.register(
     "Last report" : "Dernier envoi",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Envoyer des données anonymisées à Nextcloud pour nous aider à améliorer Nextcloud. Vous\navez toujours le plein contrôle du contenu envoyé à Nextcloud et pouvez le désactiver\nà n'importe quel moment."
 },
-"nplurals=2; plural=(n > 1);");
+"nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
