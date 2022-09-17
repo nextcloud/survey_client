@@ -15,7 +15,7 @@ OC.L10N.register(
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "您想要透過提供一些關於您的設定與使用情況的匿名資料來協助我們改善 Nextcloud 嗎？您隨時可以在管理員設定中再次將其停用。",
     "Not now" : "現在不要",
     "Send usage" : "傳送使用狀況",
-    "Never" : "絕不",
+    "Never" : "從不",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "傳送匿名資料到 Nextcloud 以協助我們改善 Nextcloud。",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "傳送匿名資料至 Nextcloud 以協助我們改善 Nextcloud。您\n\t\t永遠都有對傳送至 Nextcloud 的資料的完整控制權，且\n\t\t隨時可將其停用。",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "您可以透過傳送一些關於您目前設定與使用情況的資料來協助改善 Nextcloud。",
