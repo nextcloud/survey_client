@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Imbia cada mese su sondàgiu de impreu",
     "Data to send" : "Datos de imbiare",
     "Last report sent on: %s" : "Ùrtima relata imbiada su: %s",
-    "Last report" : "Ùrtimu torracontu",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Imbia datos in forma anònima a Nextcloud pro nos agiudare a megiorare Nextcloud. As a tènnere\n        semper su controllu prenu de is cuntenutos imbiados a  Nextcloud e podes disabilitare\n        custa funtzione in cada momentu."
+    "Last report" : "Ùrtimu torracontu"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
