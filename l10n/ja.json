@@ -22,7 +22,6 @@
     "Send usage survey monthly" : "使用状況レポートを毎月送信する",
     "Data to send" : "送信データ",
     "Last report sent on: %s" : "最新のレポート送信時刻: %s",
-    "Last report" : "最新のレポート",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "匿名化されたデータを Nextcloud に送信して、Nextcloud の改善に役立てるようにします。\nあなたが Nextcloud に送信されるデータを常に完全に制御でき、いつでも無効にすることができます"
+    "Last report" : "最新のレポート"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

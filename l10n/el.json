@@ -22,7 +22,6 @@
     "Send usage survey monthly" : "Αποστολή έρευνας χρήσης μηνιαία",
     "Data to send" : "Δεδομένα προς αποστολή",
     "Last report sent on: %s" : "Η τελευταία αναφορά στάλθηκε στις: %s",
-    "Last report" : "Τελευταία αναφορά",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Στείλει ανώνυμα δεδομένα στο Nextcloud για να μας βοηθήσει να βελτιώσουμε το Nextcloud. Εσείς\n         έχετε πάντα τον πλήρη έλεγχο του περιεχομένου που αποστέλλεται στο Nextcloud και μπορείτε να το απενεργοποιήσετε\n       ξανά ανά πάσα στιγμή."
+    "Last report" : "Τελευταία αναφορά"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

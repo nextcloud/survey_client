@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "שליחת סקר שימוש חודשי",
     "Data to send" : "נתונים לשליחה",
     "Last report sent on: %s" : "הדוח האחרון נשלח ב־: %s",
-    "Last report" : "דוח אחרון",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "שולח נתונים אלמוניים ל־Nextcloud כדי לסייע לנו לשפר את Nextcloud. תמיד\n        יש לך שליטה מלאה על התוכן שנשלח ל־Nextcloud וניתן להשבית זאת בכל עת."
+    "Last report" : "דוח אחרון"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;");

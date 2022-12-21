@@ -22,7 +22,6 @@
     "Send usage survey monthly" : "Posielať prehľad o používaní mesačne",
     "Data to send" : "Dáta na odoslanie",
     "Last report sent on: %s" : "Posledná správa odoslaná: %s",
-    "Last report" : "Posledná správa",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Posiela anonymizované údaje vývojárom Nextcloudu, aby pomohli vylepšiť Nextcloud. Vy\n        budete vždy mať úplnú kontrolu nad obsahom zaslaným vývojárom Nextcloudu a môže to zakázať\n        kedykoľvek."
+    "Last report" : "Posledná správa"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }
