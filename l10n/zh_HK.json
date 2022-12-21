@@ -22,7 +22,6 @@
     "Send usage survey monthly" : "每月發送使用情況調查",
     "Data to send" : "要發送的數據",
     "Last report sent on: %s" : "上次發送報告的時間：%s",
-    "Last report" : "上次發送的報告",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "將匿名數據發送到Nextcloud，以幫助我們改進Nextcloud。你始終完全控制發送到Nextcloud的內容，並且可以隨時禁用。"
+    "Last report" : "上次發送的報告"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

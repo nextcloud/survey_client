@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Invia mensilmente il sondaggio di utilizzo",
     "Data to send" : "Dati da inviare",
     "Last report sent on: %s" : "Ultimo report inviato il: %s",
-    "Last report" : "Ultimo resoconto",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Invia dati resi anonimi a Nextcloud per aiutarci a migliorare Nextcloud. Avrai\n        sempre il pieno controllo dei contenuti inviati a Nextcloud e puoi disabilitare\n        questa funzione in ogni momento."
+    "Last report" : "Ultimo resoconto"
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

@@ -24,7 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Havi használati jelentés küldése",
     "Data to send" : "Küldendő adatok",
     "Last report sent on: %s" : "Utolsó jelentési küldési ideje: %s",
-    "Last report" : "Utolsó jelentés",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Anonimizált adatokat küld a Nextcloudnak, hogy segítsen a Nextcloud tökéletesítésében.\n        Mindig teljes ellenőrzése van a Nextcloudnak küldött tartalom felett,\n        és bármikor újra kikapcsolhatja."
+    "Last report" : "Utolsó jelentés"
 },
 "nplurals=2; plural=(n != 1);");

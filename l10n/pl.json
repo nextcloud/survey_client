@@ -22,7 +22,6 @@
     "Send usage survey monthly" : "Wysyłaj raport co miesiąc",
     "Data to send" : "Dane do wysłania",
     "Last report sent on: %s" : "Ostatni raport wysłano: %s",
-    "Last report" : "Ostatni raport",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Wysyła anonimowe dane do Nextcloud, aby pomóc nam w jego ulepszaniu. Zawsze\n        masz pełną kontrolę nad tym, co jest wysyłane do Nextcloud i możesz wyłączyć\n        przesyłanie w dowolnym momencie."
+    "Last report" : "Ostatni raport"
 },"pluralForm" :"nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);"
 }

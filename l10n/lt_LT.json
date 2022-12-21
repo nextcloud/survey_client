@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Siųsti naudojimosi apklausą kas mėnesį",
     "Data to send" : "Duomenys, kuriuos siųsti",
     "Last report sent on: %s" : "Paskutinė ataskaita išsiųsta: %s",
-    "Last report" : "Paskutinė ataskaita",
-    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n        always have full control over the content sent to Nextcloud and can disable\n        it again at any time." : "Siunčia anonimizuotus duomenis į Nextcloud, kad padėtų mums tobulinti Nextcloud. Jūs\n        visada pilnai valdote į Nextcloud siunčiamą turinį ir bet kuriuo metu galite išjungti\n        duomenų siuntimą."
+    "Last report" : "Paskutinė ataskaita"
 },"pluralForm" :"nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);"
 }
