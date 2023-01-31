@@ -2,7 +2,7 @@
     "Last report sent on: {on}" : "Son rapor gönderimi: {on}",
     "An error occurred while sending your report." : "Raporunuz gönderilirken bir sorun çıktı.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Uygulama listesi <em>(her uygulama için, ad, sürüm, etkinlik durumu)</em>",
-    "Database environment <em>(type, version, database size)</em>" : "Veritabanı ortamı <em>(tür, sürüm, veritabanı boyutu)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Veri tabanı ortamı <em>(tür, sürüm, veri tabanı boyutu)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Şifreleme bilgileri <em>(etkin?, varsayılan modül hangisi)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Paylaşım sayısı <em>(türlere göre izin ayarları)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP ortamı <em>(sürüm, bellek sınırı, en uzun yürütme süresi, en büyük dosya boyutu)</em>",
