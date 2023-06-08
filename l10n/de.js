@@ -12,7 +12,7 @@ OC.L10N.register(
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistik <em>(Anzahl von: Dateien, Benutzern, Speicher pro Typ, Kommentare und Schlagworte)</em>",
     "Usage survey" : "Nutzungsbericht",
     "Help improve Nextcloud" : "Hilf Nextcloud zu verbessern",
-    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Möchtest du uns helfen Nextcloud zu verbessern? Das kannst du durch Übertragen anonymisierter Daten deiner Einstellungen und Nutzung. Du kannst dies jederzeit in den Administrationseinstellungen deaktivieren.",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Möchtest du uns helfen Nextcloud zu verbessern? Das kannst du durch Übertragen anonymisierter Daten deiner Einstellungen und Nutzung. Du kannst dies jederzeit in den Verwaltungs-Einstellungen deaktivieren.",
     "Not now" : "Nicht jetzt",
     "Send usage" : "Nutzungsbericht senden",
     "Never" : "niemals",
