@@ -56,7 +56,7 @@ style('survey_client', 'admin');
 		</p>
 		<?php
 	}
-	?>
+?>
 
 	<div id="last_report">
 		<h3>
