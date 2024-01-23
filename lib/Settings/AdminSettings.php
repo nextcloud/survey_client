@@ -48,10 +48,10 @@ class AdminSettings implements ISettings {
 	private $jobList;
 
 	public function __construct(Collector $collector,
-								IConfig $config,
-								IL10N $l,
-								IDateTimeFormatter $dateTimeFormatter,
-								IJobList $jobList
+		IConfig $config,
+		IL10N $l,
+		IDateTimeFormatter $dateTimeFormatter,
+		IJobList $jobList
 	) {
 		$this->collector = $collector;
 		$this->config = $config;
