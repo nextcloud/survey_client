@@ -4,6 +4,8 @@
 -->
 # Usage survey client
 
+[![REUSE status](https://api.reuse.software/badge/github.com/nextcloud/survey_client)](https://api.reuse.software/info/github.com/nextcloud/survey_client)
+
 Sends anonymized data to Nextcloud to help us to improve Nextcloud. You
 always have full control over the content sent to Nextcloud and can disable
 it again at any time.
