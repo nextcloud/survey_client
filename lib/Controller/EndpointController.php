@@ -23,14 +23,14 @@ declare(strict_types=1);
 
 namespace OCA\Survey_Client\Controller;
 
-use OCA\Survey_Client\Collector;
+use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 
+use OCA\Survey_Client\Collector;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\OCSController;
 use OCP\BackgroundJob\IJobList;
 use OCP\IRequest;
 use OCP\Notification\IManager;
-use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 
 class EndpointController extends OCSController {
 
@@ -51,10 +51,10 @@ class EndpointController extends OCSController {
 	 * @param IManager $manager
 	 */
 	public function __construct(string $appName,
-								IRequest $request,
-								Collector $collector,
-								IJobList $jobList,
-								IManager $manager) {
+		IRequest $request,
+		Collector $collector,
+		IJobList $jobList,
+		IManager $manager) {
 		parent::__construct($appName, $request);
 
 		$this->collector = $collector;

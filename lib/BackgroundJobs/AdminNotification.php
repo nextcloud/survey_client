@@ -33,9 +33,9 @@ class AdminNotification extends QueuedJob {
 	protected IURLGenerator $url;
 
 	public function __construct(ITimeFactory $time,
-								IManager $manager,
-								IGroupManager $groupManager,
-								IURLGenerator $url) {
+		IManager $manager,
+		IGroupManager $groupManager,
+		IURLGenerator $url) {
 		parent::__construct($time);
 		$this->manager = $manager;
 		$this->groupManager = $groupManager;

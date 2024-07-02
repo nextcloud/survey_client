@@ -33,8 +33,8 @@ class MonthlyReport extends TimedJob {
 	protected LoggerInterface $logger;
 
 	public function __construct(ITimeFactory $time,
-								Collector $collector,
-								LoggerInterface $logger) {
+		Collector $collector,
+		LoggerInterface $logger) {
 		parent::__construct($time);
 		$this->collector = $collector;
 		$this->logger = $logger;

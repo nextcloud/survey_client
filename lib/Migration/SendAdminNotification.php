@@ -26,11 +26,11 @@ declare(strict_types=1);
 
 namespace OCA\Survey_Client\Migration;
 
+use OCA\Survey_Client\BackgroundJobs\AdminNotification;
+use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 use OCP\BackgroundJob\IJobList;
 use OCP\Migration\IOutput;
 use OCP\Migration\IRepairStep;
-use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
-use OCA\Survey_Client\BackgroundJobs\AdminNotification;
 
 class SendAdminNotification implements IRepairStep {
 	/** @var IJobList */
