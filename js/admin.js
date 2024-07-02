@@ -1,3 +1,7 @@
+/*
+ * SPDX-FileCopyrightText: 2016 Nextcloud GmbH and Nextcloud contributors
+ * SPDX-License-Identifier: AGPL-3.0-only
+ */
 $(document).ready(function() {
 	var $section = $('#survey_client');
 	$section.find('.survey_client_category').change(function() {
