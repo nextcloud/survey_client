@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   xml-linters:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest-low
 
     name: info.xml lint
     steps:
@@ -28,7 +28,6 @@ jobs:
 
       - name: Download schema
         run: wget https://raw.githubusercontent.com/nextcloud/server/master/resources/app-info-shipped.xsd
-
 
       - name: Lint info.xml
         uses: ChristophWurst/xmllint-action@36f2a302f84f8c83fceea0b9c59e1eb4a616d3c1 # v1.2
