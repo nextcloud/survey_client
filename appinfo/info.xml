@@ -15,7 +15,7 @@
 		it again at any time.
 	</description>
 
-	<version>2.0.0</version>
+	<version>3.0.0</version>
 	<licence>agpl</licence>
 	<author>Björn Schiessle</author>
 	<author>Joas Schilling</author>
@@ -29,7 +29,7 @@
 	<bugs>https://github.com/nextcloud/survey_client/issues</bugs>
 
 	<dependencies>
-		<nextcloud min-version="30" max-version="30" />
+		<nextcloud min-version="31" max-version="31" />
 	</dependencies>
 
 	<repair-steps>
