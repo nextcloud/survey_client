@@ -20,7 +20,7 @@ style('survey_client', 'admin');
 	</p>
 
 	<p>
-		<?php p($l->t('We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server')); ?>
+		<?php p($l->t('We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report.')); ?>
 	</p>
 
 	<button><?php p($l->t('Send new report now')); ?></button>
