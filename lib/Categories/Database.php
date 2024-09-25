@@ -119,7 +119,7 @@ class Database implements ICategory {
 					$database_size = filesize($this->config->getSystemValue('dbhost'));
 				} else {
 					/** @psalm-suppress UndefinedInterfaceMethod */
-					$params = $this->connection->getParams();
+					$params = $this->connection->getInner()->getParams();
 					if (file_exists($params['path'])) {
 						$database_size = filesize($params['path']);
 					}
