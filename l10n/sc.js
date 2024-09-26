@@ -18,11 +18,11 @@ OC.L10N.register(
     "Never" : "Mai",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Imbia datos in forma anònima a Nextcloud pro nos agiudare a ddu megiorare.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Podes cuntribuire a megiorare Nextcloud imbiende unos cantos datos in contu de sa cunfiguratzione tua atuale e de s'impreu.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Damus cara meda a sa riservadesa tua. S'imbiu de datos est disativadu in modalidade predefinida e, si sèberas de dd'ativare, in antis s'ant a pònnere comente anònimos. Tenes sa facultade de seberare ite cumpartzire. A pustis de àere retzidu su torracontu, su pretzedente nch'est bogadu. càrriga unu torracontu bòidu pro eliminare totu is datos memorizados immoe in su serbidore",
     "Send new report now" : "Imbia unu torracontu nou immoe",
     "Send usage survey monthly" : "Imbia cada mese su sondàgiu de impreu",
     "Data to send" : "Datos de imbiare",
     "Last report sent on: %s" : "Ùrtima relata imbiada su: %s",
-    "Last report" : "Ùrtimu torracontu"
+    "Last report" : "Ùrtimu torracontu",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Damus cara meda a sa riservadesa tua. S'imbiu de datos est disativadu in modalidade predefinida e, si sèberas de dd'ativare, in antis s'ant a pònnere comente anònimos. Tenes sa facultade de seberare ite cumpartzire. A pustis de àere retzidu su torracontu, su pretzedente nch'est bogadu. càrriga unu torracontu bòidu pro eliminare totu is datos memorizados immoe in su serbidore"
 },
 "nplurals=2; plural=(n != 1);");

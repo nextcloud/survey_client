@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Nextcloud uygulamasını geliştirmemiz için bize anonimleştirilmiş veriler yollar.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Nextcloud uygulamasını geliştirmemiz için bize anonimleştirilmiş veriler yollar.\n\t\tGönderilen içeriğin ne olduğunu istediğiniz zaman görüp değiştirebilir ya da \n\t\tanonim verilerin gönderilmesini engelleyebilirsiniz.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Geçerli kurulum ve kullanımınız hakkında bilgiler sağlayarak gelecek Nextcloud sürümlerini geliştirmemize yardımcı olabilirsiniz.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Kişisel gizliliğinizin korunmasına özen gösteriyoruz. Verilerin paylaşılması varsayılan olarak devre dışı bırakılmıştır ve ancak siz etkinleştirirseniz paylaşılır. Öncelikle veriler adsız olarak paylaşılır, ardından paylamak istediğiniz verileri seçebilirsiniz. Yeni bir veri gönderildiğinde bir önce gönderilmiş verilerin tümü silinir.  Sunucu üzerindeki verilerin silinmesini istiyorsanız boş bir rapor yükleyebilirsiniz.",
     "Send new report now" : "Bilgileri şimdi gönder",
     "Send usage survey monthly" : "Kullanım bilgileri aylık olarak gönderilsin",
     "Data to send" : "Gönderilecek veriler",
     "Last report sent on: %s" : "Son rapor gönderimi: %s",
-    "Last report" : "Son rapor"
+    "Last report" : "Son rapor",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Kişisel gizliliğinizin korunmasına özen gösteriyoruz. Verilerin paylaşılması varsayılan olarak devre dışı bırakılmıştır ve ancak siz etkinleştirirseniz paylaşılır. Öncelikle veriler adsız olarak paylaşılır, ardından paylamak istediğiniz verileri seçebilirsiniz. Yeni bir veri gönderildiğinde bir önce gönderilmiş verilerin tümü silinir.  Sunucu üzerindeki verilerin silinmesini istiyorsanız boş bir rapor yükleyebilirsiniz."
 },
 "nplurals=2; plural=(n > 1);");
