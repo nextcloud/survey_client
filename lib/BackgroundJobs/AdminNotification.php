@@ -36,15 +36,17 @@ class AdminNotification extends QueuedJob {
 			->setSubject('updated')
 			->setObject('dummy', '23');
 
+		$enableLink = $this->url->linkToOCSRouteAbsolute('survey_client.Endpoint.enableMonthly');
 		$enableAction = $notification->createAction();
 		$enableAction->setLabel('enable')
-			->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'POST')
+			->setLink($enableLink, 'POST')
 			->setPrimary(true);
 		$notification->addAction($enableAction);
 
+		$disableLink = $this->url->linkToOCSRouteAbsolute('survey_client.Endpoint.disableMonthly');
 		$disableAction = $notification->createAction();
 		$disableAction->setLabel('disable')
-			->setLink($this->url->getAbsoluteURL('ocs/v2.php/apps/survey_client/api/v1/monthly'), 'DELETE')
+			->setLink($disableLink, 'DELETE')
 			->setPrimary(false);
 		$notification->addAction($disableAction);
 
