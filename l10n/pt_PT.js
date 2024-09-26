@@ -16,11 +16,11 @@ OC.L10N.register(
     "Send usage" : "Enviar utilização",
     "Never" : "Nunca",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Pode ajudar-nos a melhorar a Nextcloud enviando alguns dos seus dados sobre a configuração e utilização actuais.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "A sua privacidade é importante para nós. O envio de dados está inactivo por defeito, and se decidir activar, serão anonimizados primeiro, tendo ainda a opção de escolher o que quer partilhar. Depois de receber o relatório, o anterior é removido. Carregue um novo relatório para apagar todos os dados actualmente armazenados no servidor",
     "Send new report now" : "Enviar novo relatório agora",
     "Send usage survey monthly" : "Enviar formulário de utilização mensalmente",
     "Data to send" : "Dados a enviar",
     "Last report sent on: %s" : "Último reporte enviado em: %s",
-    "Last report" : "Último relatório"
+    "Last report" : "Último relatório",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "A sua privacidade é importante para nós. O envio de dados está inactivo por defeito, and se decidir activar, serão anonimizados primeiro, tendo ainda a opção de escolher o que quer partilhar. Depois de receber o relatório, o anterior é removido. Carregue um novo relatório para apagar todos os dados actualmente armazenados no servidor"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

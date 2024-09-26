@@ -18,11 +18,11 @@ OC.L10N.register(
     "Never" : "Aldrig",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Skickar anonymiserade data till Nextcloud för att hjälpa oss att förbättra Nextcloud.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjälpa till att förbättra Nextcloud genom att skicka oss några data om din nuvarande installation och användning.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi tar din integritet på allvar. Att skicka data är inaktiverat som standard och om du väljer att aktivera det kommer det att anonymiseras först och du får möjlighet att välja vad som ska delas. När en rapport tas emot kommer tas den förra bort. Ladda upp en ren rapport för att ta bort alla data som för närvarande lagras på servern",
     "Send new report now" : "Skicka rapporten nu",
     "Send usage survey monthly" : "Skicka användarstatistik månadsvis",
     "Data to send" : "Data att inkludera",
     "Last report sent on: %s" : "Senaste rapporten skickad den: %s",
-    "Last report" : "Senaste rapport"
+    "Last report" : "Senaste rapport",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi tar din integritet på allvar. Att skicka data är inaktiverat som standard och om du väljer att aktivera det kommer det att anonymiseras först och du får möjlighet att välja vad som ska delas. När en rapport tas emot kommer tas den förra bort. Ladda upp en ren rapport för att ta bort alla data som för närvarande lagras på servern"
 },
 "nplurals=2; plural=(n != 1);");

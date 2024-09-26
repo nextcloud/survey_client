@@ -15,10 +15,10 @@ OC.L10N.register(
     "Send usage" : "გამოყენების გაგზავნა",
     "Never" : "არასდროს",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "შეგიძლიათ დაგვეხმაროთ გავაუმჯობესოთ Nextcloud თქვენს ინსტალაციაზე და მის გამოყენებაზე მონაცემების გამოგზავნით.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "თქვენს კონფიდენციალურობას სერიოზულად ვუდგებით. მონაცემების გაგზავნა საწყისად გათიშულია და სურვლის შემთხვევაში შეგიძლიათ ჩართოთ, თავდაპირველად ის იქნება ანონიმური და იხილავთ არჩევნებს თუ რას გააზიარებთ. რეპორტის მიღებისას წინა გაუქმდება. სერვერზე ყველა მონაცემის წასაშლელად ატვირთეთ სუფთა რეპორტი",
     "Send new report now" : "ახალი რეპორტის გაგზავნა ახლა",
     "Send usage survey monthly" : "მოხმარების გამოკლევის ყოველთვიურად გადაგზავნა",
     "Data to send" : "მონაცემი რომელიც გაიგზავნება",
-    "Last report" : "ბოლო რეპორტი"
+    "Last report" : "ბოლო რეპორტი",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "თქვენს კონფიდენციალურობას სერიოზულად ვუდგებით. მონაცემების გაგზავნა საწყისად გათიშულია და სურვლის შემთხვევაში შეგიძლიათ ჩართოთ, თავდაპირველად ის იქნება ანონიმური და იხილავთ არჩევნებს თუ რას გააზიარებთ. რეპორტის მიღებისას წინა გაუქმდება. სერვერზე ყველა მონაცემის წასაშლელად ატვირთეთ სუფთა რეპორტი"
 },
 "nplurals=2; plural=(n!=1);");
