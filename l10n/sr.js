@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Шаљите анонимизиране податке Некстклауду да нам помогнете да побољшамо Некстклауд.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Шаље анонимизиране податке компанији Nextcloud као помоћ у побољшању програма Nextcloud. Увек\n\t\tимате потпуну контролу садржаја који се шaље компанији Nextcloud и слање можете поново\n\t\tда искључите кад год то желите.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Можете нам помоћи да побољшамо Некстклауд тако што ћете послати неке податке о Вашим тренутним подешавањима и употреби.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ми узимамо Вашу приватност веома озбиљно. Слање података је подразумевано искључено и, уколико одаберете да га укључите, прво ће бити анонимизовано и биће Вам дата опција шта да поделите. По примању извештаја, претходни се уклања. Отпремите празан извештај да обришете све претходно сачуване податке на серверу",
     "Send new report now" : "Пошаљите извештај сада",
     "Send usage survey monthly" : "Пошаљите извештај о коришћењу на месечном нивоу",
     "Data to send" : "Подаци за слање",
     "Last report sent on: %s" : "Последњи извештај послат: %s",
-    "Last report" : "Последњи извештај"
+    "Last report" : "Последњи извештај",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ми узимамо Вашу приватност веома озбиљно. Слање података је подразумевано искључено и, уколико одаберете да га укључите, прво ће бити анонимизовано и биће Вам дата опција шта да поделите. По примању извештаја, претходни се уклања. Отпремите празан извештај да обришете све претходно сачуване податке на серверу"
 },
 "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);");

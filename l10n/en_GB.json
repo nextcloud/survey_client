@@ -17,11 +17,11 @@
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sends anonymised data to Nextcloud to help us to improve Nextcloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "You can help improve Nextcloud by sending us some data about your current setup and usage.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymised first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server",
     "Send new report now" : "Send new report now",
     "Send usage survey monthly" : "Send usage survey monthly",
     "Data to send" : "Data to send",
     "Last report sent on: %s" : "Last report sent on: %s",
-    "Last report" : "Last report"
+    "Last report" : "Last report",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymised first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

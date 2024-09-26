@@ -15,10 +15,10 @@ OC.L10N.register(
     "Send usage" : "Send forbrug",
     "Never" : "Aldrig",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kan hjælpe med at forbedre Nextcloud ved at sende anonyme data om din opsætning og forbrug.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi er seriøse om privatliv. Det at sende os data er som udgangspunkt deaktiveret og skulle du vælge at aktivere det så vil dataet blive anonymiseret først og du får muligheden for at vælge hvad du vil dele. Når vi modtager en rapport fjerne vi den forrige. Upload en tom rapport for at slette al data på serveren.",
     "Send new report now" : "Send ny rapport nu",
     "Send usage survey monthly" : "Send en månedlig forbrugsrapport.",
     "Data to send" : "Data er sendt",
-    "Last report" : "Sidste rapport"
+    "Last report" : "Sidste rapport",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi er seriøse om privatliv. Det at sende os data er som udgangspunkt deaktiveret og skulle du vælge at aktivere det så vil dataet blive anonymiseret først og du får muligheden for at vælge hvad du vil dele. Når vi modtager en rapport fjerne vi den forrige. Upload en tom rapport for at slette al data på serveren."
 },
 "nplurals=2; plural=(n != 1);");

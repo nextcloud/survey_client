@@ -17,11 +17,11 @@
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Anonimizált adatok küldése a Nextcloudnak, hogy segítsen a Nextcloud tökéletesítésében.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Anonimizált adatokat küld a Nextcloudnak, hogy segítsen a Nextcloud tökéletesítésében.\n\t\tMindig teljes ellenőrzése van a Nextcloudnak küldött tartalom felett,\n\t\tés bármikor újra kikapcsolhatja.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Segíthet nekünk a Nextcloud tökéletesítésében, ha elküldi a jelenlegi telepítése adatait és használati információit.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Komolyan vesszük az adatvédelmét. Az adatok küldése alapértelmezetten ki van kapcsolva, és ha bekapcsolja, akkor először anonimizálásra kerülnek az adatok, és választhat, hogy mit oszt meg. A jelentés elküldésekor az előző törlésre kerül. Ha törölni akarja a kiszolgálón tárolt adatokat, akkor töltsön fel egy üres jelentést.",
     "Send new report now" : "Új jelentés küldése most",
     "Send usage survey monthly" : "Havi használati jelentés küldése",
     "Data to send" : "Küldendő adatok",
     "Last report sent on: %s" : "Utolsó jelentési küldési ideje: %s",
-    "Last report" : "Utolsó jelentés"
+    "Last report" : "Utolsó jelentés",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Komolyan vesszük az adatvédelmét. Az adatok küldése alapértelmezetten ki van kapcsolva, és ha bekapcsolja, akkor először anonimizálásra kerülnek az adatok, és választhat, hogy mit oszt meg. A jelentés elküldésekor az előző törlésre kerül. Ha törölni akarja a kiszolgálón tárolt adatokat, akkor töltsön fel egy üres jelentést."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

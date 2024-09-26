@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Wysyła anonimowe dane, aby pomóc nam ulepszyć Nextcloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Wysyła anonimowe dane do Nextcloud, aby pomóc nam ulepszyć Nextcloud. Zawsze masz pełną kontrolę nad treścią przesyłaną do Nextcloud i możesz ją ponownie wyłączyć w dowolnym momencie.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Możesz pomóc w ulepszeniu Nextcloud, wysyłając nam trochę danych na temat bieżącej konfiguracji i użytkowania.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Poważnie traktujemy Twoją prywatność. Wysyłanie danych jest domyślnie wyłączone, ale jeśli zdecydujesz się je włączyć, najpierw zostaną one zanonimizowane, a Ty będziesz miał możliwość wyboru, co chcesz udostępniać. Po otrzymaniu raportu poprzedni jest usuwany. Prześlij czysty raport, aby usunąć wszystkie dane aktualnie przechowywane na serwerze.",
     "Send new report now" : "Wyślij nowy raport",
     "Send usage survey monthly" : "Wysyłaj raport co miesiąc",
     "Data to send" : "Dane do wysłania",
     "Last report sent on: %s" : "Ostatni raport wysłano: %s",
-    "Last report" : "Ostatni raport"
+    "Last report" : "Ostatni raport",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Poważnie traktujemy Twoją prywatność. Wysyłanie danych jest domyślnie wyłączone, ale jeśli zdecydujesz się je włączyć, najpierw zostaną one zanonimizowane, a Ty będziesz miał możliwość wyboru, co chcesz udostępniać. Po otrzymaniu raportu poprzedni jest usuwany. Prześlij czysty raport, aby usunąć wszystkie dane aktualnie przechowywane na serwerze."
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");

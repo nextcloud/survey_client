@@ -15,11 +15,11 @@ OC.L10N.register(
     "Not now" : "Not now",
     "Send usage" : "Send usage",
     "Never" : "هرگز",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server",
     "Send new report now" : "Send new report now",
     "Send usage survey monthly" : "Send usage survey monthly",
     "Data to send" : "Data to send",
     "Last report sent on: %s" : "Last report sent on: %s",
-    "Last report" : "Last report"
+    "Last report" : "Last report",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server"
 },
 "nplurals=2; plural=(n > 1);");

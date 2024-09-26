@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sendet anonymisierte Daten an Nextcloud, damit wir Nextcloud noch besser machen können.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Sendet anonymisierte Daten an die Nextcloud GmbH, damit Nextcloud GmbH Nextcloud noch besser machen kann. Du \n          hast jederzeit volle Kontrolle über die an Nextcloud GmbH gesendeten Daten und \n         kannst dies jederzeit abschalten.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Du kannst uns helfen Nextcloud zu verbessern. Sende uns Daten über deine Einstellungen und deine Nutzung.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Wir nehmen den Schutz deiner Daten sehr ernst. Das Senden der Daten ist standardmäßig deaktiviert. Wenn du das Senden aktivierst, so sind deine Daten anonymisiert und du entscheidest, welche Informationen du uns sendest. Sobald du uns einen Bericht sendest, wird der vorherige Bericht gelöscht. Sende uns einen leeren Bericht, um all deine Informationen auf unseren Servern zu löschen.",
     "Send new report now" : "Neuen Bericht jetzt senden",
     "Send usage survey monthly" : "Nutzungsbericht monatlich senden",
     "Data to send" : "Zu sendende Daten",
     "Last report sent on: %s" : "Letzter Bericht gesendet am: %s",
-    "Last report" : "Letzter Bericht"
+    "Last report" : "Letzter Bericht",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Wir nehmen den Schutz deiner Daten sehr ernst. Das Senden der Daten ist standardmäßig deaktiviert. Wenn du das Senden aktivierst, so sind deine Daten anonymisiert und du entscheidest, welche Informationen du uns sendest. Sobald du uns einen Bericht sendest, wird der vorherige Bericht gelöscht. Sende uns einen leeren Bericht, um all deine Informationen auf unseren Servern zu löschen."
 },
 "nplurals=2; plural=(n != 1);");
