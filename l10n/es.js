@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Envía datos anonimizados a Nextcloud para ayudarnos a mejorar NextCloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Envía datos anonimizados a Nextcloud para ayudarnos a mejorar. Tú\n          siempre tendrás el control completo del contenido enviado a Nextcloud y puedes desactivarlo\n           de nuevo en cualquier momento.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Puede ayudar a mejorar Nextcloud enviándonos algunos datos sobre su configuración y uso actuales.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Nos tomamos su privacidad en serio. El envío de datos está desactivado por defecto y, si decide activarlo, se anonimizará primero y se le dará la opción de qué cosas compartir. Al recibir un informe, se elimina el anterior. Suba un informe limpio para eliminar todos los datos almacenados actualmente en el servidor.",
     "Send new report now" : "Enviar ahora un nuevo informe",
     "Send usage survey monthly" : "Enviar la encuesta de uso mensualmente",
     "Data to send" : "Datos que se enviarán",
     "Last report sent on: %s" : "Último informe enviado el %s",
-    "Last report" : "Último informe"
+    "Last report" : "Último informe",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Nos tomamos su privacidad en serio. El envío de datos está desactivado por defecto y, si decide activarlo, se anonimizará primero y se le dará la opción de qué cosas compartir. Al recibir un informe, se elimina el anterior. Suba un informe limpio para eliminar todos los datos almacenados actualmente en el servidor."
 },
 "nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

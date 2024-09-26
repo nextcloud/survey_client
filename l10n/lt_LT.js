@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Siunčia anonimizuotus duomenis į Nextcloud, kad padėtų mums tobulinti Nextcloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Siunčia anonimizuotus duomenis į Nextcloud, kad padėtų mums tobulinti Nextcloud. Jūs\n\t\tvisada pilnai valdote į Nextcloud siunčiamą turinį ir bet kuriuo metu galite išjungti\n\t\tduomenų siuntimą.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Galite padėti mums tobulinti Nextcloud, siųsdami kai kuriuos duomenis apie savo esamą sąranką ir naudojimąsi.",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Mes žiūrime į privatumą labai rimtai. Pagal numatymą, duomenų siuntimas yra išjungtas, o jei nuspręsite jį įjungti, tuomet, visų pirma, duomenys bus anonimizuoti ir jums bus suteikta galimybė pasirinkti, kuriuos duomenis norite bendrinti. Gavus ataskaitą, ankstesnė ataskaita yra pašalinama. Norėdami ištrinti visus serveryje saugomus duomenis, išsiųskite tuščią ataskaitą.",
     "Send new report now" : "Siųsti naują ataskaitą dabar",
     "Send usage survey monthly" : "Siųsti naudojimosi apklausą kas mėnesį",
     "Data to send" : "Duomenys, kuriuos siųsti",
     "Last report sent on: %s" : "Paskutinė ataskaita išsiųsta: %s",
-    "Last report" : "Paskutinė ataskaita"
+    "Last report" : "Paskutinė ataskaita",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Mes žiūrime į privatumą labai rimtai. Pagal numatymą, duomenų siuntimas yra išjungtas, o jei nuspręsite jį įjungti, tuomet, visų pirma, duomenys bus anonimizuoti ir jums bus suteikta galimybė pasirinkti, kuriuos duomenis norite bendrinti. Gavus ataskaitą, ankstesnė ataskaita yra pašalinama. Norėdami ištrinti visus serveryje saugomus duomenis, išsiųskite tuščią ataskaitą."
 },
 "nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);");
