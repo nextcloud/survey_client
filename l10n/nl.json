@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Verstuur maandelijks gebruiksrapport",
     "Data to send" : "Te versturen gegevens",
     "Last report sent on: %s" : "Laatste reportage verstuurd op %s",
-    "Last report" : "Laatste rapport",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We nemen je privacy serieus. Het delen van deze gegevens staat standaard uit en je moet zelf aangeven als je dit wél wilt delen. De gegevens worden eerst geanonimiseerd en je kunt kiezen welke gegevens je wilt delen. Nadat we een rapport hebben ontvangen, wordt de vorige verwijderd. Upload een leeg rapport om alle gegevens te wissen die nu op de server staan."
+    "Last report" : "Laatste rapport"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

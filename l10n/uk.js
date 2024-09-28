@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Щомісяця надсилати звіт про використання",
     "Data to send" : "Дані для надсилання",
     "Last report sent on: %s" : "Останній звіт відправлено: %s",
-    "Last report" : "Останній звіт",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ми серйозно ставимося до вашої конфіденційності. За замовчуванням відправка даних вимкнена, а якщо ви вирішите її увімкнути, вони будуть спочатку анонімізовані, і вам буде надано можливість вибрати, якими речами поділитися. При отриманні нового звіту попередній видаляється. Завантажте чистий звіт, щоб видалити всі дані, які наразі зберігаються на сервері"
+    "Last report" : "Останній звіт"
 },
 "nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);");

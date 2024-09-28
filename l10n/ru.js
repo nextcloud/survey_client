@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Отправлять информацию об использовании ежемесячно",
     "Data to send" : "Данные для отправки",
     "Last report sent on: %s" : "Последний отчёт отправлен: %s",
-    "Last report" : "Последний отчёт",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Мы серьёзно относимся к соблюдению конфиденциальности. По умолчанию отправка данных отключена, и если вы решите включить ее, в первую очередь она будет анонимной, а так же вы сможете выбрать, какими именно данными вы будете делиться. Когда сервер получает новый отчёт, все записи предыдущих отчётов удаляются. Отправьте пустой отчёт что бы удалить все данные, хранящиеся на сервере."
+    "Last report" : "Последний отчёт"
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");

@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Enviar la encuesta de uso mensualmente",
     "Data to send" : "Datos que se enviarán",
     "Last report sent on: %s" : "Último informe enviado el %s",
-    "Last report" : "Último informe",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Nos tomamos su privacidad en serio. El envío de datos está desactivado por defecto y, si decide activarlo, se anonimizará primero y se le dará la opción de qué cosas compartir. Al recibir un informe, se elimina el anterior. Suba un informe limpio para eliminar todos los datos almacenados actualmente en el servidor."
+    "Last report" : "Último informe"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

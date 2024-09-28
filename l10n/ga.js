@@ -24,7 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Seol suirbhé úsáide go míosúil",
     "Data to send" : "Sonraí le seoladh",
     "Last report sent on: %s" : "Seoladh an tuairisc dheireanach ar: %s",
-    "Last report" : "Tuairisc dheireanach",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Glacaimid do phríobháideachas dáiríre. Tá seoladh sonraí díchumasaithe de réir réamhshocraithe, agus má roghnaíonn tú é a chur ar siúl, déanfar é a anaithnid ar dtús, agus tugtar an rogha duit cad iad na rudaí atá le roinnt. Nuair a fhaightear tuairisc, baintear an ceann roimhe sin. Uaslódáil tuairisc ghlan chun na sonraí go léir atá stóráilte ar an bhfreastalaí faoi láthair a scriosadh"
+    "Last report" : "Tuairisc dheireanach"
 },
 "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);");

@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "每月發送使用情況調查",
     "Data to send" : "要發送的數據",
     "Last report sent on: %s" : "上次發送報告的時間：%s",
-    "Last report" : "上次發送的報告",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "我們非常重視您的私隱。默認情況下，發送數據是停用的，如果您選擇打開它，它將首先被匿名，並且可以選擇共享哪些內容。收到報告後，前一個報告將被刪除。上載乾淨的報告以刪除當前存儲在伺服器上的所有數據"
+    "Last report" : "上次發送的報告"
 },"pluralForm" :"nplurals=1; plural=0;"
 }

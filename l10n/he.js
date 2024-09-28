@@ -22,7 +22,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "שליחת סקר שימוש חודשי",
     "Data to send" : "נתונים לשליחה",
     "Last report sent on: %s" : "הדוח האחרון נשלח ב־: %s",
-    "Last report" : "דוח אחרון",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "אנו מתייחסים לפרטיות שלך ברצינות רבה. שליחה של נתונים אינה פעילה כבררת מחדל ובמקרה שבחרת להפעיל את האפשרות הזאת, הנתונים של ינוקו מפרטים מזהים ויתאפשר לך לבחור מה ברצונך לשתף. בעת קבלת דוח הקודם לו נמחק. ניתן להעלות דוח ריק כדי למחוק את כל הנתונים שמאוחסנים כרגע על השרת."
+    "Last report" : "דוח אחרון"
 },
 "nplurals=3; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: 2;");

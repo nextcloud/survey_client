@@ -22,7 +22,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "按月发送使用情况",
     "Data to send" : "发送数据",
     "Last report sent on: %s" : "最后一次上报发送于: %s",
-    "Last report" : "最后上报",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "我们非常注重您的隐私信息。默认情况下数据发送是禁用的，而且您可以选择开启，当然这也是匿名的。您可以设置哪一些信息可以与我们共享。当收到一个报告时，先前的数据将会被清理。上传一份报告来删除当前已储存在服务器的信息。"
+    "Last report" : "最后上报"
 },
 "nplurals=1; plural=0;");

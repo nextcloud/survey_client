@@ -15,7 +15,6 @@
     "Send new report now" : "Saada kohe uus raport",
     "Send usage survey monthly" : "Saada kasutuse raport igakuiselt",
     "Data to send" : "Andmed, mida saata",
-    "Last report" : "Viimane raport",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Me võtame teie privaatsust tõsiselt. Andmete saatmine on vaikimisi välja lülitatud. Kui otsustate selle sisse lülitada, siis see tehakse kõigepealt anonüümseks ja antakse valida, mis andmeid jagada. Raporti kättesaamisel eelmine raport eemaldatakse. Lea üles puhas raport, et kustutada kõik andmed, mis praegu serveris salvestatud on."
+    "Last report" : "Viimane raport"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
