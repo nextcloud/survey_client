@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Kullanım bilgileri aylık olarak gönderilsin",
     "Data to send" : "Gönderilecek veriler",
     "Last report sent on: %s" : "Son rapor gönderimi: %s",
-    "Last report" : "Son rapor",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Kişisel gizliliğinizin korunmasına özen gösteriyoruz. Verilerin paylaşılması varsayılan olarak devre dışı bırakılmıştır ve ancak siz etkinleştirirseniz paylaşılır. Öncelikle veriler adsız olarak paylaşılır, ardından paylamak istediğiniz verileri seçebilirsiniz. Yeni bir veri gönderildiğinde bir önce gönderilmiş verilerin tümü silinir.  Sunucu üzerindeki verilerin silinmesini istiyorsanız boş bir rapor yükleyebilirsiniz."
+    "Last report" : "Son rapor"
 },
 "nplurals=2; plural=(n > 1);");

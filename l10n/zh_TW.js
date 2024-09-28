@@ -24,7 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "每月傳送使用情況調查",
     "Data to send" : "要傳送的資料",
     "Last report sent on: %s" : "上次傳送回報的時間：%s",
-    "Last report" : "上次回報",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "我們認真對待您的隱私。預設停用傳送資料，且如果您選擇將其開啟，其將先被匿名化，並有選項可以選擇要分享哪些東西。收到回報後，前一個回報將會被移除。上傳乾淨的回報來刪除目前儲存在伺服器上的所有資料。"
+    "Last report" : "上次回報"
 },
 "nplurals=1; plural=0;");

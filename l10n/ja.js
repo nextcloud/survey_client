@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "使用状況レポートを毎月送信する",
     "Data to send" : "送信データ",
     "Last report sent on: %s" : "最新のレポート送信時刻: %s",
-    "Last report" : "最新のレポート",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "プライバシー情報について慎重に取り扱います。データは、明示的にオンを選択しなければデフォルトでは送信されませんし、オンにした場合でも、まず匿名化された上にどのデータを送信するか選択することができます。レポートを受け取ったら、古いデータは削除されます。レポートの削除を受け取ったら現在あるサーバー上のすべてのデータを削除します。"
+    "Last report" : "最新のレポート"
 },
 "nplurals=1; plural=0;");

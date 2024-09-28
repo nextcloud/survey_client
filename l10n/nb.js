@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Send statistikk for bruk månedlig ",
     "Data to send" : "Data å sende",
     "Last report sent on: %s" : "Siste rapport sendt: %s",
-    "Last report" : "Siste rapport",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vi tar ditt personvern på alvor. Å sende data er skrudd av som forvalg, ønsker du å sende inn statistikk for bruksmønster blir disse anonymisert først. Du kan velge hva du vil dele. Når du mottar en rapport slettes den forrige. Last opp en tom rapport for å slette alle data som er lagret på serveren."
+    "Last report" : "Siste rapport"
 },
 "nplurals=2; plural=(n != 1);");

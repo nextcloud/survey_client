@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Send usage survey monthly",
     "Data to send" : "Data to send",
     "Last report sent on: %s" : "Last report sent on: %s",
-    "Last report" : "Last report",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server"
+    "Last report" : "Last report"
 },"pluralForm" :"nplurals=2; plural=(n!=1);"
 }

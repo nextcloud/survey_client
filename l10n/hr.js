@@ -22,7 +22,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Pošalji mjesečnu anketu o korištenju",
     "Data to send" : "Podaci za slanje",
     "Last report sent on: %s" : "Posljednje izvješće poslano: %s",
-    "Last report" : "Posljednje izvješće",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ozbiljno shvaćamo vašu privatnost. Slanje podataka po zadanim je postavkama onemogućeno, a ako ga odlučite omogućiti, prvo će se podaci anonimizirati, a vi ćete moći birati što želite dijeliti. Nakon primitka novog izvješća, prethodno se uklanja. Otpremite prazno izvješće kako biste izbrisali sve podatke koji su trenutno pohranjeni na poslužitelju"
+    "Last report" : "Posljednje izvješće"
 },
 "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;");

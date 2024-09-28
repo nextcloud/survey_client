@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Posielať prehľad o používaní mesačne",
     "Data to send" : "Dáta na odoslanie",
     "Last report sent on: %s" : "Posledná správa odoslaná: %s",
-    "Last report" : "Posledná správa",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vaše súkromie berieme vážne. Posielanie údajov je v predvolenom nastavení zakázané a ak sa rozhodnete zapnúť ho, najskôr sa anonymizujú a máte možnosť voľby, aký obsah povolíte zdieľať. Po prijatí hlásenia sa predchádzajúca správa odstráni. Všetky údaje, ktoré sú aktuálne uložené na serveri vymažete, ak odošlete hlásenie so všetkými prázdnymi kolónkami"
+    "Last report" : "Posledná správa"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }
