@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Αποστολή έρευνας χρήσης μηνιαία",
     "Data to send" : "Δεδομένα προς αποστολή",
     "Last report sent on: %s" : "Η τελευταία αναφορά στάλθηκε στις: %s",
-    "Last report" : "Τελευταία αναφορά",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Παίρνουμε στα σοβαρά τα προσωπικά σας δεδομένα. Η αποστολή δεδομένων είναι απενεργοποιημένη από προεπιλογή και αν επιλέξετε να την ενεργοποιήσετε, θα είναι ανώνυμη πρώτα και θα σας δοθεί η δυνατότητα τι ακριβώς θα μοιραστείτε. Μόλις ληφθεί μια αναφορά, η προηγούμενη καταργείται. Μεταφορτώστε μια καθαρή αναφορά για να διαγράψετε όλα τα δεδομένα που είναι αποθηκευμένα στο διακομιστή."
+    "Last report" : "Τελευταία αναφορά"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

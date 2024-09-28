@@ -24,7 +24,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Enviar a enquisa de uso mensualmente",
     "Data to send" : "Data do envío",
     "Last report sent on: %s" : "O último informe foi enviado o: %s",
-    "Last report" : "Último informe",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Tomámonos moi en serio a súa privacidade. O envío de datos, por omisión, está desactivado, e se o activa, o primeiro será anonimizalos e daráselle a opción de escoller que é o que quere compartir. Ao recibir un informe, retirarase o anterior. Envíe un informe en branco para eliminar todos os datos almacenados actualmente no servidor."
+    "Last report" : "Último informe"
 },
 "nplurals=2; plural=(n != 1);");

@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Havi használati jelentés küldése",
     "Data to send" : "Küldendő adatok",
     "Last report sent on: %s" : "Utolsó jelentési küldési ideje: %s",
-    "Last report" : "Utolsó jelentés",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Komolyan vesszük az adatvédelmét. Az adatok küldése alapértelmezetten ki van kapcsolva, és ha bekapcsolja, akkor először anonimizálásra kerülnek az adatok, és választhat, hogy mit oszt meg. A jelentés elküldésekor az előző törlésre kerül. Ha törölni akarja a kiszolgálón tárolt adatokat, akkor töltsön fel egy üres jelentést."
+    "Last report" : "Utolsó jelentés"
 },
 "nplurals=2; plural=(n != 1);");

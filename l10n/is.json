@@ -21,7 +21,6 @@
     "Send usage survey monthly" : "Senda mánaðarlega könnun á notkun",
     "Data to send" : "Gögn til sendingar",
     "Last report sent on: %s" : "Síðasta skýrsla send þann: %s",
-    "Last report" : "Síðasta skýrsla",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Við tökum gagnaleynd þína alvarlega. Sending notkunargagna er sjálfgefið óvirk og ef þú myndir velja að virkja hana, eru gögnin fyrst gerð algerlega órekjanleg og þér gefinn kostur á að velja hvað af þessum gögnum verður deilt. Þegar skýrsla berst er fyrri skýrsla fjarlægð. Sendu inn auða skýrslu til að hreinsa út öll gögn sem hafa verið geymd á þjóninum."
+    "Last report" : "Síðasta skýrsla"
 },"pluralForm" :"nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);"
 }

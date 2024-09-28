@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Изпращай данни за ползването ежемесечно",
     "Data to send" : "Данни за изпращане",
     "Last report sent on: %s" : "Последно изпращане на данни: %s",
-    "Last report" : "Последно изпращане",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Отнасяме се много сериозно към поверителността на данните ви. Стандартно функционалността е изключена, а ако решите да я включите данните ще бъдат изпращани анонимно, като ви се предоставя възможността да избирате какъв тип данни да изпращате. Когато получим нови данни изтриваме предходните. Upload a clean report to delete all data currently stored on the server"
+    "Last report" : "Последно изпращане"
 },
 "nplurals=2; plural=(n != 1);");

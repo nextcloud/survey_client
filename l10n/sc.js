@@ -22,7 +22,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Imbia cada mese su sondàgiu de impreu",
     "Data to send" : "Datos de imbiare",
     "Last report sent on: %s" : "Ùrtima relata imbiada su: %s",
-    "Last report" : "Ùrtimu torracontu",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Damus cara meda a sa riservadesa tua. S'imbiu de datos est disativadu in modalidade predefinida e, si sèberas de dd'ativare, in antis s'ant a pònnere comente anònimos. Tenes sa facultade de seberare ite cumpartzire. A pustis de àere retzidu su torracontu, su pretzedente nch'est bogadu. càrriga unu torracontu bòidu pro eliminare totu is datos memorizados immoe in su serbidore"
+    "Last report" : "Ùrtimu torracontu"
 },
 "nplurals=2; plural=(n != 1);");

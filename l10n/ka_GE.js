@@ -18,7 +18,6 @@ OC.L10N.register(
     "Send new report now" : "ახალი რეპორტის გაგზავნა ახლა",
     "Send usage survey monthly" : "მოხმარების გამოკლევის ყოველთვიურად გადაგზავნა",
     "Data to send" : "მონაცემი რომელიც გაიგზავნება",
-    "Last report" : "ბოლო რეპორტი",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "თქვენს კონფიდენციალურობას სერიოზულად ვუდგებით. მონაცემების გაგზავნა საწყისად გათიშულია და სურვლის შემთხვევაში შეგიძლიათ ჩართოთ, თავდაპირველად ის იქნება ანონიმური და იხილავთ არჩევნებს თუ რას გააზიარებთ. რეპორტის მიღებისას წინა გაუქმდება. სერვერზე ყველა მონაცემის წასაშლელად ატვირთეთ სუფთა რეპორტი"
+    "Last report" : "ბოლო რეპორტი"
 },
 "nplurals=2; plural=(n!=1);");
