@@ -19,11 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "يُرسل بيانات غير مربوطة بمصدرها إلى نكست كلاود للمساعدة في تطوير نكست كلاود.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "يُرسل بيانات غير مربوطة بمصدرها إلى نكست كلاود للمساعدة في تطوير نكست كلاود.\nأنت\t\tعندك دائماً مطلق السيطرة على المعلومات التي ترسلها إلى نكست كلاود و يمكنك إيقافها \t\tفي أي لحظةٍ.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "يُمكنك المساعدة في تطوير نكست كلاود و ذلك بإرسال بعض البيانات حول استخداماتك و إعداداتك الحالية.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "نحن نتعامل مع خصوصيتك على محمل الجد. يتم تعطيل إرسال البيانات افتراضياً، و إذا اخترت تشغيلها، فسيتم إخفاء هوية صاحبها أولاً، و ستتاح لك خيارات تحديد االعناصر التي تريد مشاركتها. عند استلام تقرير، تتم إزالة التقرير السابق. لحذف بيانات الاستخدام المحفوظة، قم بتحميل تقرير فارغ عن طريق إلغاء تحديد جميع المربعات ثم أرسِل التقرير الجديد الفارغ.",
     "Send new report now" : "أرسل تقريراً جديداً الآن",
     "Send usage survey monthly" : "أرسل فحص الاستخدام الشهري",
     "Data to send" : "البيانات التي سيتم إرسالها",
     "Last report sent on: %s" : "آخ تقرير تمّ إرساله في: %s",
-    "Last report" : "آخر تقرير",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "نحن نأخذ خصوصيتك على محمل الجد. إرسال البيانات موقوف أساساً و لن يسمح به إلاّ إذا أنت سمحت به. سيتم تعمية مصدر البيانات، و لديك الخيار في تحديد أي البيانات ترغب في مشاركتها مع نكست كلاود. كلما يتم استلام تقرير ببياناتك يتم حذف التقارير السابقة إن وُجدت. إرفع تقريراً جديداً نظيفاً ليتم حذف كل بياناتك السابقة المخزنة على خادومنا.  "
+    "Last report" : "آخر تقرير"
 },
 "nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;");

@@ -13,7 +13,6 @@
     "Send new report now" : "Dergo raport të ri",
     "Send usage survey monthly" : "Dërgo pyetësorin e përdorimit mujor",
     "Data to send" : "Të dhëna për të dërguar",
-    "Last report" : "Raporti i fundit",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Ne marrim seriozisht privatësinë tuaj. Dërgimi i të dhënave është i çaktivizuar në mënyrë të paracaktuar dhe duhet të zgjedhësh ta aktivizosh, do të anonizohet së pari dhe do të jepet mundësia për gjërat që duhet të ndahen. Pas marrjes së një raporti, ai i mëparshmi hiqet. Ngarko një raport të pastër për të fshirë të gjitha të dhënat e ruajtura aktualisht në server"
+    "Last report" : "Raporti i fundit"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

@@ -23,7 +23,6 @@ OC.L10N.register(
     "Send usage survey monthly" : "Odesílat přehled o používání každý měsíc",
     "Data to send" : "Data k odeslání",
     "Last report sent on: %s" : "Poslední přehled odeslán: %s",
-    "Last report" : "Poslední přehled",
-    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. Upload a clean report to delete all data currently stored on the server" : "Vaše soukromí bereme vážně. Odesílání dat je ve výchozím nastavení vypnuté a pokud se ho rozhodnete zapnout, budou data nejprve anonymizována a budete mít možnost vybrat, které věci sdílet. Nejnovější přijatý přehled na naší straně přepíše ten předchozí. Pokud chcete odstranit veškerá doposud od vás obdržená data, stačí zrušit zaškrtnutí všech kolonek a odeslat (tím prázdný) přehled."
+    "Last report" : "Poslední přehled"
 },
 "nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;");
