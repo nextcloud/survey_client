@@ -19,6 +19,7 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "將匿名數據發送到Nextcloud，以幫助我們改進Nextcloud。",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "將匿名數據發送到 Nextcloud，以幫助我們改進 Nextcloud。你一律完全控制發送到 Nextcloud 的內容，並且可以隨時禁用。",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "您可以通過向我們發送一些有關當前設置和使用情況的數據來幫助改進Nextcloud。",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "我們認真對待您的隱私。預設停用傳送資料，且如果您選擇將其開啟，其將先被匿名化，並有選項可以選擇要分享哪些東西。收到回報後，前一個回報將會被移除。若要刪除儲存的使用資料，請上傳一份空報告，方法是取消勾選所有方塊，然後傳送一份新報告。",
     "Send new report now" : "立即發送新報告",
     "Send usage survey monthly" : "每月發送使用情況調查",
     "Data to send" : "要發送的數據",
