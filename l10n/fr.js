@@ -1,14 +1,14 @@
 OC.L10N.register(
     "survey_client",
     {
-    "Last report sent on: {on}" : "Dernier rapport envoyé le : {on}",
+    "Last report sent on: {on}" : "Dernier rapport envoyé le: {on}",
     "An error occurred while sending your report." : "Une erreur est survenue lors de l’envoi des statistiques.",
-    "App list <em>(for each app: name, version, enabled status)</em>" : "Liste des applications <em>(pour chaque application : nom, version, statut)</em>",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Liste d'applications <em> (pour chaque application: nom, version, statut actif)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Environnement de la base de données <em>(type, version, taille de la base de données)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Information du chiffrement <em>(est-il activé ?, quel est le module par défaut)</em>",
-    "Number of shares <em>(per type and permission setting)</em>" : "Nombre de partages <em>(par type et paramètre de permission)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Nombre de partages <em>(par type et paramètre de permission)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Environnement PHP <em>(version, limite de la mémoire, temps maximal d'exécution, taille maximale des fichiers)</em>",
-    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Détails sur l'instance du serveur <em>(version, cache mémoire utilisé, statut du verrouillage/aperçus/avatars)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Détails sur l'instance du serveur <em>(version, cache mémoire utilisé, statut du verrouillage/aperçus/avatars)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistique <em>(nombre de fichiers, utilisateurs, stockage par type, commentaires et tags)</em>",
     "Usage survey" : "Statistiques d'utilisation",
     "Help improve Nextcloud" : "Aidez-nous à améliorer Nextcloud",
@@ -19,10 +19,11 @@ OC.L10N.register(
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Envoyer des données anonymisées à Nextcloud pour nous aider à améliorer Nextcloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Envoie des données anonymisées à Nextcloud pour nous aider à améliorer Nextcloud. Vous\navez toujours le contrôle total du contenu envoyé à Nextcloud et pouvez le désactiver\nà n'importe quel moment.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Vous pouvez aider à améliorer Nextcloud en nous envoyant des statistiques sur votre configuration et votre utilisation.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "Nous prenons au sérieux votre vie privée. L'envoi de données est désactivé par défaut et si vous choisissez de l'activer, ils seront d'abord anonymisés et vous aurez la possibilité de choisir les éléments à partager. Dès réception d'un rapport, le précédent est supprimé. Pour supprimer les données d'utilisation stockées, téléchargez un rapport vide en décochant toutes les cases puis en envoyant un nouveau rapport.",
     "Send new report now" : "Envoyer les statistiques maintenant",
     "Send usage survey monthly" : "Envoyer mensuellement des enquêtes d'utilisation",
     "Data to send" : "Données à envoyer",
-    "Last report sent on: %s" : "Dernier rapport envoyé le : %s",
+    "Last report sent on: %s" : "Dernier rapport envoyé le: %s",
     "Last report" : "Dernier envoi"
 },
 "nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");
