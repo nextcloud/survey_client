@@ -10,7 +10,7 @@
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "إحصائيات <em>(عدد الملفات، و المستخدمين، و مساحات التخزين بحسب النوع، و الملاحظات، و الوسوم)</em>",
     "Usage survey" : "فحص الاستخدام",
     "Help improve Nextcloud" : "ساعد في تطوير نكست كلاود",
-    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "هل ترغب في مساعدتنا في تطوير نكست كلاود و ذلك بإمدادنا ببعض البيانات غير المربوطة بك حول إعداداتك و استخدامك؟ و يمكنك إيقافها مُجدّداً متى رغبت عن طريق إعدادات المُشرف.",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "هل ترغب في مساعدتنا في تطوير نكست كلاود و ذلك بإمدادنا ببعض البيانات غير المربوطة بك حول إعداداتك و استخدامك؟ و يمكنك إيقافها مُجدّداً متى رغبت عن طريق إعدادات المدير.",
     "Send usage" : "أرسل الاستخدام",
     "Not now" : "ليس الآن",
     "Never" : "أبداً",
