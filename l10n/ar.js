@@ -8,7 +8,7 @@ OC.L10N.register(
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "معلومات التشفير <em>(هل هي مُفعّلة، و ما هي الوحدة الافتراضية؟)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "عدد المشاركات<em>(بحسب النوع، و إعدادات الأذونات)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "بيئة البي إتش بي <em>(الإصدار، و حدّ الذاكرة، و أقصى زمن تنفيذ، و أقصى حجم ملف)</em>",
-    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "تفاصيل الخادوم <em>(الإصدار، و ذاكرة التخبئة memcache المستخدمة، و حالات القفل locking و المعاينات previews و التجسيدات avatars)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "تفاصيل الخادم <em>(الإصدار، و ذاكرة التخبئة memcache المستخدمة، و حالات القفل locking و المعاينات previews و الصور الرمزية avatars)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "إحصائيات <em>(عدد الملفات، و المستخدمين، و مساحات التخزين بحسب النوع، و الملاحظات، و الوسوم)</em>",
     "Usage survey" : "فحص الاستخدام",
     "Help improve Nextcloud" : "ساعد في تطوير نكست كلاود",
