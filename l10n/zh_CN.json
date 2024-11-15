@@ -16,6 +16,7 @@
     "Never" : "永不",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "向 Nextcloud 发送匿名数据帮助改进 Nextcloud。",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "您可以通过发送一些关于您当前安装及使用的数据来帮助我们改进 Nextcloud。",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "我们认真对待你的隐私。默认情况下，发送数据是禁用的，如果你选择打开它，它将首先被匿名化，你可以选择共享哪些内容。收到报告后，上一份报告将被删除。要删除已保存的使用数据，请通过取消选中所有框然后发送新报告来上传空报告。",
     "Send new report now" : "立即发送新报告",
     "Send usage survey monthly" : "按月发送使用情况",
     "Data to send" : "发送数据",
