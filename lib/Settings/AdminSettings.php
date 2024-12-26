@@ -36,7 +36,7 @@ class AdminSettings implements ISettings {
 		IConfig $config,
 		IL10N $l,
 		IDateTimeFormatter $dateTimeFormatter,
-		IJobList $jobList
+		IJobList $jobList,
 	) {
 		$this->collector = $collector;
 		$this->config = $config;
@@ -49,7 +49,7 @@ class AdminSettings implements ISettings {
 	 * @return TemplateResponse
 	 */
 	public function getForm() {
-		$lastSentReportTime = (int) $this->config->getAppValue('survey_client', 'last_sent', '0');
+		$lastSentReportTime = (int)$this->config->getAppValue('survey_client', 'last_sent', '0');
 		if ($lastSentReportTime === 0) {
 			$lastSentReportDate = $this->l->t('Never');
 		} else {
@@ -80,8 +80,8 @@ class AdminSettings implements ISettings {
 
 	/**
 	 * @return int whether the form should be rather on the top or bottom of
-	 * the admin section. The forms are arranged in ascending order of the
-	 * priority values. It is required to return a value between 0 and 100.
+	 *             the admin section. The forms are arranged in ascending order of the
+	 *             priority values. It is required to return a value between 0 and 100.
 	 */
 	public function getPriority() {
 		return 50;

@@ -5,8 +5,8 @@
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 
-/** @var $l \OCP\IL10N */
-/** @var $_ array */
+/** @var \OCP\IL10N $l */
+/** @var array $_ */
 
 script('survey_client', 'admin');
 style('survey_client', 'admin');
