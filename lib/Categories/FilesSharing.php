@@ -86,7 +86,7 @@ class FilesSharing implements ICategory {
 		$row = $result->fetch();
 		$result->closeCursor();
 
-		return (int) $row['num_entries'];
+		return (int)$row['num_entries'];
 	}
 
 	/**
@@ -108,6 +108,6 @@ class FilesSharing implements ICategory {
 		$row = $result->fetch();
 		$result->closeCursor();
 
-		return (int) $row['num_entries'];
+		return (int)$row['num_entries'];
 	}
 }

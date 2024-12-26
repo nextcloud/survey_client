@@ -150,7 +150,7 @@ class Collector {
 		}
 
 		if ($response->getStatusCode() === Http::STATUS_OK) {
-			$this->config->setAppValue('survey_client', 'last_sent', (string) time());
+			$this->config->setAppValue('survey_client', 'last_sent', (string)time());
 			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
 			return new DataResponse(
 				$report
