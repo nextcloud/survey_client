@@ -1,7 +1,7 @@
 OC.L10N.register(
     "survey_client",
     {
-    "An error occurred while sending your report." : "Radās kļūda sūtot Jūsu atskaiti",
+    "An error occurred while sending your report." : "Atgadījās kļūda ziņojuma nosūtīšanas laikā.",
     "Database environment <em>(type, version, database size)</em>" : "Datubāzes vide <em>(veids, versija, datubāzes izmērs)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Šefrēšanas informācija <em>(iespējota?, kāds ir noklusētais modulis)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Koplietojumu skaits <em>(pēc tipa un piekļuvju uzstādījumiem)</em>",
