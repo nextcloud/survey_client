@@ -9,7 +9,7 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Viešinių skaičius <em>(pagal tipą ir leidimo nustatymą)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP aplinka <em>(versija, atminties riba, didžiausias vykdymo laikas, didžiausias failo dydis)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Informacija apie serverio egzempliorių <em>(versija, naudojamas atminties podėlis, užrakinimo/peržiūrų/avatarų būsena)</em>",
-    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(failų, naudotojų, saugyklų pagal tipą, komentarų ir žymių skaičius)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(failų, naudotojų, saugyklų pagal tipą, komentarų ir žymų skaičius)</em>",
     "Usage survey" : "Naudojimosi apklausa",
     "Help improve Nextcloud" : "Padėkite patobulinti Nextcloud",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ar norite padėti mums tobulinti Nextcloud, pateikiant kai kuriuos anonimizuotus duomenis apie savo sąranką bei naudojimą? Jūs bet kuriuo metu galite tai vėl išjungti administratoriaus nustatymuose.",
