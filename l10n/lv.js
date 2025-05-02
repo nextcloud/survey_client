@@ -11,7 +11,7 @@ OC.L10N.register(
     "Send usage" : "Nosūtīt lietojumu",
     "Not now" : "Ne tagad",
     "Never" : "Nekad",
-    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Jūs varat mums palīdzēt uzlabot Nextcloud, sniedzot datus par Jūsu iestatījumiem un izmantojamību.",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Tu vari palīdzēt uzlabot Nextcloud ar datu par pašreizējo iestatni un lietojumu nosūtīšanu.",
     "Send new report now" : "Nosūtīt jaunu atskaiti tūlīt",
     "Send usage survey monthly" : "Sūtīt izmantojamības aptauju ik mēnesi",
     "Data to send" : "Dati sūtīšanai",
