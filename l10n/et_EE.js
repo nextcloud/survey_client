@@ -1,6 +1,7 @@
 OC.L10N.register(
     "survey_client",
     {
+    "Last report sent on: {on}" : "Viimane aruanne saadetud: {on}",
     "An error occurred while sending your report." : "Raporti saatmisel tekkis viga.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Rakenduste nimekiri <em>(iga rakenduse kohta: nimi, versioon, olek)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Andmebaasikeskkond <em>(tüüp, versioon, suurus)</em>",
@@ -8,15 +9,21 @@ OC.L10N.register(
     "Number of shares <em>(per type and permission setting)</em>" : "Jagamiste hulk <em>(tüübi kohta ja õiguste seaded)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP keskkond <em>(versioon, mälupiirand, maksimaalne täitmisaeg, maksimaalne failisuurus)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Serveri instantsi üksikasjad <em>(versioon, memcache kasutamine, lukustamise/eelvaadete/avataride staatus)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistika <em>(failide, kasutajate, andmeruumi tüüpide, kommentaarite ja siltide arv)</em>",
     "Usage survey" : "Kasutuse uuring",
     "Help improve Nextcloud" : "Aita Nextcloudi parendada",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Kas sa soovid Nextcloudi paremaks muuta ja saata arendajatele teavet tema seadistuste ning kasutuse kohta? Saad süsteemihaldusest selle valiku alati välja lülitada.",
     "Send usage" : "Saada kasutusraport",
     "Not now" : "Mitte praegu",
     "Never" : "Mitte kunagi",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Saadab arendajatele anonüümset teavet selle serveri kohta, võimaldades sellega Nextcloudi paremaks muuta.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Saadab arendajatele anonüümset teavet selle serveri kohta, võimaldades sellega Nextcloudi paremaks muuta. Sul\n\t\ton alati täiskontroll Nextcloudi arendajatele saadetava sisu üle ning\n\t\tvõid saatmise alati välja lülitada.",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Saad aidata kaasa Nextcloudi parendamisele, saates meile andmeid oma praeguse seadistuse ja kasutuse kohta.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "Me võtame sinu privaatsust tõsiselt. Andmete saatmine on vaikimisi välja lülitatud. Kui otsustad selle sisse lülitada, siis see tehakse kõigepealt anonüümseks ja saad valida, mis andmeid soovid jagada. Aruande kättesaamisel eelmine aruanne eemaldatakse. Kui soovid arendajate serverist selle serveri kohta kogutud andmed kustutada, siis eemalda märkeruutude kõik valikud ning laadi üles uus ja tühi aruanne.",
     "Send new report now" : "Saada kohe uus raport",
     "Send usage survey monthly" : "Saada kasutuse raport igakuiselt",
     "Data to send" : "Andmed, mida saata",
+    "Last report sent on: %s" : "Viimane aruanne saadetud: %s",
     "Last report" : "Viimane raport"
 },
 "nplurals=2; plural=(n != 1);");
