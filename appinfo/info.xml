@@ -21,7 +21,6 @@
 	<author>Joas Schilling</author>
 
 	<namespace>Survey_Client</namespace>
-	<default_enable/>
 
 	<category>tools</category>
 
