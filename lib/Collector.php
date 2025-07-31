@@ -18,6 +18,8 @@ use OCA\Survey_Client\Categories\Server;
 use OCA\Survey_Client\Categories\Stats;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\DataResponse;
+use OCP\AppFramework\Services\IAppConfig;
+use OCP\AppFramework\Utility\ITimeFactory;
 use OCP\Http\Client\IClientService;
 use OCP\IConfig;
 use OCP\IDBConnection;
@@ -27,32 +29,20 @@ class Collector {
 	public const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
 
 	/** @var ICategory[] */
-	protected $categories;
+	protected array $categories;
 
-	/** @var IClientService */
-	protected $clientService;
-
-	/** @var IConfig */
-	protected $config;
-
-	/** @var IDBConnection */
-	protected $connection;
-
-	/** @var IniGetWrapper */
-	protected $phpIni;
-
-	/** @var IL10N */
-	protected $l;
-
-	public function __construct(IClientService $clientService, IConfig $config, IDBConnection $connection, IniGetWrapper $phpIni, IL10N $l) {
-		$this->clientService = $clientService;
-		$this->config = $config;
-		$this->connection = $connection;
-		$this->phpIni = $phpIni;
-		$this->l = $l;
+	public function __construct(
+		protected IClientService $clientService,
+		protected IConfig $config,
+		protected IAppConfig $appConfig,
+		protected IDBConnection $connection,
+		protected IniGetWrapper $phpIni,
+		protected IL10N $l,
+		protected ITimeFactory $timeFactory,
+	) {
 	}
 
-	protected function registerCategories() {
+	protected function registerCategories(): void {
 		$this->categories[] = new Server(
 			$this->config,
 			$this->l
@@ -85,9 +75,9 @@ class Collector {
 	}
 
 	/**
-	 * @return array
+	 * @return array<string, array{displayName: string, enabled: bool}>
 	 */
-	public function getCategories() {
+	public function getCategories(): array {
 		$this->registerCategories();
 
 		$categories = [];
@@ -95,7 +85,7 @@ class Collector {
 		foreach ($this->categories as $category) {
 			$categories[$category->getCategory()] = [
 				'displayName' => $category->getDisplayName(),
-				'enabled' => $this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes',
+				'enabled' => $this->appConfig->getAppValueBool($category->getCategory(), true),
 			];
 		}
 
@@ -103,14 +93,14 @@ class Collector {
 	}
 
 	/**
-	 * @return array
+	 * @return array{id: string, items: array}
 	 */
 	public function getReport() {
 		$this->registerCategories();
 
 		$tuples = [];
 		foreach ($this->categories as $category) {
-			if ($this->config->getAppValue('survey_client', $category->getCategory(), 'yes') === 'yes') {
+			if ($this->appConfig->getAppValueBool($category->getCategory(), true)) {
 				foreach ($category->getData() as $key => $value) {
 					$tuples[] = [
 						$category->getCategory(),
@@ -150,8 +140,8 @@ class Collector {
 		}
 
 		if ($response->getStatusCode() === Http::STATUS_OK) {
-			$this->config->setAppValue('survey_client', 'last_sent', (string) time());
-			$this->config->setAppValue('survey_client', 'last_report', json_encode($report));
+			$this->appConfig->setAppValueInt('last_sent', $this->timeFactory->getTime());
+			$this->appConfig->setAppValueString('last_report', json_encode($report), true);
 			return new DataResponse(
 				$report
 			);
