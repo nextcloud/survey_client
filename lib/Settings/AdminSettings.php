@@ -7,8 +7,10 @@
 
 namespace OCA\Survey_Client\Settings;
 
+use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 use OCA\Survey_Client\Collector;
 use OCP\AppFramework\Http\TemplateResponse;
+use OCP\AppFramework\Services\IAppConfig;
 use OCP\BackgroundJob\IJobList;
 use OCP\IConfig;
 use OCP\IDateTimeFormatter;
@@ -16,53 +18,34 @@ use OCP\IL10N;
 use OCP\Settings\ISettings;
 
 class AdminSettings implements ISettings {
-
-	/** @var Collector */
-	private $collector;
-
-	/** @var IConfig */
-	private $config;
-
-	/** @var IL10N */
-	private $l;
-
-	/** @var IDateTimeFormatter */
-	private $dateTimeFormatter;
-
-	/** @var IJobList */
-	private $jobList;
-
-	public function __construct(Collector $collector,
-		IConfig $config,
-		IL10N $l,
-		IDateTimeFormatter $dateTimeFormatter,
-		IJobList $jobList,
+	public function __construct(
+		protected Collector $collector,
+		protected IConfig $config,
+		protected IAppConfig $appConfig,
+		protected IL10N $l,
+		protected IDateTimeFormatter $dateTimeFormatter,
+		protected IJobList $jobList,
 	) {
-		$this->collector = $collector;
-		$this->config = $config;
-		$this->l = $l;
-		$this->dateTimeFormatter = $dateTimeFormatter;
-		$this->jobList = $jobList;
 	}
 
 	/**
 	 * @return TemplateResponse
 	 */
-	public function getForm() {
-		$lastSentReportTime = (int)$this->config->getAppValue('survey_client', 'last_sent', '0');
+	public function getForm(): TemplateResponse {
+		$lastSentReportTime = $this->appConfig->getAppValueInt('last_sent');
 		if ($lastSentReportTime === 0) {
 			$lastSentReportDate = $this->l->t('Never');
 		} else {
 			$lastSentReportDate = $this->dateTimeFormatter->formatDate($lastSentReportTime);
 		}
 
-		$lastReport = $this->config->getAppValue('survey_client', 'last_report', '');
+		$lastReport = $this->appConfig->getAppValueString('last_report', lazy: true);
 		if ($lastReport !== '') {
 			$lastReport = json_encode(json_decode($lastReport, true), JSON_PRETTY_PRINT);
 		}
 
 		$parameters = [
-			'is_enabled' => $this->jobList->has('OCA\Survey_Client\BackgroundJobs\MonthlyReport', null),
+			'is_enabled' => $this->jobList->has(MonthlyReport::class, null),
 			'last_sent' => $lastSentReportDate,
 			'last_report' => $lastReport,
 			'categories' => $this->collector->getCategories()
@@ -74,7 +57,7 @@ class AdminSettings implements ISettings {
 	/**
 	 * @return string the section ID, e.g. 'sharing'
 	 */
-	public function getSection() {
+	public function getSection(): string {
 		return 'survey_client';
 	}
 
@@ -83,7 +66,7 @@ class AdminSettings implements ISettings {
 	 *             the admin section. The forms are arranged in ascending order of the
 	 *             priority values. It is required to return a value between 0 and 100.
 	 */
-	public function getPriority() {
+	public function getPriority(): int {
 		return 50;
 	}
 }
