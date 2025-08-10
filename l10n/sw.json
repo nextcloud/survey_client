@@ -1,5 +1,27 @@
 { "translations": {
+    "Last report sent on: {on}" : "Ripoti ya mwisho iliyotumwa mnamo: {on}",
+    "An error occurred while sending your report." : "Hitilafu ilitokea wakati wa kutuma ripoti yako.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Orodha ya programu <em> (kwa kila programu: jina, toleo, hali iliyowezeshwa)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Mazingira ya hifadhidata <em>(aina, toleo, saizi ya hifadhidata)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Maelezo ya usimbaji fiche <em>(imewezeshwa?, moduli ya msingi ni ipi)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Idadi ya hisa <em> (kwa kila aina na mpangilio wa ruhusa)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Mazingira ya PHP <em>(toleo, kikomo cha kumbukumbu, muda wa juu wa utekelezaji, upeo wa ukubwa wa faili)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Maelezo ya mfano wa seva <em>(toleo, memcache imetumika, hali ya kufunga/hakiki/avatar)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Takwimu <em>(idadi ya faili, watumiaji, hifadhi kwa kila aina, maoni na lebo)</em>",
+    "Usage survey" : "Utafiti wa matumizi",
+    "Help improve Nextcloud" : "Saidia kuboresha Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Je, ungependa kutusaidia kuboresha Nextcloud kwa kutoa baadhi ya data isiyojulikana kuhusu usanidi na matumizi yako? Unaweza kuizima wakati wowote katika mipangilio ya msimamizi tena.",
+    "Send usage" : "Tuma matumizi",
     "Not now" : "Si sasa",
-    "Never" : "Kamwe"
+    "Never" : "Kamwe",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Inatuma data isiyojulikana kwa Nextcloud ili kutusaidia kuboresha Nextcloud.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Inatuma data isiyojulikana kwa Nextcloud ili kutusaidia kuboresha Nextcloud. Wewe\n\t\tkila wakati una udhibiti kamili wa maudhui yaliyotumwa kwa Nextcloud na unaweza kuzima\n\t\tit tena wakati wowote.\n ",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Unaweza kusaidia kuboresha Nextcloud kwa kututumia baadhi ya data kuhusu usanidi na matumizi yako ya sasa.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "Tunachukua faragha yako kwa uzito. Utumaji data umezimwa kwa chaguomsingi, na ukichagua kuiwasha, haitatambulishwa kwanza, na utapewa chaguo la mambo ya kushiriki. Baada ya kupokea ripoti, ya awali huondolewa. Ili kufuta data ya matumizi iliyohifadhiwa, pakia ripoti tupu kwa kutengua visanduku vyote kisha utume ripoti mpya.",
+    "Send new report now" : "Tuma ripoti mpya sasa",
+    "Send usage survey monthly" : "Tuma uchunguzi wa matumizi kila mwezi",
+    "Data to send" : "Data za kutuma",
+    "Last report sent on: %s" : "Ripoti ya mwisho iliyotumwa mnamo: %s",
+    "Last report" : "Ripoti ya mwisho"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
