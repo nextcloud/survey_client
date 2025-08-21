@@ -4,7 +4,7 @@ OC.L10N.register(
     "An error occurred while sending your report." : "Atgadījās kļūda ziņojuma nosūtīšanas laikā.",
     "Database environment <em>(type, version, database size)</em>" : "Datubāzes vide <em>(veids, versija, datubāzes izmērs)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Šifrēšanas informācija <em>(Tā ir iespējota? Kāds ir noklusējuma modulis?)</em>",
-    "Number of shares <em>(per type and permission setting)</em>" : "Koplietojumu skaits <em>(pēc tipa un piekļuvju uzstādījumiem)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Koplietojumu skaits <em>(katram veida un atļauju iestatījumam)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "PHP vide <em>(versija, atmiņas limits, max. izpildes laiks, max. datnes izmērs)</em>",
     "Usage survey" : "Izmantojamības aptauja",
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ir vēlme mums palīdzēt uzlabot Nextcloud, sniedzot anonimizētus datus par savu iestatni un lietojumu? To jebkurā brīdī var atkal atspējot pārvaldības iestatījumos.",
