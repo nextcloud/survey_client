@@ -11,7 +11,7 @@ $(document).ready(function() {
 		OCP.AppConfig.setValue(
 			'survey_client',
 			$(this).attr('name').substring(14),
-			$(this).attr('checked') ? 'yes' : 'no',
+			$(this).prop('checked') ? 'yes' : 'no',
 			{
 				success: function() {
 					$button.attr('disabled', false);
@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 		$.ajax({
 			url: OC.linkToOCS('apps/survey_client/api/v1', 2) + 'monthly?format=json',
-			type: $(this).attr('checked') ? 'POST' : 'DELETE',
+			type: $(this).prop('checked') ? 'POST' : 'DELETE',
 			success: function() {
 				$button.attr('disabled', false);
 			}
