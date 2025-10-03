@@ -1,6 +1,7 @@
 OC.L10N.register(
     "survey_client",
     {
+    "Help improve Nextcloud" : "Дапамажыце палепшыць Nextcloud",
     "Not now" : "Не цяпер",
     "Never" : "Ніколі"
 },
