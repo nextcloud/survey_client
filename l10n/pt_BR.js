@@ -8,7 +8,7 @@ OC.L10N.register(
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informação de criptografia <em>(está habilitado?, qual é o módulo padrão?)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Número de compartilhamentos <em>(por tipo e configuração de permissão)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Ambiente PHP <em>(versão, limite de memória, tempo máx. execução, tamanho máx. de arquivo)</em>",
-    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalhes do servidor <em>(versão, cache de memória usado, status de bloqueio/visualizações/avatares)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalhes do servidor <em>(versão, cache de memória usado, status de trancamento/visualizações/avatares)</em>",
     "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Estatística <em>(número de arquivos, usuários, armazenamentos por tipo, comentários e rótulos)</em>",
     "Usage survey" : "Pesquisa de uso",
     "Help improve Nextcloud" : "Ajude a melhorar o Nextcloud",
