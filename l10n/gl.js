@@ -5,7 +5,7 @@ OC.L10N.register(
     "An error occurred while sending your report." : "Produciuse un erro ao enviar o seu informe.",
     "App list <em>(for each app: name, version, enabled status)</em>" : "Lista de aplicacións <em>(para cada aplicación: nome, versión, estado da activación)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Contorno da base de datos <em>(tipo, versión, tamaño da base de datos)</em>",
-    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Información do cifrado <em>(está activado?, cal é o módulo predeterminado)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Información da cifraxe <em>(está activada?, cal é o módulo predeterminado)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Número de comparticións <em>(por tipo e configuración de permisos)</em>",
     "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Contorno PHP PHP<em>(versión, límite de memoria, tempo máx. de execución, tamaño máximo de ficheiro)</em>",
     "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalles da instancia do servidor <em>(versión, uso de memcache, estado do bloqueo de ficheiros/vistas previas/avatares)</em>",
