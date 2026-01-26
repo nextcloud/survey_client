@@ -1,0 +1,27 @@
+{ "translations": {
+    "Last report sent on: {on}" : "Laporan terakhir dikirim pada: {on}",
+    "An error occurred while sending your report." : "Terjadi kesalahan saat mengirim laporan Anda.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Daftar aplikasi <em>(untuk setiap aplikasi: nama, versi, status aktif)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Lingkungan basis data <em>(jenis, versi, ukuran basis data)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informasi enkripsi <em>(apakah diaktifkan?, apa modul default)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Jumlah pembagian <em>(per jenis dan pengaturan izin)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Lingkungan PHP <em>(versi, batas memori, waktu eksekusi maks., ukuran file maks.)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Rincian instans server <em>(versi, memcache yang digunakan, status penguncian/pratinjau/avatar)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistik <em>(jumlah file, pengguna, penyimpanan per jenis, komentar dan tag)</em>",
+    "Usage survey" : "Survei penggunaan",
+    "Help improve Nextcloud" : "Bantu tingkatkan Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Apakah Anda ingin membantu kami meningkatkan Nextcloud dengan menyediakan beberapa data anonim tentang pengaturan dan penggunaan Anda? Anda dapat menonaktifkannya kapan saja lagi di pengaturan admin.",
+    "Send usage" : "Kirim data penggunaan",
+    "Not now" : "Tidak sekarang",
+    "Never" : "Tidak pernah",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Mengirim data anonim ke Nextcloud untuk membantu kami meningkatkan Nextcloud.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Mengirim data anonim ke Nextcloud untuk membantu kami meningkatkan Nextcloud. Anda\n\t\tselalu memiliki kendali penuh atas konten yang dikirim ke Nextcloud dan dapat menonaktifkannya\n\t\tlagi kapan saja.",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Anda dapat membantu meningkatkan Nextcloud dengan mengirimkan kepada kami beberapa data tentang pengaturan dan penggunaan Anda saat ini.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "Kami memandang serius privasi Anda. Pengiriman data dinonaktifkan secara default, dan jika Anda memilih untuk mengaktifkannya, data akan dianonimkan terlebih dahulu, dan Anda diberi opsi tentang hal-hal apa yang akan dibagikan. Setelah menerima sebuah laporan, laporan sebelumnya akan dihapus. Untuk menghapus data penggunaan yang tersimpan, unggah laporan kosong dengan menghapus centang semua kotak lalu mengirim laporan baru.",
+    "Send new report now" : "Kirim laporan baru sekarang",
+    "Send usage survey monthly" : "Kirim survei penggunaan setiap bulan",
+    "Data to send" : "Data yang akan dikirim",
+    "Last report sent on: %s" : "Laporan terakhir dikirim pada: %s",
+    "Last report" : "Laporan terakhir"
+},"pluralForm" :"nplurals=1; plural=0;"
+}
