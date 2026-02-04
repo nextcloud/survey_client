@@ -15,7 +15,7 @@
 		it again at any time.
 	</description>
 
-	<version>4.0.0-dev.0</version>
+	<version>4.0.0</version>
 	<licence>agpl</licence>
 	<author>Björn Schiessle</author>
 	<author>Joas Schilling</author>
