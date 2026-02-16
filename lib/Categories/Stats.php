@@ -69,10 +69,10 @@ class Stats implements ICategory {
 	 */
 	protected function countUserEntries() {
 		$query = $this->connection->getQueryBuilder();
-		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
+		$query->select($query->func()->count('*', 'num_entries'))
 			->from('preferences')
 			->where($query->expr()->eq('configkey', $query->createNamedParameter('lastLogin')));
-		$result = $query->execute();
+		$result = $query->executeQuery();
 		$row = $result->fetch();
 		$result->closeCursor();
 
@@ -85,7 +85,7 @@ class Stats implements ICategory {
 	 */
 	protected function countStorages($type) {
 		$query = $this->connection->getQueryBuilder();
-		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
+		$query->select($query->func()->count('*', 'num_entries'))
 			->from('storages');
 
 		if ($type === 'home') {
@@ -97,7 +97,7 @@ class Stats implements ICategory {
 			$query->andWhere($query->expr()->notLike('id', $query->createNamedParameter('local::%')));
 		}
 
-		$result = $query->execute();
+		$result = $query->executeQuery();
 		$row = $result->fetch();
 		$result->closeCursor();
 
@@ -117,7 +117,7 @@ class Stats implements ICategory {
 		}
 		$query->selectAlias($query->createFunction('COUNT(' . $column . ')'), 'num_entries')
 			->from($tableName);
-		$result = $query->execute();
+		$result = $query->executeQuery();
 		$row = $result->fetch();
 		$result->closeCursor();
 
