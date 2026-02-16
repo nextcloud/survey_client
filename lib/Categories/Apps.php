@@ -58,7 +58,7 @@ class Apps implements ICategory {
 				['enabled', 'installed_version'],
 				IQueryBuilder::PARAM_STR_ARRAY
 			)));
-		$result = $query->execute();
+		$result = $query->executeQuery();
 
 		$data = [];
 		while ($row = $result->fetch()) {
