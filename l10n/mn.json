@@ -1,10 +1,19 @@
 { "translations": {
+    "Last report sent on: {on}" : "Сүүлийн тайлан илгээсэн: {on}",
     "An error occurred while sending your report." : " тайланг илгээх явцад алдаа гарлаа",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Аппуудын жагсаалт <em>(апп бүрийн: нэр, хувилбар, идэвхжсэн төлөв)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Өгөгдлийн сангийн орчин  (төрөл, хувилбар, мэдээллийн сангийн хэмжээ) ",
+    "Number of shares <em>(per type and permission setting)</em>" : "Хуваалцалтын тоо <em>(төрөл болон зөвшөөрлийн тохиргоогоор)</em>",
     "Usage survey" : "хэрэглээ судалгаа",
+    "Help improve Nextcloud" : "Nextcloud-г сайжруулахад тусална уу",
+    "Send usage" : "Ашиглалт илгээх",
     "Not now" : "одоо биш",
     "Never" : "хэзээч",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Nextcloud-г сайжруулахад туслахын тулд нэрээ нууцалсан өгөгдлийг Nextcloud руу илгээдэг.",
+    "Send new report now" : "Шинэ тайлан одоо илгээх",
+    "Send usage survey monthly" : "Ашиглалтын судалгааг сар бүр илгээх",
     "Data to send" : "өгөгдлийг илгээх",
+    "Last report sent on: %s" : "Сүүлийн тайлан илгээсэн: %s",
     "Last report" : "сүүлийн тайлан"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
