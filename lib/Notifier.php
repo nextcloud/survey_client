@@ -72,7 +72,7 @@ class Notifier implements INotifier {
 
 		$disableAction = $notification->createAction();
 		$disableAction->setLabel('disable')
-			->setParsedLabel($l->t('Not now'))
+			->setParsedLabel($l->t('No'))
 			->setLink($this->url->linkToOCSRouteAbsolute('survey_client.Endpoint.disableMonthly'), 'DELETE')
 			->setPrimary(false);
 		$notification->addParsedAction($disableAction);
