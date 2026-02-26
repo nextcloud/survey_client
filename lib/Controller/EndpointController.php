@@ -9,6 +9,7 @@ declare(strict_types=1);
 
 namespace OCA\Survey_Client\Controller;
 
+use OCA\Survey_Client\BackgroundJobs\AdminNotification;
 use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 use OCA\Survey_Client\Collector;
 use OCP\AppFramework\Http\DataResponse;
@@ -65,6 +66,7 @@ class EndpointController extends OCSController {
 	 */
 	public function disableMonthly(): DataResponse {
 		$this->jobList->remove(MonthlyReport::class);
+		$this->jobList->remove(AdminNotification::class);
 
 		$notification = $this->manager->createNotification();
 		$notification->setApp('survey_client');
