@@ -14,38 +14,21 @@ use OCA\Survey_Client\BackgroundJobs\MonthlyReport;
 use OCA\Survey_Client\Collector;
 use OCP\AppFramework\Http\DataResponse;
 use OCP\AppFramework\OCSController;
+use OCP\AppFramework\Services\IAppConfig;
 use OCP\BackgroundJob\IJobList;
 use OCP\IRequest;
 use OCP\Notification\IManager;
 
 class EndpointController extends OCSController {
-
-	/** @var Collector */
-	protected $collector;
-
-	/** @var IJobList */
-	protected $jobList;
-
-	/** @var IManager */
-	protected $manager;
-
-	/**
-	 * @param string $appName
-	 * @param IRequest $request
-	 * @param Collector $collector
-	 * @param IJobList $jobList
-	 * @param IManager $manager
-	 */
-	public function __construct(string $appName,
+	public function __construct(
+		string $appName,
 		IRequest $request,
-		Collector $collector,
-		IJobList $jobList,
-		IManager $manager) {
+		protected Collector $collector,
+		protected IJobList $jobList,
+		protected IManager $manager,
+		protected IAppConfig $appConfig,
+	) {
 		parent::__construct($appName, $request);
-
-		$this->collector = $collector;
-		$this->jobList = $jobList;
-		$this->manager = $manager;
 	}
 
 	/**
@@ -53,6 +36,7 @@ class EndpointController extends OCSController {
 	 */
 	public function enableMonthly(): DataResponse {
 		$this->jobList->add(MonthlyReport::class);
+		$this->appConfig->deleteAppValue('never_again');
 
 		$notification = $this->manager->createNotification();
 		$notification->setApp('survey_client');
@@ -64,9 +48,12 @@ class EndpointController extends OCSController {
 	/**
 	 * @return DataResponse
 	 */
-	public function disableMonthly(): DataResponse {
+	public function disableMonthly(bool $never = false): DataResponse {
 		$this->jobList->remove(MonthlyReport::class);
-		$this->jobList->remove(AdminNotification::class);
+		if ($never) {
+			$this->jobList->remove(AdminNotification::class);
+			$this->appConfig->setAppValueBool('never_again', true);
+		}
 
 		$notification = $this->manager->createNotification();
 		$notification->setApp('survey_client');
