@@ -10,8 +10,10 @@ declare(strict_types=1);
 
 namespace OCA\Survey_Client;
 
+use OCP\AppFramework\Services\IAppConfig;
 use OCP\IURLGenerator;
 use OCP\L10N\IFactory;
+use OCP\Notification\AlreadyProcessedException;
 use OCP\Notification\INotification;
 use OCP\Notification\INotifier;
 use OCP\Notification\UnknownNotificationException;
@@ -20,6 +22,7 @@ class Notifier implements INotifier {
 	public function __construct(
 		protected IFactory $l10nFactory,
 		protected IURLGenerator $url,
+		protected IAppConfig $appConfig,
 	) {
 	}
 
@@ -48,11 +51,16 @@ class Notifier implements INotifier {
 	 * @param string $languageCode The code of the language that should be used to prepare the notification
 	 * @return INotification
 	 * @throws UnknownNotificationException When the notification was not prepared by a notifier
+	 * @throws AlreadyProcessedException When the notification is no longer applicable
 	 */
 	public function prepare(INotification $notification, string $languageCode): INotification {
 		if ($notification->getApp() !== 'survey_client') {
 			// Not my app => throw
 			throw new UnknownNotificationException();
+		}
+
+		if ($this->appConfig->getAppValueBool('never_again')) {
+			throw new AlreadyProcessedException();
 		}
 
 		// Read the language from the notification
@@ -74,6 +82,13 @@ class Notifier implements INotifier {
 		$disableAction->setLabel('disable')
 			->setParsedLabel($l->t('Not now'))
 			->setLink($this->url->linkToOCSRouteAbsolute('survey_client.Endpoint.disableMonthly'), 'DELETE')
+			->setPrimary(false);
+		$notification->addParsedAction($disableAction);
+
+		$disableAction = $notification->createAction();
+		$disableAction->setLabel('never')
+			->setParsedLabel($l->t('Never ask again'))
+			->setLink($this->url->linkToOCSRouteAbsolute('survey_client.Endpoint.disableMonthly', ['never' => true]), 'DELETE')
 			->setPrimary(false);
 		$notification->addParsedAction($disableAction);
 
