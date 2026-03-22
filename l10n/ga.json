@@ -13,6 +13,7 @@
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Ar mhaith leat cabhrú linn feabhas a chur ar Nextcloud trí roinnt sonraí gan ainm a sholáthar faoi do shocrú agus d’úsáid? Is féidir leat é a dhíchumasú am ar bith sna socruithe riaracháin arís.",
     "Send usage" : "Seol úsáid",
     "Not now" : "Ní anois",
+    "Never ask again" : "Ná fiafraigh arís choíche",
     "Never" : "Riamh",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Seoltar sonraí gan ainm chuig Nextcloud chun cabhrú linn feabhas a chur ar Nextcloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Seoltar sonraí gan ainm chuig Nextcloud chun cabhrú linn feabhas a chur ar Nextcloud. tu\nBíonn smacht iomlán ag \t\t i gcónaí ar an ábhar a sheoltar chuig Nextcloud agus is féidir é a dhíchumasú\n\t\t arís é am ar bith.",
