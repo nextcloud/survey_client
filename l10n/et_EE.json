@@ -13,6 +13,7 @@
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Kas sa soovid Nextcloudi paremaks muuta ja saata arendajatele teavet tema seadistuste ning kasutuse kohta? Saad süsteemihaldusest selle valiku alati välja lülitada.",
     "Send usage" : "Saada kasutusraport",
     "Not now" : "Mitte praegu",
+    "Never ask again" : "Ära iialgi küsi uuesti",
     "Never" : "Mitte kunagi",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Saadab arendajatele anonüümset teavet selle serveri kohta, võimaldades sellega Nextcloudi paremaks muuta.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Saadab arendajatele anonüümset teavet selle serveri kohta, võimaldades sellega Nextcloudi paremaks muuta. Sul\n\t\ton alati täiskontroll Nextcloudi arendajatele saadetava sisu üle ning\n\t\tvõid saatmise alati välja lülitada.",
