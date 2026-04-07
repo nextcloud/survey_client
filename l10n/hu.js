@@ -15,6 +15,7 @@ OC.L10N.register(
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Szeretne segíteni nekünk a Nextcloud tökéletesítésében azáltal, hogy névtelen statisztikai adatokat küld a telepítéséről és a használatról? Ezt bármikor letilthatja a rendszergazdai beállításokban.",
     "Send usage" : "Használati adatok küldése",
     "Not now" : "Most nem",
+    "Never ask again" : "Sose kérdezze újra",
     "Never" : "Soha",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Anonimizált adatok küldése a Nextcloudnak, hogy segítsen a Nextcloud tökéletesítésében.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Anonimizált adatokat küld a Nextcloudnak, hogy segítsen a Nextcloud tökéletesítésében.\n\t\tMindig teljes ellenőrzése van a Nextcloudnak küldött tartalom felett,\n\t\tés bármikor újra kikapcsolhatja.",
