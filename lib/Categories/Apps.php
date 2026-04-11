@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -17,39 +20,27 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Apps implements ICategory {
-	/** @var IDBConnection */
-	protected $connection;
-
-	/** @var \OCP\IL10N */
-	protected $l;
-
-	/**
-	 * @param IDBConnection $connection
-	 * @param IL10N $l
-	 */
-	public function __construct(IDBConnection $connection, IL10N $l) {
-		$this->connection = $connection;
-		$this->l = $l;
+	public function __construct(
+		protected IDBConnection $connection,
+		protected IL10N $l,
+	) {
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getCategory() {
+	#[\Override]
+	public function getCategory(): string {
 		return 'apps';
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getDisplayName() {
+	#[\Override]
+	public function getDisplayName(): string {
 		return $this->l->t('App list <em>(for each app: name, version, enabled status)</em>');
 	}
 
 	/**
-	 * @return array (string => string|int)
+	 * @return array<string, string|int>
 	 */
-	public function getData() {
+	#[\Override]
+	public function getData(): array {
 		$query = $this->connection->getQueryBuilder();
 
 		$query->select('*')

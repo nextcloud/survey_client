@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -16,39 +19,27 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class FilesSharing implements ICategory {
-	/** @var IDBConnection */
-	protected $connection;
-
-	/** @var \OCP\IL10N */
-	protected $l;
-
-	/**
-	 * @param IDBConnection $connection
-	 * @param IL10N $l
-	 */
-	public function __construct(IDBConnection $connection, IL10N $l) {
-		$this->connection = $connection;
-		$this->l = $l;
+	public function __construct(
+		protected IDBConnection $connection,
+		protected IL10N $l,
+	) {
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getCategory() {
+	#[\Override]
+	public function getCategory(): string {
 		return 'files_sharing';
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getDisplayName() {
+	#[\Override]
+	public function getDisplayName(): string {
 		return $this->l->t('Number of shares <em>(per type and permission setting)</em>');
 	}
 
 	/**
-	 * @return array (string => string|int)
+	 * @return array<string, string|int>
 	 */
-	public function getData() {
+	#[\Override]
+	public function getData(): array {
 		$query = $this->connection->getQueryBuilder();
 		$query->select($query->func()->count('*', 'num_entries'))
 			->addSelect(['permissions', 'share_type'])
@@ -74,11 +65,7 @@ class FilesSharing implements ICategory {
 		return $data;
 	}
 
-	/**
-	 * @param string $tableName
-	 * @return int
-	 */
-	protected function countEntries($tableName) {
+	protected function countEntries(string $tableName): int {
 		$query = $this->connection->getQueryBuilder();
 		$query->select($query->func()->count('*', 'num_entries'))
 			->from($tableName);
@@ -89,12 +76,7 @@ class FilesSharing implements ICategory {
 		return (int)$row['num_entries'];
 	}
 
-	/**
-	 * @param int $type
-	 * @param bool $noShareWith
-	 * @return int
-	 */
-	protected function countShares($type, $noShareWith = false) {
+	protected function countShares(int $type, bool $noShareWith = false): int {
 		$query = $this->connection->getQueryBuilder();
 		$query->select($query->func()->count('*', 'num_entries'))
 			->from('share')
