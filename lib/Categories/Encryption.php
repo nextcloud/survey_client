@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -16,39 +19,27 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Encryption implements ICategory {
-	/** @var \OCP\IConfig */
-	protected $config;
-
-	/** @var \OCP\IL10N */
-	protected $l;
-
-	/**
-	 * @param IConfig $config
-	 * @param IL10N $l
-	 */
-	public function __construct(IConfig $config, IL10N $l) {
-		$this->config = $config;
-		$this->l = $l;
+	public function __construct(
+		protected IConfig $config,
+		protected IL10N $l,
+	) {
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getCategory() {
+	#[\Override]
+	public function getCategory(): string {
 		return 'encryption';
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getDisplayName() {
+	#[\Override]
+	public function getDisplayName(): string {
 		return $this->l->t('Encryption information <em>(is it enabled?, what is the default module)</em>');
 	}
 
 	/**
-	 * @return array (string => string|int)
+	 * @return array<string, string|int>
 	 */
-	public function getData() {
+	#[\Override]
+	public function getData(): array {
 		$data = [
 			'enabled' => $this->config->getAppValue('core', 'encryption_enabled', 'no') === 'yes' ? 'yes' : 'no',
 			'default_module' => $this->config->getAppValue('core', 'default_encryption_module') === 'OC_DEFAULT_MODULE'  ? 'yes' : 'no',

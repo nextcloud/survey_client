@@ -1,9 +1,11 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
-
 
 namespace OCA\Survey_Client\Settings;
 
@@ -12,15 +14,10 @@ use OCP\IURLGenerator;
 use OCP\Settings\IIconSection;
 
 class AdminSection implements IIconSection {
-
-	/** @var IL10N */
-	private $l;
-	/** @var IURLGenerator */
-	private $url;
-
-	public function __construct(IL10N $l, IURLGenerator $url) {
-		$this->l = $l;
-		$this->url = $url;
+	public function __construct(
+		protected IL10N $l,
+		protected IURLGenerator $url,
+	) {
 	}
 
 	/**
@@ -28,7 +25,8 @@ class AdminSection implements IIconSection {
 	 *
 	 * @returns string
 	 */
-	public function getID() {
+	#[\Override]
+	public function getID(): string {
 		return 'survey_client';
 	}
 
@@ -38,7 +36,8 @@ class AdminSection implements IIconSection {
 	 *
 	 * @return string
 	 */
-	public function getName() {
+	#[\Override]
+	public function getName(): string {
 		return $this->l->t('Usage survey');
 	}
 
@@ -47,14 +46,16 @@ class AdminSection implements IIconSection {
 	 *             the settings navigation. The sections are arranged in ascending order of
 	 *             the priority values. It is required to return a value between 0 and 99.
 	 */
-	public function getPriority() {
+	#[\Override]
+	public function getPriority(): int {
 		return 80;
 	}
 
 	/**
 	 * {@inheritdoc}
 	 */
-	public function getIcon() {
+	#[\Override]
+	public function getIcon(): string {
 		return $this->url->imagePath('survey_client', 'app-dark.svg');
 	}
 }

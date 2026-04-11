@@ -34,6 +34,7 @@ class MonthlyReport extends TimedJob {
 		$this->setTimeSensitivity(IJob::TIME_SENSITIVE);
 	}
 
+	#[\Override]
 	protected function run($argument) {
 		if ($this->appConfig->getAppValueBool('never_again')) {
 			$this->jobList->remove(self::class);
