@@ -24,6 +24,7 @@ use OCP\Http\Client\IClientService;
 use OCP\IConfig;
 use OCP\IDBConnection;
 use OCP\IL10N;
+use Psr\Log\LoggerInterface;
 
 class Collector {
 	public const SURVEY_SERVER_URL = 'https://surveyserver.nextcloud.com/';
@@ -39,6 +40,7 @@ class Collector {
 		protected IniGetWrapper $phpIni,
 		protected IL10N $l,
 		protected ITimeFactory $timeFactory,
+		protected LoggerInterface $logger,
 	) {
 	}
 
@@ -128,11 +130,12 @@ class Collector {
 		try {
 			$response = $client->post(self::SURVEY_SERVER_URL . 'ocs/v2.php/apps/survey_server/api/v1/survey', [
 				'timeout' => 5,
-				'query' => [
+				'body' => [
 					'data' => json_encode($report),
 				],
 			]);
 		} catch (\Exception $e) {
+			$this->logger->error('Error sending report: ' . $e->getMessage(), ['exception' => $e]);
 			return new DataResponse(
 				$report,
 				Http::STATUS_INTERNAL_SERVER_ERROR
