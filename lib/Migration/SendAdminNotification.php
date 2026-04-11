@@ -23,10 +23,12 @@ class SendAdminNotification implements IRepairStep {
 		$this->jobList = $jobList;
 	}
 
+	#[\Override]
 	public function getName(): string {
 		return 'Send an admin notification if monthly report is disabled';
 	}
 
+	#[\Override]
 	public function run(IOutput $output): void {
 		if (!$this->jobList->has(MonthlyReport::class, null)) {
 			$this->jobList->add(AdminNotification::class);

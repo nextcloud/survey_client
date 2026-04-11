@@ -1,9 +1,11 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016 Nextcloud GmbH and Nextcloud contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
-
 
 namespace OCA\Survey_Client\Settings;
 
@@ -31,6 +33,7 @@ class AdminSettings implements ISettings {
 	/**
 	 * @return TemplateResponse
 	 */
+	#[\Override]
 	public function getForm(): TemplateResponse {
 		$lastSentReportTime = $this->appConfig->getAppValueInt('last_sent');
 		if ($lastSentReportTime === 0) {
@@ -57,6 +60,7 @@ class AdminSettings implements ISettings {
 	/**
 	 * @return string the section ID, e.g. 'sharing'
 	 */
+	#[\Override]
 	public function getSection(): string {
 		return 'survey_client';
 	}
@@ -66,6 +70,7 @@ class AdminSettings implements ISettings {
 	 *             the admin section. The forms are arranged in ascending order of the
 	 *             priority values. It is required to return a value between 0 and 100.
 	 */
+	#[\Override]
 	public function getPriority(): int {
 		return 50;
 	}

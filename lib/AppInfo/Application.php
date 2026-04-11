@@ -18,9 +18,11 @@ class Application extends App implements IBootstrap {
 		parent::__construct('survey_client', $urlParams);
 	}
 
+	#[\Override]
 	public function register(IRegistrationContext $context): void {
 	}
 
+	#[\Override]
 	public function boot(IBootContext $context): void {
 		$notificationManager = $context->getServerContainer()->getNotificationManager();
 		$notificationManager->registerNotifierService(Notifier::class);

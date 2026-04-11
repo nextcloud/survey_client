@@ -26,10 +26,5 @@
 				<referencedClass name="bantu\IniGetWrapper\IniGetWrapper" />
 			</errorLevel>
 		</UndefinedClass>
-		<UndefinedDocblockClass>
-			<errorLevel type="suppress">
-				<referencedClass name="bantu\IniGetWrapper\IniGetWrapper" />
-			</errorLevel>
-		</UndefinedDocblockClass>
 	</issueHandlers>
 </psalm>

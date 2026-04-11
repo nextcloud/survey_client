@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -16,39 +19,27 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Stats implements ICategory {
-	/** @var IDBConnection */
-	protected $connection;
-
-	/** @var \OCP\IL10N */
-	protected $l;
-
-	/**
-	 * @param IDBConnection $connection
-	 * @param IL10N $l
-	 */
-	public function __construct(IDBConnection $connection, IL10N $l) {
-		$this->connection = $connection;
-		$this->l = $l;
+	public function __construct(
+		protected IDBConnection $connection,
+		protected IL10N $l,
+	) {
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getCategory() {
+	#[\Override]
+	public function getCategory(): string {
 		return 'stats';
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getDisplayName() {
+	#[\Override]
+	public function getDisplayName(): string {
 		return $this->l->t('Statistic <em>(number of files, users, storages per type, comments and tags)</em>');
 	}
 
 	/**
-	 * @return array (string => string|int)
+	 * @return array<string, string|int>
 	 */
-	public function getData() {
+	#[\Override]
+	public function getData(): array {
 		return [
 			'num_files' => $this->countEntries('filecache'),
 			'num_users' => $this->countUserEntries(),
@@ -67,7 +58,7 @@ class Stats implements ICategory {
 	/**
 	 * @return int
 	 */
-	protected function countUserEntries() {
+	protected function countUserEntries(): int {
 		$query = $this->connection->getQueryBuilder();
 		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
 			->from('preferences')
@@ -79,11 +70,7 @@ class Stats implements ICategory {
 		return (int)$row['num_entries'];
 	}
 
-	/**
-	 * @param string $type
-	 * @return int
-	 */
-	protected function countStorages($type) {
+	protected function countStorages(string $type): int {
 		$query = $this->connection->getQueryBuilder();
 		$query->selectAlias($query->createFunction('COUNT(*)'), 'num_entries')
 			->from('storages');
@@ -109,7 +96,7 @@ class Stats implements ICategory {
 	 * @param string $column
 	 * @return int
 	 */
-	protected function countEntries($tableName, $column = '*') {
+	protected function countEntries(string $tableName, string $column = '*'): int {
 		$query = $this->connection->getQueryBuilder();
 
 		if ($column !== '*') {
