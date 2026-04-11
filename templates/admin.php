@@ -23,7 +23,7 @@ style('survey_client', 'admin');
 		<?php p($l->t('We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report.')); ?>
 	</p>
 
-	<button><?php p($l->t('Send new report now')); ?></button>
+	<button id="send_report_now"><?php p($l->t('Send new report now')); ?></button>
 
 	<p>
 		<input id="survey_client_monthly_report" name="survey_client_monthly_report"
@@ -44,12 +44,11 @@ style('survey_client', 'admin');
 	}
 ?>
 
-	<div id="last_report">
-		<h3>
-			<span class="icon icon-triangle-n icon-triangle-s"></span>
-			<?php p($l->t('Last report sent on: %s', [$_['last_sent']])); ?>
-		</h3>
-		<p class="hidden"><textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea></p>
-	</div>
+	<details id="last_report">
+		<summary>
+			<?php p(str_replace('{on}', $_['last_sent'], $l->t('Last report sent on: {on}'))); ?>
+		</summary>
 
+		<textarea title="<?php p($l->t('Last report')); ?>" class="last_report" readonly="readonly"><?php p($_['last_report']);?></textarea>
+	</details>
 </div>
