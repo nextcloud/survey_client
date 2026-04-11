@@ -21,10 +21,12 @@ class Application extends App implements IBootstrap {
 		parent::__construct('survey_client', $urlParams);
 	}
 
+	#[\Override]
 	public function register(IRegistrationContext $context): void {
 		$context->registerNotifierService(Notifier::class);
 	}
 
+	#[\Override]
 	public function boot(IBootContext $context): void {
 	}
 }

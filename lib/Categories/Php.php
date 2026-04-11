@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -16,39 +19,27 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Php implements ICategory {
-	/** @var IniGetWrapper */
-	protected $phpIni;
-
-	/** @var \OCP\IL10N */
-	protected $l;
-
-	/**
-	 * @param IniGetWrapper $phpIni
-	 * @param IL10N $l
-	 */
-	public function __construct(IniGetWrapper $phpIni, IL10N $l) {
-		$this->phpIni = $phpIni;
-		$this->l = $l;
+	public function __construct(
+		protected IniGetWrapper $phpIni,
+		protected IL10N $l,
+	) {
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getCategory() {
+	#[\Override]
+	public function getCategory(): string {
 		return 'php';
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getDisplayName() {
+	#[\Override]
+	public function getDisplayName(): string {
 		return $this->l->t('PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>');
 	}
 
 	/**
-	 * @return array (string => string|int)
+	 * @return array<string, string|int>
 	 */
-	public function getData() {
+	#[\Override]
+	public function getData(): array {
 		return [
 			'version' => $this->cleanVersion(PHP_VERSION),
 			'memory_limit' => $this->phpIni->getBytes('memory_limit'),
@@ -63,7 +54,7 @@ class Php implements ICategory {
 	 * @param string $version E.g. `5.5.30-1+deb.sury.org~trusty+1`
 	 * @return string `5.5.30`
 	 */
-	protected function cleanVersion($version) {
+	protected function cleanVersion(string $version): string {
 		$matches = [];
 		preg_match('/^(\d+)(\.\d+)(\.\d+)/', $version, $matches);
 		if (isset($matches[0])) {
