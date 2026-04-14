@@ -24,7 +24,7 @@ OC.L10N.register(
     "Send new report now" : "Seol tuairisc nua anois",
     "Send usage survey monthly" : "Seol suirbhé úsáide go míosúil",
     "Data to send" : "Sonraí le seoladh",
-    "Last report sent on: %s" : "Seoladh an tuairisc dheireanach ar: %s",
-    "Last report" : "Tuairisc dheireanach"
+    "Last report" : "Tuairisc dheireanach",
+    "Last report sent on: %s" : "Seoladh an tuairisc dheireanach ar: %s"
 },
 "nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);");

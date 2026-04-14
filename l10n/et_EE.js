@@ -24,7 +24,7 @@ OC.L10N.register(
     "Send new report now" : "Saada kohe uus raport",
     "Send usage survey monthly" : "Saada kasutuse raport igakuiselt",
     "Data to send" : "Andmed, mida saata",
-    "Last report sent on: %s" : "Viimane aruanne saadetud: %s",
-    "Last report" : "Viimane raport"
+    "Last report" : "Viimane raport",
+    "Last report sent on: %s" : "Viimane aruanne saadetud: %s"
 },
 "nplurals=2; plural=(n != 1);");

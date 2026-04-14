@@ -22,7 +22,7 @@ OC.L10N.register(
     "Send new report now" : "立即发送新报告",
     "Send usage survey monthly" : "按月发送使用情况",
     "Data to send" : "发送数据",
-    "Last report sent on: %s" : "最后一次上报发送于: %s",
-    "Last report" : "最后上报"
+    "Last report" : "最后上报",
+    "Last report sent on: %s" : "最后一次上报发送于: %s"
 },
 "nplurals=1; plural=0;");

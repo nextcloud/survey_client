@@ -21,7 +21,7 @@
     "Send new report now" : "Pošalji novo izvješće",
     "Send usage survey monthly" : "Pošalji mjesečnu anketu o korištenju",
     "Data to send" : "Podaci za slanje",
-    "Last report sent on: %s" : "Posljednje izvješće poslano: %s",
-    "Last report" : "Posljednje izvješće"
+    "Last report" : "Posljednje izvješće",
+    "Last report sent on: %s" : "Posljednje izvješće poslano: %s"
 },"pluralForm" :"nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;"
 }

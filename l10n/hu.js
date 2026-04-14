@@ -24,7 +24,7 @@ OC.L10N.register(
     "Send new report now" : "Új jelentés küldése most",
     "Send usage survey monthly" : "Havi használati jelentés küldése",
     "Data to send" : "Küldendő adatok",
-    "Last report sent on: %s" : "Utolsó jelentési küldési ideje: %s",
-    "Last report" : "Utolsó jelentés"
+    "Last report" : "Utolsó jelentés",
+    "Last report sent on: %s" : "Utolsó jelentési küldési ideje: %s"
 },
 "nplurals=2; plural=(n != 1);");

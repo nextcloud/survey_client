@@ -23,7 +23,7 @@ OC.L10N.register(
     "Send new report now" : "ھازىر يېڭى دوكلات ئەۋەتىڭ",
     "Send usage survey monthly" : "ھەر ئايدا ئىشلىتىش تەكشۈرۈشىنى ئەۋەتىڭ",
     "Data to send" : "ئەۋەتىدىغان سانلىق مەلۇمات",
-    "Last report sent on: %s" : "ئاخىرقى دوكلات يوللانغان: %s",
-    "Last report" : "ئاخىرقى دوكلات"
+    "Last report" : "ئاخىرقى دوكلات",
+    "Last report sent on: %s" : "ئاخىرقى دوكلات يوللانغان: %s"
 },
 "nplurals=2; plural=(n != 1);");
