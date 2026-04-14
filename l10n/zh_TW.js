@@ -24,7 +24,7 @@ OC.L10N.register(
     "Send new report now" : "現在傳送新回報",
     "Send usage survey monthly" : "每月傳送使用情況調查",
     "Data to send" : "要傳送的資料",
-    "Last report sent on: %s" : "上次傳送回報的時間：%s",
-    "Last report" : "上次回報"
+    "Last report" : "上次回報",
+    "Last report sent on: %s" : "上次傳送回報的時間：%s"
 },
 "nplurals=1; plural=0;");

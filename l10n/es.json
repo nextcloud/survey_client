@@ -21,7 +21,7 @@
     "Send new report now" : "Enviar ahora un nuevo informe",
     "Send usage survey monthly" : "Enviar la encuesta de uso mensualmente",
     "Data to send" : "Datos que se enviarán",
-    "Last report sent on: %s" : "Último informe enviado el %s",
-    "Last report" : "Último informe"
+    "Last report" : "Último informe",
+    "Last report sent on: %s" : "Último informe enviado el %s"
 },"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }

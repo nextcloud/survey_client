@@ -23,7 +23,7 @@ OC.L10N.register(
     "Send new report now" : "Tuma ripoti mpya sasa",
     "Send usage survey monthly" : "Tuma uchunguzi wa matumizi kila mwezi",
     "Data to send" : "Data za kutuma",
-    "Last report sent on: %s" : "Ripoti ya mwisho iliyotumwa mnamo: %s",
-    "Last report" : "Ripoti ya mwisho"
+    "Last report" : "Ripoti ya mwisho",
+    "Last report sent on: %s" : "Ripoti ya mwisho iliyotumwa mnamo: %s"
 },
 "nplurals=2; plural=(n != 1);");

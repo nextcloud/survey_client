@@ -19,7 +19,7 @@ OC.L10N.register(
     "Send new report now" : "Lähetä uusi raportti nyt",
     "Send usage survey monthly" : "Lähetä käyttötutkimusraportti kuukausittain",
     "Data to send" : "Lähetettävät tiedot",
-    "Last report sent on: %s" : "Viimeisin raportti lähetetty: %s",
-    "Last report" : "Edellinen raportti"
+    "Last report" : "Edellinen raportti",
+    "Last report sent on: %s" : "Viimeisin raportti lähetetty: %s"
 },
 "nplurals=2; plural=(n != 1);");

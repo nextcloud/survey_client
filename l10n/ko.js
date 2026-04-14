@@ -23,7 +23,7 @@ OC.L10N.register(
     "Send new report now" : "지금 새 보고서 보내기",
     "Send usage survey monthly" : "월별 사용 통계 보내기",
     "Data to send" : "보낼 데이터",
-    "Last report sent on: %s" : "마지막 보고서 전송: %s",
-    "Last report" : "마지막 보고"
+    "Last report" : "마지막 보고",
+    "Last report sent on: %s" : "마지막 보고서 전송: %s"
 },
 "nplurals=1; plural=0;");

@@ -21,7 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Imbia unu torracontu nou immoe",
     "Send usage survey monthly" : "Imbia cada mese su sondàgiu de impreu",
     "Data to send" : "Datos de imbiare",
-    "Last report sent on: %s" : "Ùrtima relata imbiada su: %s",
-    "Last report" : "Ùrtimu torracontu"
+    "Last report" : "Ùrtimu torracontu",
+    "Last report sent on: %s" : "Ùrtima relata imbiada su: %s"
 },
 "nplurals=2; plural=(n != 1);");

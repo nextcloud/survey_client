@@ -22,7 +22,7 @@ OC.L10N.register(
     "Send new report now" : "Send ny rapport nå",
     "Send usage survey monthly" : "Send statistikk for bruk månedlig ",
     "Data to send" : "Data å sende",
-    "Last report sent on: %s" : "Siste rapport sendt: %s",
-    "Last report" : "Siste rapport"
+    "Last report" : "Siste rapport",
+    "Last report sent on: %s" : "Siste rapport sendt: %s"
 },
 "nplurals=2; plural=(n != 1);");

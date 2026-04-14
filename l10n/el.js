@@ -22,7 +22,7 @@ OC.L10N.register(
     "Send new report now" : "Αποστολή νέας αναφοράς τώρα",
     "Send usage survey monthly" : "Αποστολή έρευνας χρήσης μηνιαία",
     "Data to send" : "Δεδομένα προς αποστολή",
-    "Last report sent on: %s" : "Η τελευταία αναφορά στάλθηκε στις: %s",
-    "Last report" : "Τελευταία αναφορά"
+    "Last report" : "Τελευταία αναφορά",
+    "Last report sent on: %s" : "Η τελευταία αναφορά στάλθηκε στις: %s"
 },
 "nplurals=2; plural=(n != 1);");

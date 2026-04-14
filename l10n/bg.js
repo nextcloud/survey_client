@@ -22,7 +22,7 @@ OC.L10N.register(
     "Send new report now" : "Изпрати данни сега",
     "Send usage survey monthly" : "Изпращай данни за ползването ежемесечно",
     "Data to send" : "Данни за изпращане",
-    "Last report sent on: %s" : "Последно изпращане на данни: %s",
-    "Last report" : "Последно изпращане"
+    "Last report" : "Последно изпращане",
+    "Last report sent on: %s" : "Последно изпращане на данни: %s"
 },
 "nplurals=2; plural=(n != 1);");
