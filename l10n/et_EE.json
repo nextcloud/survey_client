@@ -22,7 +22,7 @@
     "Send new report now" : "Saada kohe uus raport",
     "Send usage survey monthly" : "Saada kasutuse raport igakuiselt",
     "Data to send" : "Andmed, mida saata",
-    "Last report sent on: %s" : "Viimane aruanne saadetud: %s",
-    "Last report" : "Viimane raport"
+    "Last report" : "Viimane raport",
+    "Last report sent on: %s" : "Viimane aruanne saadetud: %s"
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }

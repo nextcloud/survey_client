@@ -21,7 +21,7 @@
     "Send new report now" : "Poslať novú správu",
     "Send usage survey monthly" : "Posielať prehľad o používaní mesačne",
     "Data to send" : "Dáta na odoslanie",
-    "Last report sent on: %s" : "Posledná správa odoslaná: %s",
-    "Last report" : "Posledná správa"
+    "Last report" : "Posledná správa",
+    "Last report sent on: %s" : "Posledná správa odoslaná: %s"
 },"pluralForm" :"nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);"
 }

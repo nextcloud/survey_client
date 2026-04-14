@@ -22,7 +22,7 @@ OC.L10N.register(
     "Send new report now" : "Bidali oraintxe txosten berria",
     "Send usage survey monthly" : "Bidali erabilera txostena hilero",
     "Data to send" : "Bidaliko diren datuak",
-    "Last report sent on: %s" : "Azken txostena bidali zeneko data: %s",
-    "Last report" : "Azken txostena"
+    "Last report" : "Azken txostena",
+    "Last report sent on: %s" : "Azken txostena bidali zeneko data: %s"
 },
 "nplurals=2; plural=(n != 1);");

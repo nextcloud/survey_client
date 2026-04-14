@@ -21,7 +21,7 @@ OC.L10N.register(
     "Send new report now" : "Pošlji novo poročilo takoj",
     "Send usage survey monthly" : "Pošlji poročilo o uporabi enkrat mesečno",
     "Data to send" : "Podatki v poročilu",
-    "Last report sent on: %s" : "Nazadnje poslano poročilo: %s",
-    "Last report" : "Zadnje poročilo"
+    "Last report" : "Zadnje poročilo",
+    "Last report sent on: %s" : "Nazadnje poslano poročilo: %s"
 },
 "nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);");

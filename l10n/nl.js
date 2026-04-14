@@ -23,7 +23,7 @@ OC.L10N.register(
     "Send new report now" : "Verstuur nu een nieuw rapport",
     "Send usage survey monthly" : "Verstuur maandelijks gebruiksrapport",
     "Data to send" : "Te versturen gegevens",
-    "Last report sent on: %s" : "Laatste reportage verstuurd op %s",
-    "Last report" : "Laatste rapport"
+    "Last report" : "Laatste rapport",
+    "Last report sent on: %s" : "Laatste reportage verstuurd op %s"
 },
 "nplurals=2; plural=(n != 1);");

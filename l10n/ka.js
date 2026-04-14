@@ -22,7 +22,7 @@ OC.L10N.register(
     "Send new report now" : "Send new report now",
     "Send usage survey monthly" : "Send usage survey monthly",
     "Data to send" : "Data to send",
-    "Last report sent on: %s" : "Last report sent on: %s",
-    "Last report" : "Last report"
+    "Last report" : "Last report",
+    "Last report sent on: %s" : "Last report sent on: %s"
 },
 "nplurals=2; plural=(n!=1);");
