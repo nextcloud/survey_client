@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -95,7 +98,7 @@ class Collector {
 	/**
 	 * @return array{id: string, items: array}
 	 */
-	public function getReport() {
+	public function getReport(): array {
 		$this->registerCategories();
 
 		$tuples = [];

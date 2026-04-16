@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * SPDX-FileCopyrightText: 2016-2024 Nextcloud GmbH and Nextcloud contributors
  * SPDX-FileCopyrightText: 2016 ownCloud, Inc.
@@ -17,39 +20,28 @@ use OCP\IL10N;
  * @package OCA\Survey_Client\Categories
  */
 class Database implements ICategory {
-	/** @var IConfig */
-	protected $config;
-
-	/** @var IDBConnection */
-	protected $connection;
-
-	/** @var IL10N */
-	protected $l;
-
-	public function __construct(IConfig $config, IDBConnection $connection, IL10N $l) {
-		$this->config = $config;
-		$this->connection = $connection;
-		$this->l = $l;
+	public function __construct(
+		protected IConfig $config,
+		protected IDBConnection $connection,
+		protected IL10N $l,
+	) {
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getCategory() {
+	#[\Override]
+	public function getCategory(): string {
 		return 'database';
 	}
 
-	/**
-	 * @return string
-	 */
-	public function getDisplayName() {
+	#[\Override]
+	public function getDisplayName(): string {
 		return $this->l->t('Database environment <em>(type, version, database size)</em>');
 	}
 
 	/**
-	 * @return array (string => string|int)
+	 * @return array<string, string|int>
 	 */
-	public function getData() {
+	#[\Override]
+	public function getData(): array {
 		return [
 			'type' => $this->config->getSystemValue('dbtype'),
 			'version' => $this->databaseVersion(),
@@ -57,7 +49,7 @@ class Database implements ICategory {
 		];
 	}
 
-	protected function databaseVersion() {
+	protected function databaseVersion(): string {
 		switch ($this->config->getSystemValue('dbtype')) {
 			case 'sqlite':
 			case 'sqlite3':
@@ -171,7 +163,7 @@ class Database implements ICategory {
 	 * @param string $version E.g. `5.6.27-0ubuntu0.14.04.1`
 	 * @return string `5.6.27`
 	 */
-	protected function cleanVersion($version) {
+	protected function cleanVersion($version): string {
 		$matches = [];
 		preg_match('/^(\d+)(\.\d+)(\.\d+)/', $version, $matches);
 		if (isset($matches[0])) {
