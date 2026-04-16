@@ -29,6 +29,7 @@ class Notifier implements INotifier {
 	 * @return string
 	 * @since 17.0.0
 	 */
+	#[\Override]
 	public function getID(): string {
 		return 'survey_client';
 	}
@@ -39,6 +40,7 @@ class Notifier implements INotifier {
 	 * @return string
 	 * @since 17.0.0
 	 */
+	#[\Override]
 	public function getName(): string {
 		return $this->l10nFactory->get('survey_client')->t('Usage survey');
 	}
@@ -49,6 +51,7 @@ class Notifier implements INotifier {
 	 * @return INotification
 	 * @throws UnknownNotificationException When the notification was not prepared by a notifier
 	 */
+	#[\Override]
 	public function prepare(INotification $notification, string $languageCode): INotification {
 		if ($notification->getApp() !== 'survey_client') {
 			// Not my app => throw

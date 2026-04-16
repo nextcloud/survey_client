@@ -18,9 +18,6 @@
 	</projectFiles>
 	<extraFiles>
 		<directory name="vendor" />
-		<ignoreFiles>
-			<directory name="vendor/phpunit/php-code-coverage" />
-		</ignoreFiles>
 	</extraFiles>
 	<issueHandlers>
 		<UndefinedClass>
@@ -29,10 +26,5 @@
 				<referencedClass name="bantu\IniGetWrapper\IniGetWrapper" />
 			</errorLevel>
 		</UndefinedClass>
-		<UndefinedDocblockClass>
-			<errorLevel type="suppress">
-				<referencedClass name="bantu\IniGetWrapper\IniGetWrapper" />
-			</errorLevel>
-		</UndefinedDocblockClass>
 	</issueHandlers>
 </psalm>

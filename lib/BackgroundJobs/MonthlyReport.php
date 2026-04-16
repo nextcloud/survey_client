@@ -30,6 +30,7 @@ class MonthlyReport extends TimedJob {
 		$this->setTimeSensitivity(IJob::TIME_SENSITIVE);
 	}
 
+	#[\Override]
 	protected function run($argument) {
 		$result = $this->collector->sendReport();
 
