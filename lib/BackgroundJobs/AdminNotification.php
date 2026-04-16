@@ -23,6 +23,7 @@ class AdminNotification extends QueuedJob {
 		parent::__construct($time);
 	}
 
+	#[\Override]
 	protected function run($argument): void {
 		$notification = $this->manager->createNotification();
 
