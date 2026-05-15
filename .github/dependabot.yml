@@ -18,6 +18,21 @@ updates:
 
 - package-ecosystem: composer
   directory: "/"
+  target-branch: stable34
+  schedule:
+    interval: weekly
+    day: saturday
+    time: "03:00"
+    timezone: Europe/Paris
+  open-pull-requests-limit: 10
+  labels:
+  - 3. to review
+  - dependencies
+  cooldown:
+    default-days: 10
+
+- package-ecosystem: composer
+  directory: "/"
   target-branch: stable33
   schedule:
     interval: weekly
