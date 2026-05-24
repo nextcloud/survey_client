@@ -11,7 +11,7 @@
 	"require-dev": {
 		"nextcloud/coding-standard": "^1.4.0",
 		"vimeo/psalm": "^6.16.1",
-		"nextcloud/ocp": "dev-master"
+		"nextcloud/ocp": "dev-stable34"
 	},
 	"config": {
 		"optimize-autoloader": true,
