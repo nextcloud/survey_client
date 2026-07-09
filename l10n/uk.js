@@ -3,7 +3,7 @@ OC.L10N.register(
     {
     "Last report sent on: {on}" : "Останній звіт відправлено: {on}",
     "An error occurred while sending your report." : "Під час надсилання звіту сталася помилка.",
-    "App list <em>(for each app: name, version, enabled status)</em>" : "Список додатків <em>(для кожного додатка: назва, версія, статус увімкнення)</em>",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Перелік застосунків <em>(для кожного застосунку: назва, версія, чи увімкнено)</em>",
     "Database environment <em>(type, version, database size)</em>" : "Інформація про БД <em>(тип, версія, розмір бази даних)</em>",
     "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Інформація про шифрування <em>(чи ввімкнено?, який модуль за замовчуванням)</em>",
     "Number of shares <em>(per type and permission setting)</em>" : "Кількість спільних ресурсів <em>(за типом та налаштуванням дозволу)</em>",
