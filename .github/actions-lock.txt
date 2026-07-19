@@ -2,15 +2,15 @@
 # SPDX-License-Identifier: MIT
 9f2b534bea27e8ec2dda7c1d772a664b block-merge-eol.yml
 25fc4c7e69e778e20bdc9eb0cc96367e block-merge-freeze.yml
-003108ea0f5c12e1db591cd4613304d8 dependabot-approve-merge.yml
-784303cf47612e5c4eac621dfab5b4f4 lint-info-xml.yml
-4f7ee6ee721c4646c0b78be5b08281a2 lint-php-cs.yml
-5641ed31bf9a8b1841fffbea34dbd7b2 lint-php.yml
-e1d06d273d1f32cb839d8b2acc4982bc phpunit-sqlite.yml
-3c4a096b3b7dbaef0f8e5190ffe13518 pr-feedback.yml
-2f5f5a0851cc4bf00a0b89d009ab258a psalm.yml
-e2bd0fc8a290e1a8641487944e27103b reuse.yml
-e3c7b8f43850ad1d31c67fc0082b6bb8 sync-workflow-templates.yml
+e6351c608939c31ae1e32923aa82aa10 dependabot-approve-merge.yml
+023b664746d1f2e09a9aaaac772ff7f5 lint-info-xml.yml
+660a12f14e32c1b2d24c418232d918da lint-php-cs.yml
+ee2b04d185b82fe7dd6fe6d83c6c7b45 lint-php.yml
+dad763027c0d87999474917d6818dbc9 phpunit-sqlite.yml
+d1821b8a816578070ed8fd018f321f6d pr-feedback.yml
+87bff1e6b8ae3ec6522b134a3d0f7a1c psalm.yml
+3975dc58817119d596a8f6ed190352ce reuse.yml
+9799b1a6a842b5c0076b76de651a0e0d sync-workflow-templates.yml
 a3440826636c0fd7c2d20b1de50363da update-nextcloud-ocp-approve-merge.yml
-942a700573ae377e4b7777470d5739cf update-nextcloud-ocp.yml
+661b96e2d459555a19b99f5f68c334ce update-nextcloud-ocp.yml
 22604c31b526de270a080eb19967a638 update-stable-titles.yml
