@@ -11,13 +11,13 @@
 	"require-dev": {
 		"nextcloud/coding-standard": "^1.4.0",
 		"vimeo/psalm": "^6.16.1",
-		"nextcloud/ocp": "dev-master"
+		"nextcloud/ocp": "dev-stable35"
 	},
 	"config": {
 		"optimize-autoloader": true,
 		"classmap-authoritative": true,
 		"platform": {
-			"php": "8.2.27"
+			"php": "8.3.16"
 		}
 	},
 	"scripts": {
