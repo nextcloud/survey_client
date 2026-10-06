@@ -13,6 +13,7 @@
     "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Vil du hjælpe os med at forbedre Nextcloud ved at sende anonyme data om din opsætning og forbrug. Du kan deaktivere det til enhver tid i administrator indstillingerne.",
     "Send usage" : "Send forbrug",
     "Not now" : "Ikke nu",
+    "Never ask again" : "Spørg ikke igen",
     "Never" : "Aldrig",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Sender anonymiseret data til Nextcloud for at hjælpe os med at forbedre Nextcloud.",
     "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Sender anonymiseret data til Nextcloud for at hjælpe os med at forbedre Nextcloud. Du\n\t\thar altid fuld kontrol over indholdet der sendes til Nextcloud, og kan deaktivere det\n\t\tigen til enhver tid.",
