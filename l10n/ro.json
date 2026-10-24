@@ -1,5 +1,28 @@
 { "translations": {
+    "Last report sent on: {on}" : "Ultimul raport a fost trimis pe: {on}",
+    "An error occurred while sending your report." : "A apărut o eroare la trimiterea raportului.",
+    "App list <em>(for each app: name, version, enabled status)</em>" : "Lista aplicațiilor <em>(pentru fiecare aplicație: nume, versiune, dacă este activată)</em>",
+    "Database environment <em>(type, version, database size)</em>" : "Mediul bazei de date <em>(tip, versiune, mărimea bazei de date)</em>",
+    "Encryption information <em>(is it enabled?, what is the default module)</em>" : "Informații despre criptare <em>(dacă este activată, care este modulul implicit)</em>",
+    "Number of shares <em>(per type and permission setting)</em>" : "Numărul de partajări <em>(pe tip și pe setare de permisiuni)</em>",
+    "PHP environment <em>(version, memory limit, max. execution time, max. file size)</em>" : "Mediul PHP <em>(versiune, limită de memorie, timp maxim de execuție, mărime maximă a fișierelor)</em>",
+    "Server instance details <em>(version, memcache used, status of locking/previews/avatars)</em>" : "Detalii despre instanța serverului <em>(versiune, memcache folosit, starea blocării fișierelor/previzualizărilor/avatarurilor)</em>",
+    "Statistic <em>(number of files, users, storages per type, comments and tags)</em>" : "Statistici <em>(numărul de fișiere, utilizatori, spații de stocare pe tip, comentarii și etichete)</em>",
+    "Usage survey" : "Sondaj de utilizare",
+    "Help improve Nextcloud" : "Ajută la îmbunătățirea Nextcloud",
+    "Do you want to help us to improve Nextcloud by providing some anonymized data about your setup and usage? You can disable it at any time in the admin settings again." : "Vrei să ne ajuți să îmbunătățim Nextcloud trimițând câteva date anonimizate despre configurația și utilizarea ta? Poți dezactiva oricând această opțiune din setările de administrare.",
+    "Send usage" : "Trimite datele de utilizare",
     "Not now" : "Nu acum",
-    "Never" : "Niciodată"
+    "Never ask again" : "Nu mă mai întreba",
+    "Never" : "Niciodată",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud." : "Trimite date anonimizate către Nextcloud pentru a ne ajuta să îmbunătățim Nextcloud.",
+    "Sends anonymized data to Nextcloud to help us to improve Nextcloud. You\n\t\talways have full control over the content sent to Nextcloud and can disable\n\t\tit again at any time." : "Trimite date anonimizate către Nextcloud pentru a ne ajuta să îmbunătățim Nextcloud. Ai mereu control deplin asupra datelor trimise către Nextcloud și poți dezactiva oricând trimiterea.",
+    "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Poți ajuta la îmbunătățirea Nextcloud trimițându-ne câteva date despre configurația și utilizarea ta actuală.",
+    "We take your privacy seriously. Sending data is disabled by default, and should you choose to turn it on, it will be anonymized first, and you are given the option of what things to share. Upon receiving a report, the previous one is removed. To delete the stored usage data, upload an empty report by unchecking all of the boxes then sending a new report." : "Luăm în serios confidențialitatea ta. Trimiterea datelor este dezactivată implicit, iar dacă alegi s-o activezi, datele sunt mai întâi anonimizate și poți alege ce anume partajezi. La primirea unui raport, cel anterior este eliminat. Pentru a șterge datele de utilizare stocate, debifează toate casetele și trimite un raport nou, care va fi gol.",
+    "Send new report now" : "Trimite acum un raport nou",
+    "Send usage survey monthly" : "Trimite lunar sondajul de utilizare",
+    "Data to send" : "Date de trimis",
+    "Last report" : "Ultimul raport",
+    "Last report sent on: %s" : "Ultimul raport a fost trimis pe: %s"
 },"pluralForm" :"nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));"
 }
