@@ -1,6 +1,7 @@
 OC.L10N.register(
     "survey_client",
     {
+    "Not now" : "Не сега",
     "Never" : "Никогаш",
     "You can help improve Nextcloud by sending us some data about your current setup and usage." : "Може да помогнете во подобрувањето на Nextcloud со испраќање податоци за вашето тековно поставување и користење."
 },
