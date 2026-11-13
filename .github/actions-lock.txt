@@ -1,16 +1,16 @@
 # SPDX-FileCopyrightText: 2025 Nextcloud GmbH and Nextcloud contributors
 # SPDX-License-Identifier: MIT
 9f2b534bea27e8ec2dda7c1d772a664b block-merge-eol.yml
-25fc4c7e69e778e20bdc9eb0cc96367e block-merge-freeze.yml
-56cf6e8b165be4343be41f47c1e79a9c dependabot-approve-merge.yml
-80a58e5584612def0e751fcfb7669814 lint-info-xml.yml
-a674b6e725bcbc1064f7b68c678a2df6 lint-php-cs.yml
-6078222f7c61540504fa9892729f4a04 lint-php.yml
-d17de282ccd37f12a5fd78d68a74df96 phpunit-sqlite.yml
-3c4a096b3b7dbaef0f8e5190ffe13518 pr-feedback.yml
-9fe5efdf1113d7fe92ba1f54f1111c4f psalm.yml
-7db5b820f3750eebe988005a0bb2febd reuse.yml
-9dc6b717be0006fc7974a50351686fd7 sync-workflow-templates.yml
-78bd5cbcc4b48cb9b0d1b0fbbb4403d7 update-nextcloud-ocp-approve-merge.yml
-94d83c701a5583dc4b36a5f471bb9e41 update-nextcloud-ocp.yml
+acad44f3e99b665897766ce90374dd03 block-merge-freeze.yml
+e6351c608939c31ae1e32923aa82aa10 dependabot-approve-merge.yml
+43fd0c5fb704cabc5f11cdfaf513236d lint-info-xml.yml
+6279c9e39a0d2bbc94e7f44db2e8cc6e lint-php-cs.yml
+418deda6469a90f8626a9705ebea4a85 lint-php.yml
+ad9c8d16e90d7b60092d9770ba7646e5 phpunit-sqlite.yml
+2639f2b96989a4fcbb441ca8f1fecb2f pr-feedback.yml
+fa1cab1471a6a7a7a0622744f8d6ab12 psalm.yml
+2dbec18233063b42f4d8e03bbb43671c reuse.yml
+ff4dc5f5f73469bf3569b654a68f49bf sync-workflow-templates.yml
+abcb8206c3f6c5a9dc86cccf57846bfc update-nextcloud-ocp-approve-merge.yml
+24a8e4ff76d12a99ef6ba91d392b418c update-nextcloud-ocp.yml
 22604c31b526de270a080eb19967a638 update-stable-titles.yml
